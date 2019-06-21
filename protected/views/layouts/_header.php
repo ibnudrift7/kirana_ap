@@ -41,12 +41,12 @@
   <div class="prelative container cont-header mx-auto">
     <div class="row">
       <div class="col-md-30">
-        <div class="image"><img src="<?php echo $this->assetBaseurl; ?>logo.png" alt=""></div>
+        <div class="image"><img src="<?php echo $this->assetBaseurl; ?>Layer-25.png" alt=""></div>
       </div>
-      <div class="col-md-30">
+      <div class="col-md-26 garis-header">
         <div class="menu-block-top">
           <div class="click">
-            <p>CLICK TO CHAT<span><img src="" alt=""></span><a href="#">0817 1712 2131</a></p>
+            <p>CLICK TO CHAT<span><img src="<?php echo $this->assetBaseurl; ?>wa-atas.png" alt=""></span><a href="#">0817 1712 2131</a></p>
           </div>
         </div>
         <div class="menu-block-bottom">
@@ -60,6 +60,9 @@
             <li class="list-inline-item menu"><a href="#">Hubungi Kami</a></li>
           </ul>
         </div>
+      </div>
+      <div class="col-md-4 mx-auto">
+        <div class="image-kanan-head"><img src="<?php echo $this->assetBaseurl; ?>Layer-26.png" alt=""></div>
       </div>
     </div>
   </div>
@@ -82,7 +85,7 @@
       <div class="col-md-15 col-sm-15">
         <div class="lgo_web_headrs_wb">
           <a href="<?php echo CHtml::normalizeUrl(array('/home/index', 'lang'=>Yii::app()->language)); ?>">
-            <img src="<?php echo $this->assetBaseurl; ?>Layer-18-copy.png" alt="" class="img img-fluid">
+            <img src="<?php echo $this->assetBaseurl; ?>Layer-25-copy.png" alt="" class="img img-fluid">
           </a>
         </div>
       </div>
@@ -91,11 +94,12 @@
           <div class="menu-taffix">
             <ul class="list-inline d-inline">
               <li class="list-inline-item menu"><a href="<?php echo CHtml::normalizeUrl(array('/home/index', 'lang'=>Yii::app()->language)); ?>">Home</a></li>
-              <li class="list-inline-item menu"><a href="#">tentang kami</a></li>
+              <li class="list-inline-item menu"><a href="#">Tentang Kami</a></li>
               <li class="list-inline-item menu"><a href="#">Produk</a></li>
-              <li class="list-inline-item menu"><a href="#">proses & kualitas</a></li>
-              <li class="list-inline-item menu"><a href="#">hubungi kami</a></li>
-              <!-- <li class="list-inline-item menu"><a href="#">Career</a></li> -->
+              <li class="list-inline-item menu"><a href="#">Kualitas</a></li>
+              <li class="list-inline-item menu"><a href="#">Blog & Articles</a></li>
+              <li class="list-inline-item menu"><a href="#">Kerjasama</a></li>
+              <li class="list-inline-item menu"><a href="#">Hubungi Kami</a></li>
             </ul>
           </div>
         </div>

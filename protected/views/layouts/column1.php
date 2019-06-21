@@ -19,9 +19,27 @@
 <div class="fcs-wrapper outers_fcs_wrapper prelatife wrapper-slide">
     <div class="container cont-fcs">
         <div id="myCarousel_home" class="carousel slide" data-ride="carousel" data-interval="4500">
-            <div class="carousel-inner">
+            <div class="carousel-inner" style="overflow: visible;">
                 <div class="carousel-item active home-slider-new">
-                    <img class="w-100 d-none d-sm-block" src="<?php echo $this->assetBaseurl; ?>pageatas.jpg" alt="" style="background-repeat: no-repeat; background-size: cover;">
+                    <div class="row no-gutters">
+                        <div class="col-md-18">
+                            <div class="slider-container">
+                                <div class="slider-kiri">
+                                    <div class="content">
+                                        <h4>Mempersembahkan Produk Kentang Goreng dan Aneka Makanan Frozen Berkualitas Favorit Masyarakat Indonesia Sejak tahun 2000</h4>
+                                        <p>Kirana Food telah hadir dan menjadi kegemaran rakyat dengan berbagai produk kentang goreng (french fries) seperti shoe string fries, potato wedges, waffle fries, hasbrown, crinkle cut fries, serta berbagai produk frozen siap santap lainnya. </p>
+                                        <div class="lihat">
+                                            <a href="#">Lihat Produk</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-42">
+                            <img class="w-100 d-none d-sm-block" src="<?php echo $this->assetBaseurl; ?>sec1.jpg" alt="" style="background-repeat: no-repeat; background-size: cover;">
+                        </div>
+                        <div class="image-bawah-slide"><img src="<?php echo $this->assetBaseurl; ?>Layer-30.png" alt=""></div>
+                    </div>
                     <!-- <img class="w-100 d-block d-sm-none" src="<?php echo $this->assetBaseurl; ?>mobile-home_02.jpg" alt=""> -->
                 </div>
             </div>

@@ -84,34 +84,55 @@
 		<div class="row">
 			<div class="col-md-60">
 				<div class="box-content">
-					<div class="title">
-						<p>ANDA BUTUH BANTUAN ATAU INFORMASI LEBIH?</p>
-					</div>
-					<div class="subtitle">
-						<p>Mari berbicara dengan tim kami di Kirana Food. Kami akan menyambut semua pertanyaan dan kebutuhan anda!</p>
-					</div>
-					<form>
-						<div class="form-row">
-							<div class="form-group col-md-15">
-								<label for="inputEmail4">Nama Perusahaan</label>
-								<input type="text" class="form-control" id="" placeholder="">
-							</div>
-							<div class="form-group col-md-15">
-								<label for="inputEmail4">Nama</label>
-								<input type="text" class="form-control" id="" placeholder="">
-							</div>
-							<div class="form-group col-md-15">
-								<label for="inputEmail4">Telepon</label>
-								<input type="nama" class="form-control" id="inputEmail4" placeholder="">
-							</div>
-							<div class="form-group col-md-15">
-								<label for="inputEmail4">Email</label>
-								<input type="email" class="form-control" id="inputEmail4" placeholder="">
-							</div>
+					<div class="content">
+						<div class="title">
+							<p>ANDA BUTUH BANTUAN ATAU INFORMASI LEBIH?</p>
 						</div>
-					</form>
-					<div class="tertarik">
-						<p>TERTARIK UNTUK MENGETAHUI TENTANG</p>
+						<div class="subtitle">
+							<p>Mari berbicara dengan tim kami di Kirana Food. Kami akan menyambut semua pertanyaan dan kebutuhan anda!</p>
+						</div>
+						<form class="fieldd">
+							<div class="form-row">
+								<div class="form-group col-md-15">
+									<label for="inputEmail4">Nama Perusahaan</label>
+									<input type="text" class="form-control" id="" placeholder="">
+								</div>
+								<div class="form-group col-md-15">
+									<label for="inputEmail4">Nama</label>
+									<input type="text" class="form-control" id="" placeholder="">
+								</div>
+								<div class="form-group col-md-15">
+									<label for="inputEmail4">Telepon</label>
+									<input type="nama" class="form-control" id="inputEmail4" placeholder="">
+								</div>
+								<div class="form-group col-md-15">
+									<label for="inputEmail4">Email</label>
+									<input type="email" class="form-control" id="inputEmail4" placeholder="">
+								</div>
+							</div>
+						</form>
+						<div class="tertarik">
+							<p>TERTARIK UNTUK MENGETAHUI TENTANG</p>
+						</div>
+						<form class="radioo">
+							<div class="form-check form-check-inline">
+								<input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+								<label class="form-check-label" for="inlineRadio1">KENTANG GORENG / POTATO FRIES</label>
+							</div>
+							<div class="form-check form-check-inline">
+								<input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+								<label class="form-check-label" for="inlineRadio2">NUGGETS & PROCESSED MEATS</label>
+							</div>
+							<div class="form-check form-check-inline">
+								<input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+								<label class="form-check-label" for="inlineRadio1">FROZEN VEGETABLES</label>
+							</div>
+							<div class="form-check form-check-inline">
+								<input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+								<label class="form-check-label" for="inlineRadio2">LAINNYA</label>
+							</div>
+						</form>
+						<button class="form-control">submit</button>
 					</div>
 				</div>
 			</div>
