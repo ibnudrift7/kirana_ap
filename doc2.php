@@ -1,0 +1,1 @@
+<?php echo Tt::t('front', 'About Us'); ?>
