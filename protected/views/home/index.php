@@ -93,15 +93,26 @@
 					<form>
 						<div class="form-row">
 							<div class="form-group col-md-15">
-							<label for="inputEmail4">Email</label>
-							<input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+								<label for="inputEmail4">Nama Perusahaan</label>
+								<input type="text" class="form-control" id="" placeholder="">
 							</div>
 							<div class="form-group col-md-15">
-							<label for="inputPassword4">Password</label>
-							<input type="password" class="form-control" id="inputPassword4" placeholder="Password">
+								<label for="inputEmail4">Nama</label>
+								<input type="text" class="form-control" id="" placeholder="">
+							</div>
+							<div class="form-group col-md-15">
+								<label for="inputEmail4">Telepon</label>
+								<input type="nama" class="form-control" id="inputEmail4" placeholder="">
+							</div>
+							<div class="form-group col-md-15">
+								<label for="inputEmail4">Email</label>
+								<input type="email" class="form-control" id="inputEmail4" placeholder="">
 							</div>
 						</div>
 					</form>
+					<div class="tertarik">
+						<p>TERTARIK UNTUK MENGETAHUI TENTANG</p>
+					</div>
 				</div>
 			</div>
 		</div>
