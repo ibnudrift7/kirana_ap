@@ -25,7 +25,7 @@
                     <!-- <img class="w-100 d-block d-sm-none" src="<?php echo $this->assetBaseurl; ?>mobile-home_02.jpg" alt=""> -->
                 </div>
             </div>
-            <div class="carousel-caption caption-slider-home">
+            <!-- <div class="carousel-caption caption-slider-home">
                 <div class="prelative container sliderrrr">
                     <div class="bxsl_tx_fcs">
                         <div class="row no-gutters">
@@ -37,7 +37,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> -->
             <div class="carousel-button-native">
                 <div class="prelative container">
                     <ol class="carousel-indicators">

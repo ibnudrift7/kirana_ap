@@ -40,45 +40,26 @@
 <header class="head <?php if ($active_menu_pg != 'home/index'): ?>insides-head<?php endif ?>">
   <div class="prelative container cont-header mx-auto">
     <div class="row">
-      <div class="col-md-24">
+      <div class="col-md-30">
         <div class="image"><img src="<?php echo $this->assetBaseurl; ?>logo.png" alt=""></div>
-        <div class="bsd-logo">
-          <p>PT. KADUJAYA PERKASA</p>
-          <h6>PLASTIC CONTAINER MANUFACTURER - BLOW AND INJECTION MOULDING</h6>
-        </div>
-        <div class="logo-bsd">
-          <div class="image"><img src="<?php echo $this->assetBaseurl; ?>2.jpg" alt=""></div>
-        </div>
       </div>
-      <div class="col-md-20 garis-header">
+      <div class="col-md-30">
+        <div class="menu-block-top">
+          <div class="click">
+            <p>CLICK TO CHAT<span><img src="" alt=""></span><a href="#">0817 1712 2131</a></p>
+          </div>
+        </div>
         <div class="menu-block-bottom">
           <ul class="list-inline">
-            <!-- <li class="list-inline-item menu"><a href="<?php echo CHtml::normalizeUrl(array('/home/index', 'lang'=>Yii::app()->language)); ?>">Home</a></li> -->
-            <li class="list-inline-item menu"><a href="#">About Us</a></li>
-            <li class="list-inline-item menu"><a href="#">Our Plastic Products</a></li>
-            <li class="list-inline-item menu"><a href="#">Our Quality</a></li>
-            <li class="list-inline-item menu"><a href="#">Useful Articles & Blogs</a></li>
-            <li class="list-inline-item menu"><a href="#">Contact Us</a></li>
-            <!-- <li class="list-inline-item wa"><a href="#">wa <span><img src="<?php echo $this->assetBaseurl; ?>WA-Logo.png" alt="">0812 3500 8800</span></a> 
-            </li>     --> 
+            <li class="list-inline-item menu"><a href="<?php echo CHtml::normalizeUrl(array('/home/index', 'lang'=>Yii::app()->language)); ?>">Home</a></li>
+            <li class="list-inline-item menu"><a href="#">Tentang Kami</a></li>
+            <li class="list-inline-item menu"><a href="#">Produk</a></li>
+            <li class="list-inline-item menu"><a href="#">Kualitas</a></li>
+            <li class="list-inline-item menu"><a href="#">Blog & Articles</a></li>
+            <li class="list-inline-item menu"><a href="#">Kerjasama</a></li>
+            <li class="list-inline-item menu"><a href="#">Hubungi Kami</a></li>
           </ul>
         </div>
-      </div>
-      <div class="col-md-3 garis-header">
-        <div class="translate">
-          <ul class="list-inline">
-            <li class="list-inline-item active"><a href="#">EN</a></li>
-            <li class="list-inline-item menu"><a href="#">IN</a></li>
-          </ul>
-        </div>
-      </div>
-      <div class="col-md-10 garis-header">
-        <div class="hotline">
-          <p>Hotline<a href="#"><span><img src="<?php echo $this->assetBaseurl; ?>wa.png" alt=""></span>081 6480 7016</a></p>
-        </div>
-      </div>
-      <div class="col-md-3">
-        <div class="email"><a href="#"><img src="<?php echo $this->assetBaseurl; ?>mail.png" alt=""></a></div>
       </div>
     </div>
   </div>
