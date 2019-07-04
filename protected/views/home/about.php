@@ -1,93 +1,13 @@
-<?php
-$about_cerf = [
-    1 => [
-        'tahun' => '2002',
-        'judul' => 'Sertifikat Merk API',
-        'certificate' => '#',
-    ],
-    [
-        'tahun' => '2005',
-        'judul' => 'Sertifikat Besi Beton SNI Polos',
-        'certificate' => '#',
-    ],
-    [
-        'tahun' => '2008',
-        'judul' => 'Penghargaan Perusahaan Penanaman Modal Terbaik',
-        'certificate' => '#',
-    ],
-    [
-        'tahun' => '2010',
-        'judul' => 'Sertifikat ISO 9001:2008',
-        'certificate' => '#',
-    ],
-    [
-        'tahun' => '2012',
-        'judul' => 'The Best Quality Product & Service Excellent',
-        'certificate' => '#',
-    ]
-];
-?>
-
-<?php
-$about_pillars = [
-    1 => [
-        'gambar' => 'design-2-about_40',
-        'judul' => 'Innovate',
-        'isi' => 'We will push our limit to create innovations that set us apart from others.',
-    ],
-    [
-        'gambar' => 'design-2-about_42',
-        'judul' => 'Grow',
-        'isi' => 'It’s not just our growth, but our aims to contribute in our Nation infrastructure growth.',
-    ],
-    [
-        'gambar' => 'design-2-about_44',
-        'judul' => 'Build',
-        'isi' => 'We have a vision, we have all the resource to build and to become the biggest in the industry.',
-    ],
-    [
-        'gambar' => 'design-2-about_46',
-        'judul' => 'Focus',
-        'isi' => 'Having all the success plans will only work successfully by focus and determination to what we do.',
-    ]
-];
-?>
-
-<?php
-$about_facts = [
-    1 => [
-        'gambar' => 'design-2-about_116',
-        'judul' => '30 years',
-        'isi' => 'Of nation leading steel manufacturing industry in Indonesia.',
-    ],
-    [
-        'gambar' => 'design-2-about_152',
-        'judul' => '5,6 hectare',
-        'isi' => 'Of steel manufacturing plant.',
-    ],
-    [
-        'gambar' => 'design-2-about_176',
-        'judul' => '165 people',
-        'isi' => 'Human resources employed as API professional team.',
-    ],
-    [
-        'gambar' => 'design-2-about_200',
-        'judul' => '1050 tons',
-        'isi' => 'Of steel capacity productions per month.',
-    ]
-];
-?>
-
 <section class="cover-inside about">
   <div class="prelative container">
     <div class="row">
       <div class="col-md-60">
         <div class="content">
           <div class="title">
-            <p>ABOUT US</p>
+            <p>TENTANG KAMI</p>
           </div>
           <div class="subtitle">
-            <p>We are API...</p>
+            <p>Tidak ada jalan pintas menuju kesuksesan kami, hanya komitmen terhadap kualitas dan kerja keras yang mampu memenangkan kepercayaan pelanggan</p>
           </div>
         </div>
       </div>
@@ -99,126 +19,118 @@ $about_facts = [
   <div class="prelative container">
     <div class="row">
       <div class="col-md-30">
-        <div class="image sec-1"><img class="w-100" src="<?php echo $this->assetBaseurl; ?>foto-about-sec-1.jpg" alt=""></div>
-        <div class="start d-none d-sm-block">
-          <p>Start an inquiry</p>
-          <div class="talk">
-            <a href="<?php echo CHtml::normalizeUrl(array('/home/contact', 'lang'=>Yii::app()->language)); ?>">Talk to us</a>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-30">
         <div class="content-sec-1">
           <div class="title">
-            <h5>History</h5>
+            <p>Dari beberapa dekade terakhir, PT. Kirana Food telah mempersembahkan berbagai jenis dan ragam makanan lezat pilihan untuk masyarakat di seluruh Indonesia.</p>
           </div>
-          <div class="isian">
-            <p>PT. ASIAN PROFILE INDOSTEEL was founded in 1999, as a company engaged in steel milling (Integrated Steel Mill) in Surabaya, East Java. In 2002 PT. The API was approved by the Ministry of Justice and Human Rights that PT. API is stating to be committed and determined to compete in the National steel industry and continue to improve performance in product quality and service quality.</p>
-            <p>Along with the development of the company and the world of steel - iron smelting infrastructure and manufacturing of steel - iron products, PT. The API continues to endlessly carry out product innovations, especially in the form of quality products, because ultimately quality will prove and provide long-term impact. This is evidenced by obtaining SNI certification with the number 07-2052-2002 NRP 106-005-080201 on August 8, 2005. This is clear evidence of the commitment of PT. API in quality.</p>
+          <div class="isi">
+            <p>Sama pentingnya dengan keberhasilan kami untuk dipercaya dalam menyediakan berbagai produk di pasar retail konsumen maupun pasar komersial seperti restaurant, cafe dan hotel, kami telah memiliki reputasi di industri ini sebagai perusahaan dengan etika kerja yang tak tergoyahkan dan fokus yang kuat pada inovasi serta variasi produk makanan. Yang membedakan PT. Kirana Food dari yang lain adalah hasrat kami untuk kesempurnaan dan komitmen kami untuk menolak menjadi apapun selain yang terbaik dalam mempersembahkan makanan berkualitas.</p>
+            <p>PT. Kirana Food berkembang dari pengalaman perusahaan dalam mempersembahkan aneka produk import kentang goreng (french fries) berkualitas dan dengan perlahan namun pasti, bertransformasi untuk menjadi penyedia berbagai makanan beku (frozen) lainnya, dengan dedikasi untuk mempersembahkan produk terbaik untuk pasar masyarakat lokal maupun internasional. Untuk mencapai reputasi yang kami miliki saat ini semenjak didirikan pada tahun 2000, PT. Kirana Food tidak pernah menempuh jalan pintas. Adalah kualitas, konsistensi dan inovasi yang membuat kami dipercaya oleh masyarakat. Sedangkan dari sisi rekan prinsipal bahan baku, PT. Kirana Food membangun reputasi sebagai perusahaan yang memiliki kredibilitas tinggi, jaringan distribusi yang luas, serta penanganan logistik yang terbaik.</p>
+            <p>PT. Kirana Food dalam sepak terjangnya, telah bertahun-tahun menjadi sole distributor dari produk SIMPLOT Potatoes Amerika (ke 3 terbesar di Amerika). Hingga saat ini, hubungan baik dan kepercayaan rekan selalu kami jaga dengan baik. Atas pembuktian nyata kredibilitas PT. Kirana Food, berbagai kepercayaan berdatangan dan terus mengalir dari aneka pabrik dan penghasil makanan berkualitas dari seluruh dunia.</p>          
           </div>
         </div>
       </div>
-    </div>
-    <div class="row">
       <div class="col-md-30">
         <div class="content-sec-2">
-          <!-- <div class="title">
-            <h5>History</h5>
-          </div> -->
-          <div class="isian">
-            <p>In 2008, PT API obtained an Investment Award for the best small and medium scale company issued by BKPM and submitted by the Head of Investment Coordinating Board (BKPM), Mr. Muhammad Lutfi who was witnessed by the Vice President at that time Mr. Jusuf Kalla, and took place at the vice president's office.</p>
-            <p>It did not stop there, in 2010 PT. The API, which continues to be committed to quality, finally obtained ISO: 9001 certification with the number JKT6009266 certified by the LLOYDS Register Quality Assurance and UKAS Management System.</p>
-            <p>PT. The API also builds existing human resources by actively including management training and increasing motivation. In 2012, PT API included all employees in the Quality Empowerment System program guided by PT. Total Quality Indonesia, which subsequently carried out this event, received the award of the Best Quality Product & Service Excellence of the Year issued by KADIN (Chamber of Commerce and Industry).</p>
+          <div class="row">
+            <div class="col-md-60">
+              <img src="<?php echo $this->assetBaseurl; ?>Rectangle7.png" alt="">
+            </div>
+            <div class="col-md-30">
+              <img src="<?php echo $this->assetBaseurl; ?>Rectangle8.png" alt="">
+            </div>
+            <div class="col-md-30">
+              <img src="<?php echo $this->assetBaseurl; ?>Rectangle8.png" alt="">
+            </div>
           </div>
         </div>
-      </div>
-      <div class="col-md-30">
-        <div class="image-sec-2"><img class="w-100" src="<?php echo $this->assetBaseurl; ?>foto-about-sec-12.jpg" alt=""></div>
       </div>
     </div>
   </div>
 </section>
 
 <section class="about-sec-2">
-  <div class="prelative container">
+  <div class="prelative contaier">
     <div class="row">
       <div class="col-md-60">
-        <div class="title-head">
-          <p>Certifications</p>
+        <div class="title">
+          <p>“Kualitas, rasa dan konsistensi produk adalah 3 kunci keberhasilan yang membuat kami unggul dan dipercaya rakyat sejak tahun 2000”</p>
+        </div>
+        <div class="subtitle">
+          <p>KEVIN DWIPUTRA -  DIRECTOR</p>
         </div>
       </div>
-      <?php foreach($about_cerf as $key => $value): ?>
-      <div class="col-md-15">
-        <div class="content">
-          <div class="tahun">
-            <p><?php echo $value['tahun'] ?></p>
-          </div>
-          <div class="title">
-            <p><?php echo $value['judul'] ?></p>
-          </div>
-          <div class="view"><a href="#">VIEW CERTIFICATE</a></div>
-        </div>
-      </div>
-      <?php endforeach ?>
     </div>
   </div>
 </section>
+
 
 <section class="about-sec-3">
   <div class="prelative container">
     <div class="row">
-      <div class="col-md-60">
-        <div class="title-head">
-          <p>Our Pillars Of Principles</p>
-        </div>
-        <div class="subtitle">
-          <p>We’re a financial guide and guardian for our clients. These are the pillars that support that relationship.</p>
-        </div>
-      </div>
-      <?php foreach($about_pillars as $key => $value): ?>
-      <div class="col-md-15">
-        <div class="content">
-          <div class="image"><img src="<?php echo $this->assetBaseurl; ?><?php echo $value['gambar'] ?>.jpg" alt=""></div>
+      <div class="col-md-30">
+        <div class="content-sec-1">
           <div class="title">
-            <p><?php echo $value['judul'] ?></p>
-          </div>
-          <div class="isian">
-            <p><?php echo $value['isi'] ?></p>
+            <p>VISI</p>
+        </div>
+          <div class="isi">
+            <p>Untuk menjadi yang terbaik di dunia distribusi produk frozen food yang berkualitas tinggi, sehat dan higienis di Indonesia.</p>
           </div>
         </div>
       </div>
-      <?php endforeach ?>
+      <div class="col-md-30">
+        <div class="content-sec-1">
+          <div class="title">
+            <p>MISI</p>
+          </div>
+          <div class="isi">
+            <p>Mempersembahkan layanan pelanggan terbaik dan konsistensi distribusi produk yang dapat diandalkan, demi kepercayaan dan hubungan jangka panjang.</p>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </section>
 
+
 <section class="about-sec-4">
-  <div class="row no-gutters">
-    <div class="col-md-30">
-      <div class="image"><img class="w-100" src="<?php echo $this->assetBaseurl; ?>Layer-411.jpg" alt=""></div>
-    </div>
-    <div class="col-md-30">
-      <div class="content-outer">
-        <div class="content-inner">
-          <div class="title-head">
-            <p>API Facts</p>
+  <div class="prelative container">
+    <div class="row">
+      <div class="col-md-60">
+        <div class="heading">
+          <div class="title">
+            <p>SINERGI TRILOGI</p>
           </div>
-          <div class="pt-4 d-none d-sm-block"></div>
-          <?php foreach($about_facts as $key => $value): ?>
-          <div class="row">
-            <div class="col-md-12">
-              <div class="image-ul"><img src="<?php echo $this->assetBaseurl; ?><?php echo $value['gambar'] ?>.jpg" alt=""></div>
-            </div>
-            <div class="col-md-48">
-              <div class="title-insss">
-                <p><?php echo $value['judul'] ?></p>
-              </div>
-              <div class="isinya">
-                <p><?php echo $value['isi'] ?></p>
-              </div>
-            </div>
+          <div class="subtitle">
+            <p>Kami percaya bahwa usaha dan keberlangsungan dari PT. Kirana Food hingga saat ini adalah wujud sukses dari sinergi Trilogi aspek berikut. </p>
           </div>
-          <?php endforeach ?>
+        </div>
+      </div>
+      <div class="col-md-20">
+        <div class="content">
+          <div class="image"><img src="<?php echo $this->assetBaseurl; ?>ourpeople.png" alt=""></div>
+          <p class="title">TENAGA KERJA KAMI</p>
+          <div class="isi">
+            <p>Kami percaya bahwa karyawan kami adalah sumber daya terbesar kami, oleh karena itu kami selalu berusaha membantu mereka tumbuh dengan potensi penuh mereka. Semua orang berinteraksi seperti satu keluarga besar dengan pertemuan reguler untuk bertukar ide segar untuk memperbaiki dan meningkatkan nilai lebih kami. Kami berusaha menjadi perusahaan yang menyediakan lingkungan aman dan merangsang kreatifitas untuk memberi kontribusi pada masyarakat.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-20">
+        <div class="content">
+        <div class="image"><img src="<?php echo $this->assetBaseurl; ?>ourcustomer.png" alt=""></div>
+          <p class="title">PELANGGAN KAMI</p>
+          <div class="isi">
+            <p>Kami bertindak sebagai mitra untuk setiap pelanggan kami. Kami selalu bekerja lebih keras karena kami percaya bahwa kesuksesan Anda adalah kesuksesan kami juga. Kami membuka komunikasi sebesa-besarnya agar Anda dapat membantu kami dan memberitahu kami bagaimana cara melayani Anda dengan lebih baik.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-20">
+        <div class="content">
+        <div class="image"><img src="<?php echo $this->assetBaseurl; ?>ourprincipals.png" alt=""></div>
+          <p class="title">PEMASOK KAMI</p>
+          <div class="isi">
+            <p>PT. Kirana Food hanya memilih pemasok terbaik dan terkemuka dengan kualitas makanan nomor satu. Tiap pemasok adalah perusahaan bersertifikat seperti HACCP, ISO 9001, ISO 14001 dan sertifikat makanan Halal. Kami telah berpengalaman dalam menangani banyak.</p>
+          </div>
         </div>
       </div>
     </div>
@@ -226,28 +138,62 @@ $about_facts = [
 </section>
 
 <section class="about-sec-5">
-  <div class="prelative container">
-    <div class="row">
-      <div class="col-md-30">
-        <div class="content">
-          <div class="title">
-            <p>Vision</p>
-          </div>
-          <div class="isi">
-            <p>Create and actualise a steel industry that is competitive and bringing major contribution to the Nation’s infrastructure development, by mastering nation resource based technology.</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-30">
-        <div class="content">
-          <div class="title">
-            <p>Mission</p>
-          </div>
-          <div class="isi">
-            <p>Produce and fabricate various steel products to meet the needs of Nation’s construction / infrastructure and industrial sectors and develop an environmentally friendly steel industry.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+	<div class="prelative container">
+		<div class="row">
+			<div class="col-md-60">
+				<div class="box-content">
+					<div class="content">
+						<div class="title">
+							<p>ANDA BUTUH BANTUAN ATAU INFORMASI LEBIH?</p>
+						</div>
+						<div class="subtitle">
+							<p>Mari berbicara dengan tim kami di Kirana Food. Kami akan menyambut semua pertanyaan dan kebutuhan anda!</p>
+						</div>
+						<form class="fieldd">
+							<div class="form-row">
+								<div class="form-group col-md-15">
+									<label for="inputEmail4">Nama Perusahaan</label>
+									<input type="text" class="form-control" id="" placeholder="">
+								</div>
+								<div class="form-group col-md-15">
+									<label for="inputEmail4">Nama</label>
+									<input type="text" class="form-control" id="" placeholder="">
+								</div>
+								<div class="form-group col-md-15">
+									<label for="inputEmail4">Telepon</label>
+									<input type="nama" class="form-control" id="inputEmail4" placeholder="">
+								</div>
+								<div class="form-group col-md-15">
+									<label for="inputEmail4">Email</label>
+									<input type="email" class="form-control" id="inputEmail4" placeholder="">
+								</div>
+							</div>
+						</form>
+						<div class="tertarik">
+							<p>TERTARIK UNTUK MENGETAHUI TENTANG</p>
+						</div>
+						<form class="radioo">
+							<div class="form-check form-check-inline">
+								<input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+								<label class="form-check-label" for="inlineRadio1">KENTANG GORENG / POTATO FRIES</label>
+							</div>
+							<div class="form-check form-check-inline">
+								<input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+								<label class="form-check-label" for="inlineRadio2">NUGGETS & PROCESSED MEATS</label>
+							</div>
+							<div class="form-check form-check-inline">
+								<input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+								<label class="form-check-label" for="inlineRadio1">FROZEN VEGETABLES</label>
+							</div>
+							<div class="form-check form-check-inline">
+								<input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+								<label class="form-check-label" for="inlineRadio2">LAINNYA</label>
+							</div>
+						</form>
+						<button class="form-control">submit</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 </section>
