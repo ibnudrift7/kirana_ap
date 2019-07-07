@@ -149,23 +149,29 @@ section.kontak-sec-2 {
         }
 
         .submit {
-            font-family: @fira;
-            font-size  : 18px;
-            font-weight: bold;
-            float      : right;
-            color: white;
+            font-family     : @fira;
+            font-size       : 18px;
+            font-weight     : bold;
+            float           : right;
+            color           : white;
             background-color: #81be41;
-            border: none;
-            width: 136px;
-            height: 38px;
+            border          : none;
+            width           : 136px;
+            height          : 38px;
         }
     }
 }
 
-section.kontak-sec-3{
-    background-image: url(../../asset/images/map.jpg);
-    background-repeat: no-repeat;
-  background-position: center; 
-    min-height      : 588px;
-    width           : 100%;
+section.kontak-sec-3 {
+    min-height: 588px;
+    width     : 100%;
+
+    .mapouter {
+        position  : relative;
+        text-align: right;
+    }
+
+    .gmap_canvas {
+        overflow  : hidden;
+    }
 }
