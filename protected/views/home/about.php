@@ -50,7 +50,7 @@
 </section>
 
 <section class="about-sec-2">
-  <div class="prelative contaier">
+  <div class="prelative contanier">
     <div class="row">
       <div class="col-md-60">
         <div class="title">

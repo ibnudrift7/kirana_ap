@@ -1313,6 +1313,15 @@ Staff dari perabotplastik.com akan menghubungi anda untuk konfirmasi dan penjela
 		));
 	}
 
+	public function actionKontak()
+	{
+		$this->pageTitle = 'Kontak'.$this->pageTitle;
+		$this->layout='//layouts/column2';
+
+		$this->render('kontak', array(	
+		));
+	}
+
 }
 
 
