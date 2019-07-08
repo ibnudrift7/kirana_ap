@@ -10,7 +10,7 @@
         <p><b>Morbi a dignissim nisi</b><br> Vestibulum pretium tempor est vel elementum. Etiam ut facilisis tellus, ut tincidunt felis. Nulla laoreet ligula lectus, nec eleifend risus ornare sit amet. Phasellus et erat rhoncus, bibendum sapien sed, ornare arcu. Pellentesque ultrices non neque quis viverra. Cras in velit lacus.</p>
       </div>
     <!-- </div> -->
-    <div class="inline row">
+    <div class="inline ">
       <p class="prev">Artikel sebelumnya</p>
       <div class="vertical-line"></div>
       <p class="next">Artikel berikutnya</p>
