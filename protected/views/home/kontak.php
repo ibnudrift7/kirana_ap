@@ -74,70 +74,64 @@
 </section>
 
 <section class="kontak-sec-2">
-    <div class="prelative1 container">
-        <div class="row">
-            <div class="col-md-60 p-0">
-                <div class="title pt-5">
-                    <p>ANDA BUTUH BANTUAN ATAU INFORMASI LEBIH?</p>
-                </div>
-                <div class="prelative2 subtitle pt-4">
-                    <h3>Mari berbicara dengan tim kami di Kirana Food.<br>
-                        Kami akan menyambut semua pertanyaan dan kebutuhan anda!</h3>
-                </div>
-            </div>
-        </div>
-        <div class="row form pt-5">
-            <div class="col-md-15">
-                <label class="text">NAMA PERUSAHAAN</label>
-                <input type="email" class="form-control" id="email">
-            </div>
-            <div class="col-md-15">
-                <label class="text">NAMA</label>
-                <input type="email" class="form-control" id="email">
-            </div>
-            <div class="col-md-15">
-                <label class="text">TELEPON</label>
-                <input type="email" class="form-control" id="email">
-            </div>
-            <div class="col-md-15">
-                <label class="text">EMAIL</label>
-                <input type="email" class="form-control" id="email">
-            </div>
-        </div>
-        <div class="row form pt-4">
-            <div class="col-md-60">
-                <p class="text">TERTARIK UNTUK MENGETAHUI TENTANG</p>
-                <div class="form-check-inline pt-3">
-                    <label class="form-check-label">
-                        <input type="radio" class="form-check-input radiob" name="optradio">KENTANG GORENG / POTATO FRIES
-                    </label>
-                </div>
-                <div class="form-check-inline">
-                    <label class="form-check-label">
-                        <input type="radio" class="form-check-input radiob" name="optradio">NUGGETS & PROCESSED MEATS
-                    </label>
-                </div>
-                <div class="form-check-inline">
-                    <label class="form-check-label">
-                        <input type="radio" class="form-check-input radiob" name="optradio" disabled>FROZEN VEGETABLES
-                    </label>
-                </div>
-                <div class="form-check-inline">
-                    <label class="form-check-label">
-                        <input type="radio" class="form-check-input radiob" name="optradio" disabled>LAINNYA
-                    </label>
-                </div>
-            </div>
-        </div>
-        <div class="row form pt-5">
-            <div class="col-md-30">
-                <img class="" src="<?php echo $this->assetBaseurl; ?>Layer45.png" alt="Card image cap">
-            </div>
-            <div class="col-md-30">
-                <button class="submit">SUBMIT</button>
-            </div>
-        </div>
-    </div>
+<div class="prelative container">
+		<div class="row">
+			<div class="col-md-60">
+				<div class="box-content">
+					<div class="content">
+						<div class="title">
+							<p>ANDA BUTUH BANTUAN ATAU INFORMASI LEBIH?</p>
+						</div>
+						<div class="subtitle">
+							<p>Mari berbicara dengan tim kami di Kirana Food. Kami akan menyambut semua pertanyaan dan kebutuhan anda!</p>
+						</div>
+						<form class="fieldd">
+							<div class="form-row">
+								<div class="form-group col-md-15">
+									<label for="inputEmail4">Nama Perusahaan</label>
+									<input type="text" class="form-control" id="" placeholder="">
+								</div>
+								<div class="form-group col-md-15">
+									<label for="inputEmail4">Nama</label>
+									<input type="text" class="form-control" id="" placeholder="">
+								</div>
+								<div class="form-group col-md-15">
+									<label for="inputEmail4">Telepon</label>
+									<input type="nama" class="form-control" id="inputEmail4" placeholder="">
+								</div>
+								<div class="form-group col-md-15">
+									<label for="inputEmail4">Email</label>
+									<input type="email" class="form-control" id="inputEmail4" placeholder="">
+								</div>
+							</div>
+						</form>
+						<div class="tertarik">
+							<p>TERTARIK UNTUK MENGETAHUI TENTANG</p>
+						</div>
+						<form class="radioo">
+							<div class="form-check form-check-inline">
+								<input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+								<label class="form-check-label" for="inlineRadio1">KENTANG GORENG / POTATO FRIES</label>
+							</div>
+							<div class="form-check form-check-inline">
+								<input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+								<label class="form-check-label" for="inlineRadio2">NUGGETS & PROCESSED MEATS</label>
+							</div>
+							<div class="form-check form-check-inline">
+								<input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+								<label class="form-check-label" for="inlineRadio1">FROZEN VEGETABLES</label>
+							</div>
+							<div class="form-check form-check-inline">
+								<input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+								<label class="form-check-label" for="inlineRadio2">LAINNYA</label>
+							</div>
+						</form>
+						<button class="form-control">submit</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 </section>
 
 <section class="kontak-sec-3">
