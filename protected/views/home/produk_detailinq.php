@@ -23,21 +23,33 @@
 
 <section class="detail-inq">
     <div class="prelative container">
-        <div class="row">
+        <div class="col-md-60">
+            <div class="title-kat">
+            <p>Kategori</p>
+            </div>
+        </div>
+        <div class="list row">
             <div class="col-md-15">
-                <div class="title-kat">
-                    <p>Kategori</p>
-                </div>
                 <ul>
-                    <li>Kentang Beku</li>
-                    <li>Sayuran Beku</li>
-                    <li>Buah Beku</li>
-                    <li>Makanan Proses Beku</li>
-                    <li>Lain Lain</li>
+                <li class="active"><a href="#">
+                    Kentang Beku</a>
+                </li>
+                <li><a href="#">
+                    Sayuran Beku</a>
+                </li>
+                <li><a href="#">
+                    Buah Beku</a>
+                </li>
+                <li><a href="#">
+                    Makanan Proses Beku</a>
+                </li>
+                <li><a href="#">
+                    Lain Lain</a>
+                </li>
                 </ul>
             </div>
             <div class="col-md-45">
-                <div class="row">
+                <div class="content row">
                     <div class="col-md-45">
                         <div class="item">
                             <p>Item #02021</p>
@@ -50,9 +62,10 @@
                         </div>
                     </div>
                     <div class="col-md-15">
-                        <div class="image"><img src="" alt=""></div>
+                        <div class="image img-fluid"><img src="<?php echo $this->assetBaseurl; ?>kirana.jpg" alt=""></div>
                     </div>
                     <div class="col-md-60">
+                        <div class="showimage img-fluid"><img src="<?php echo $this->assetBaseurl; ?>gueeeeee.jpg" alt=""></div>
                         <div class="desk">
                             <p>DESKRIPSI</p>
                         </div>
@@ -60,12 +73,14 @@
                             <p>Kentang goreng dengan potongan bergerigi menawarkan keunikan tersendiri untuk hidangan Anda. Lapisan luar yang garing membalut kentang yg lembut di dalam.</p>
                         </div>
                         <div class="row detail-inq">
+                            <div class="col-md-60"><hr></div>
                             <div class="col-md-30">
                                 <p>Content / Carton</p>
                             </div>
                             <div class="col-md-30">
                                 <p>4 x 2,5kg</p>
                             </div>
+                            <div class="col-md-60"><hr></div>
                         </div>
                         <div class="row detail-inq">
                             <div class="col-md-30">
@@ -74,6 +89,8 @@
                             <div class="col-md-30">
                                 <p>10 kg</p>
                             </div>
+                            <div class="col-md-60"><hr></div>
+
                         </div>
                         <div class="form-inquiri">
                             <p>INQUIRY FORM</p>
@@ -82,22 +99,22 @@
                             <p>Tinggalkan kontak anda, agar kami dapat menghubungi anda terkait ketertarikan anda terhadap produk ini.</p>
                         </div>
                         <form class="fieldd">
-							<div class="form-row">
-								<div class="form-group col-md-20">
-									<label for="inputEmail4">Nama</label>
-									<input type="text" class="form-control" id="" placeholder="">
-								</div>
-								<div class="form-group col-md-20">
-									<label for="inputEmail4">Telepon</label>
-									<input type="nama" class="form-control" id="inputEmail4" placeholder="">
-								</div>
-								<div class="form-group col-md-20">
-									<label for="inputEmail4">Email</label>
-									<input type="email" class="form-control" id="inputEmail4" placeholder="">
-								</div>
-							</div>
-                            <div class="submit"><button>submit</button></div>
-						</form>
+                            <div class="form-row">
+                                <div class="form-group col-md-20">
+                                    <label for="inputEmail4">NAMA</label>
+                                    <input type="text" class="form-control" id="" placeholder="">
+                                </div>
+                                <div class="form-group col-md-20">
+                                    <label for="inputEmail4">TELEPON</label>
+                                    <input type="nama" class="form-control" id="inputEmail4" placeholder="">
+                                </div>
+                                <div class="form-group col-md-20">
+                                    <label for="inputEmail4">EMAIL</label>
+                                    <input type="email" class="form-control" id="inputEmail4" placeholder="">
+                                </div>
+                            </div>
+                            <div class="submit"><button class="btn button">SUBMIT</button></div>
+                        </form>
                     </div>
                 </div>
             </div>
@@ -123,7 +140,7 @@
             <div class="col-md-15">
                 <div class="box-content">
                 <div class="image">
-                    <img src="" alt="">
+                    <img class="img-fluid image" src="<?php echo $this->assetBaseurl; ?>Layer 46.png" alt="">
                 </div>
                 <div class="item">
                     <p>Item #02021</p>
@@ -139,7 +156,7 @@
             <div class="col-md-15">
                 <div class="box-content">
                 <div class="image">
-                    <img src="" alt="">
+                    <img src="<?php echo $this->assetBaseurl; ?>Layer 44.png" alt="">
                 </div>
                 <div class="item">
                     <p>Item #02021</p>
@@ -155,7 +172,7 @@
             <div class="col-md-15">
                 <div class="box-content">
                 <div class="image">
-                    <img src="" alt="">
+                    <img src="<?php echo $this->assetBaseurl; ?>Layer 45.png" alt="">
                 </div>
                 <div class="item">
                     <p>Item #02021</p>
@@ -171,7 +188,7 @@
             <div class="col-md-15">
                 <div class="box-content">
                 <div class="image">
-                    <img src="" alt="">
+                    <img src="<?php echo $this->assetBaseurl; ?>Layer 46.png" alt="">
                 </div>
                 <div class="item">
                     <p>Item #02021</p>
