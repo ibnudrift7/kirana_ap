@@ -14,7 +14,7 @@
         <div class="row">
         <?php for($i=0;$i<4;$i++){ ?>
             <div class="box-content col-md-20">
-                <img class="w-100" src="<?php echo $this->assetBaseurl; ?>blogthumb.png" alt="">
+                <a href="<?php echo CHtml::normalizeUrl(array('/home/blog_detail', 'lang'=>Yii::app()->language)); ?>"><img class="w-100" src="<?php echo $this->assetBaseurl; ?>blogthumb.png" alt=""></a>
                 <div class="inline2">
                 <p class="category">Resep </p>
                 <div class="vertical-line"></div>
@@ -23,7 +23,7 @@
                 <div class="title"><p>Resep kentang goreng crispy bumbu sambal balado</p></div>
             </div>
             <div class="box-content col-md-20">
-                <img class="w-100" src="<?php echo $this->assetBaseurl; ?>blogthumb.png" alt="">
+            <a href="<?php echo CHtml::normalizeUrl(array('/home/blog_detail', 'lang'=>Yii::app()->language)); ?>"><img class="w-100" src="<?php echo $this->assetBaseurl; ?>blogthumb.png" alt=""></a>
                 <div class="inline2">
                 <p class="category">Resep </p>
                 <div class="vertical-line"></div>
@@ -32,7 +32,7 @@
                 <div class="title"><p>Resep cara memasak mash potato yang mudah dan singkat, namun kelas hotel.</p></div>
             </div>
             <div class="box-content col-md-20">
-                <img class="w-100" src="<?php echo $this->assetBaseurl; ?>blogthumb.png" alt="">
+            <a href="<?php echo CHtml::normalizeUrl(array('/home/blog_detail', 'lang'=>Yii::app()->language)); ?>"><img class="w-100" src="<?php echo $this->assetBaseurl; ?>blogthumb.png" alt=""></a>
                 <div class="inline2">
                 <p class="category">Artikel </p>
                 <div class="vertical-line"></div>

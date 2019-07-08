@@ -50,8 +50,9 @@
                 <div class="item">
                   <p>ITEM #02021</p>
                 </div>
-                <div class="title">
+                <div class="title"><a href="<?php echo CHtml::normalizeUrl(array('/home/produk_detailinq', 'lang'=>Yii::app()->language)); ?>">
                   <p>1/2” Crinkle Cut</p>
+                  </a>
                 </div>
                 <div class="subtitle">
                   <p>Lamb Weston</p>
@@ -69,9 +70,9 @@
                 <div class="item">
                   <p>ITEM #02021</p>
                 </div>
-                <div class="title">
+                <div class="title"><a href="<?php echo CHtml::normalizeUrl(array('/home/produk_detailinq', 'lang'=>Yii::app()->language)); ?>">
                   <p>Baked Potato Skins</p>
-                </div>
+                  </a></div>
                 <div class="subtitle">
                   <p>Lamb Weston</p>
                 </div>
@@ -87,9 +88,10 @@
                 <div class="item">
                   <p>ITEM #02021</p>
                 </div>
-                <div class="title">
-                  <p>Waffled Hashbrown</p>
-                </div>
+                <div class="title"><a href="<?php echo CHtml::normalizeUrl(array('/home/produk_detailinq', 'lang'=>Yii::app()->language)); ?>">
+                  <p>Wafled Hasbrown</p>
+                  </a>
+                  </div>
                 <div class="subtitle">
                   <p>Lamb Weston</p>
                 </div>

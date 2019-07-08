@@ -25,8 +25,8 @@
     <div class="col-md-30">      
       <p class="blog">Blog & Artikel Lainnya</p>
     </div>
-    <div class="col-md-30">      
-      <p class="allblog">Lihat semua blog & artikel</p>
+    <div class="allblog col-md-30">      
+      <a href="<?php echo CHtml::normalizeUrl(array('/home/blog', 'lang'=>Yii::app()->language)); ?>"><p>Lihat semua blog & artikel</p></a>
     </div>
   </div>
   <hr>
@@ -39,7 +39,7 @@
           <div class="vertical-line"></div>
           <p class="date">21 - 06 - 2019</p>
         </div>
-        <div class="title"><p>Resep kentang goreng crispy bumbu sambal balado</p></div>
+        <div class="title"><a href="<?php echo CHtml::normalizeUrl(array('/home/blog_detail', 'lang'=>Yii::app()->language)); ?>"><p>Resep kentang goreng crispy bumbu sambal balado</p></a></div>
       </div>
       <div class="box-content col-md-20">
         <img src="<?php echo $this->assetBaseurl; ?>blogthumb.png" alt="">
@@ -48,7 +48,7 @@
           <div class="vertical-line"></div>
           <p class="date">25 - 06 - 2019 </p>
         </div>        
-        <div class="title"><p>Resep cara memasak mash potato yang mudah dan singkat, namun kelas hotel.</p></div>
+        <div class="title"><a href="<?php echo CHtml::normalizeUrl(array('/home/blog_detail', 'lang'=>Yii::app()->language)); ?>"><p>Resep cara memasak mash potato yang mudah dan singkat, namun kelas hotel.</p></a></div>
       </div>
       <div class="box-content col-md-20">
         <img src="<?php echo $this->assetBaseurl; ?>blogthumb.png" alt="">
@@ -57,7 +57,7 @@
           <div class="vertical-line"></div>
           <p class="date">01 - 07 - 2019 </p>
         </div>        
-        <div class="title"><p>Pelajari tips khusus ini untuk menyimpan kentang goreng yang tidak habis, namun berniat untuk dikonsumsi lagi.</p></div>
+        <div class="title"><a href="<?php echo CHtml::normalizeUrl(array('/home/blog_detail', 'lang'=>Yii::app()->language)); ?>"><p>Pelajari tips khusus ini untuk menyimpan kentang goreng yang tidak habis, namun berniat untuk dikonsumsi lagi.</p></a></div>
       </div>
     </div>
 

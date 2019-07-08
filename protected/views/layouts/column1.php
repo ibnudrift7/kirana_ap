@@ -29,7 +29,7 @@
                                         <h4>Mempersembahkan Produk Kentang Goreng dan Aneka Makanan Frozen Berkualitas Favorit Masyarakat Indonesia Sejak tahun 2000</h4>
                                         <p>Kirana Food telah hadir dan menjadi kegemaran rakyat dengan berbagai produk kentang goreng (french fries) seperti shoe string fries, potato wedges, waffle fries, hasbrown, crinkle cut fries, serta berbagai produk frozen siap santap lainnya. </p>
                                         <div class="lihat">
-                                            <a href="#">Lihat Produk</a>
+                                            <a href="<?php echo CHtml::normalizeUrl(array('/home/produk', 'lang'=>Yii::app()->language)); ?>">Lihat Produk</a>
                                         </div>
                                     </div>
                                 </div>
