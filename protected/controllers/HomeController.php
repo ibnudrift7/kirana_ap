@@ -524,6 +524,15 @@ class HomeController extends Controller
 		));
 	}
 
+	public function actionBlog()
+	{
+		$this->pageTitle = 'Blog Us - '.$this->pageTitle;
+		$this->layout='//layouts/column2';
+
+		$this->render('blog', array(	
+		));
+	}
+
 	public function actionMerk()
 	{
 		$this->pageTitle = 'Merk - '.$this->pageTitle;
@@ -548,6 +557,15 @@ class HomeController extends Controller
 		$this->layout='//layouts/column2';
 
 		$this->render('produk_detail', array(	
+		));
+	}
+
+	public function actionProduk_detailinq()
+	{
+		$this->pageTitle = 'Produk_detailinq - '.$this->pageTitle;
+		$this->layout='//layouts/column2';
+
+		$this->render('produk_detailinq', array(	
 		));
 	}
 
