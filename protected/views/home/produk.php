@@ -33,7 +33,7 @@
                         </div>
                     </div>
                     <div class="cardfooter d-table pl-5">
-                        <p class="textfooter d-table-cell align-middle">Lihat varian produk</p>
+                        <p class="textfooter d-table-cell align-middle"><a href="<?php echo CHtml::normalizeUrl(array('/home/produk_detail', 'lang'=>Yii::app()->language)); ?>">Lihat varian produk</a></p>
                     </div>
                 </div>
             </div>
@@ -49,7 +49,7 @@
                         </div>
                     </div>
                     <div class="cardfooter d-table pl-5">
-                        <p class="textfooter d-table-cell align-middle">Lihat varian produk</p>
+                    <p class="textfooter d-table-cell align-middle"><a href="<?php echo CHtml::normalizeUrl(array('/home/produk_detail', 'lang'=>Yii::app()->language)); ?>">Lihat varian produk</a></p>
                     </div>
                 </div>
             </div>
@@ -74,7 +74,7 @@
                         </div>
                     </div>
                     <div class="cardfooter d-table pl-5">
-                        <p class="textfooter d-table-cell align-middle">Lihat varian produk</p>
+                    <p class="textfooter d-table-cell align-middle"><a href="<?php echo CHtml::normalizeUrl(array('/home/produk_detail', 'lang'=>Yii::app()->language)); ?>">Lihat varian produk</a></p>
                     </div>
                 </div>
             </div>
@@ -90,7 +90,7 @@
                         </div>
                     </div>
                     <div class="cardfooter d-table pl-5">
-                        <p class="textfooter d-table-cell align-middle">Lihat varian produk</p>
+                    <p class="textfooter d-table-cell align-middle"><a href="<?php echo CHtml::normalizeUrl(array('/home/produk_detail', 'lang'=>Yii::app()->language)); ?>">Lihat varian produk</a></p>
                     </div>
                 </div>
             </div>
@@ -115,7 +115,7 @@
                         </div>
                     </div>
                     <div class="cardfooter d-table pl-5">
-                        <p class="textfooter d-table-cell align-middle">Lihat varian produk</p>
+                    <p class="textfooter d-table-cell align-middle"><a href="<?php echo CHtml::normalizeUrl(array('/home/produk_detail', 'lang'=>Yii::app()->language)); ?>">Lihat varian produk</a></p>
                     </div>
                 </div>
             </div>

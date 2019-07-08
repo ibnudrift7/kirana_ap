@@ -132,7 +132,8 @@
             </div>
             <div class="col-md-15">
                 <div class="lihat-semua">
-                    <p>Lihat Semua</p>
+                <a href="<?php echo CHtml::normalizeUrl(array('/home/produk_detail', 'lang'=>Yii::app()->language)); ?>">
+                    <p>Lihat Semua</p></a>
                 </div>
             </div>
         </div>

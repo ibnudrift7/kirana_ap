@@ -50,7 +50,7 @@
 				</div>
 			</div>
 			<div class="col-md-60">
-				<div class="pelajari"><a href="#">Pelajari Kualitas Kami</a></div>
+				<div class="pelajari"><a href="<?php echo CHtml::normalizeUrl(array('/home/quality', 'lang'=>Yii::app()->language)); ?>">Pelajari Kualitas Kami</a></div>
 			</div>
 		</div>
 	</div>
@@ -73,7 +73,7 @@
 				<div class="content">
 					<p>PT. Kirana Food berkembang dari pengalaman perusahaan dalam mempersembahkan aneka produk import kentang goreng (french fries) berkualitas dan dengan perlahan namun pasti, bertransformasi untuk menjadi penyedia berbagai makanan beku (frozen) lainnya, dengan dedikasi untuk mempersembahkan produk terbaik untuk pasar masyarakat lokal maupun internasional.</p>
 				</div>
-				<div class="pelajari"><a href="#">Pelajari Tentang Perusahaan Kami</a></div>
+				<div class="pelajari"><a href="<?php echo CHtml::normalizeUrl(array('/home/about', 'lang'=>Yii::app()->language)); ?>">Pelajari Tentang Perusahaan Kami</a></div>
 			</div>
 		</div>
 	</div>
