@@ -11,9 +11,11 @@
       </div>
     <!-- </div> -->
     <div class="inline ">
-      <p class="prev">Artikel sebelumnya</p>
+     <a href="<?php echo CHtml::normalizeUrl(array('/home/blog_detail', 'lang'=>Yii::app()->language)); ?>">
+      <p class="prev">Artikel sebelumnya</p></a>
       <div class="vertical-line"></div>
-      <p class="next">Artikel berikutnya</p>
+      <a href="<?php echo CHtml::normalizeUrl(array('/home/blog_detail', 'lang'=>Yii::app()->language)); ?>">
+      <p class="next">Artikel berikutnya</p></a>
     </div>
   </div>
 </section>
@@ -33,7 +35,7 @@
 
     <div class="row">
       <div class="box-content col-md-20">
-        <img src="<?php echo $this->assetBaseurl; ?>blogthumb.png" alt="">
+      <a href="<?php echo CHtml::normalizeUrl(array('/home/blog_detail', 'lang'=>Yii::app()->language)); ?>"><img src="<?php echo $this->assetBaseurl; ?>blogthumb.png" alt=""></a>
         <div class="inline2">
           <p class="category">Resep </p>
           <div class="vertical-line"></div>
@@ -42,7 +44,7 @@
         <div class="title"><a href="<?php echo CHtml::normalizeUrl(array('/home/blog_detail', 'lang'=>Yii::app()->language)); ?>"><p>Resep kentang goreng crispy bumbu sambal balado</p></a></div>
       </div>
       <div class="box-content col-md-20">
-        <img src="<?php echo $this->assetBaseurl; ?>blogthumb.png" alt="">
+      <a href="<?php echo CHtml::normalizeUrl(array('/home/blog_detail', 'lang'=>Yii::app()->language)); ?>"><img src="<?php echo $this->assetBaseurl; ?>blogthumb.png" alt=""></a>
         <div class="inline2">
           <p class="category">Resep </p>
           <div class="vertical-line"></div>
@@ -51,7 +53,7 @@
         <div class="title"><a href="<?php echo CHtml::normalizeUrl(array('/home/blog_detail', 'lang'=>Yii::app()->language)); ?>"><p>Resep cara memasak mash potato yang mudah dan singkat, namun kelas hotel.</p></a></div>
       </div>
       <div class="box-content col-md-20">
-        <img src="<?php echo $this->assetBaseurl; ?>blogthumb.png" alt="">
+      <a href="<?php echo CHtml::normalizeUrl(array('/home/blog_detail', 'lang'=>Yii::app()->language)); ?>"><img src="<?php echo $this->assetBaseurl; ?>blogthumb.png" alt=""></a>
         <div class="inline2">
           <p class="category">Artikel </p>
           <div class="vertical-line"></div>

@@ -3,17 +3,17 @@
         <div class="row">
             <div class="col-md-50">
                 <nav aria-label="breadcrumb">
-                    <ol class="breadcrumb">
-                        <li class="breadcrumb-item"><a href="#">Home</a></li>
-                        <li class="breadcrumb-item"><a href="#">Library</a></li>
-                        <li class="breadcrumb-item active" aria-current="page">Data</li>
+                    <ol class="breadcrumb p-0">
+                        <li class="breadcrumb-item"><a href="#">Produk</a></li>
+                        <li class="breadcrumb-item"><a href="#">Produk Kentang Beku</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">Frozen Food</li>
                     </ol>
                 </nav>
             </div>
             <div class="col-md-10">
                 <div class="kembali">
                     <a href="#">
-                        <p>kembali</p>
+                        <p>Kembali</p>
                     </a>
                 </div>
             </div>
@@ -23,9 +23,11 @@
 
 <section class="detail-inq">
     <div class="prelative container">
-        <div class="col-md-60">
-            <div class="title-kat">
-            <p>Kategori</p>
+        <div class="row">
+            <div class="col-md-60">
+                <div class="title-kat">
+                <p>Kategori</p>
+                </div>
             </div>
         </div>
         <div class="list row">
@@ -113,10 +115,23 @@
                                     <input type="email" class="form-control" id="inputEmail4" placeholder="">
                                 </div>
                             </div>
-                            <div class="submit"><button class="btn button">SUBMIT</button></div>
+                            <!-- <div class="submit"><button class="btn button">SUBMIT</button></div> -->
                         </form>
                     </div>
                 </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="for-submit">
+    <div class="prelative container">
+        <div class="row">
+            <div class="col-md-15">
+            </div>
+            <div class="col-md-45">
+                <div class="submit"><button class="btn button">SUBMIT</button></div>
+                
             </div>
         </div>
     </div>
@@ -141,13 +156,15 @@
             <div class="col-md-15">
                 <div class="box-content">
                 <div class="image">
-                    <img class="img-fluid image" src="<?php echo $this->assetBaseurl; ?>Layer 46.png" alt="">
+                <a href="<?php echo CHtml::normalizeUrl(array('/home/produk_detailinq', 'lang'=>Yii::app()->language)); ?>">
+                    <img class="img-fluid image" src="<?php echo $this->assetBaseurl; ?>Layer 46.png" alt=""></a>
                 </div>
                 <div class="item">
                     <p>Item #02021</p>
                 </div>
                 <div class="title">
-                    <p>1/2” Crinkle Cut</p>
+                <a href="<?php echo CHtml::normalizeUrl(array('/home/produk_detailinq', 'lang'=>Yii::app()->language)); ?>">
+                    <p>1/2” Crinkle Cut</p></a>
                 </div>
                 <div class="subtitle">
                     <p>Lamb Weston</p>
@@ -157,13 +174,17 @@
             <div class="col-md-15">
                 <div class="box-content">
                 <div class="image">
-                    <img src="<?php echo $this->assetBaseurl; ?>Layer 44.png" alt="">
+                <a href="<?php echo CHtml::normalizeUrl(array('/home/produk_detailinq', 'lang'=>Yii::app()->language)); ?>">
+
+                    <img src="<?php echo $this->assetBaseurl; ?>Layer 44.png" alt=""></a>
                 </div>
                 <div class="item">
                     <p>Item #02021</p>
                 </div>
                 <div class="title">
-                    <p>Baked Potato Skins</p>
+                <a href="<?php echo CHtml::normalizeUrl(array('/home/produk_detailinq', 'lang'=>Yii::app()->language)); ?>">
+
+                    <p>Baked Potato Skins</p></a>
                 </div>
                 <div class="subtitle">
                     <p>Lamb Weston</p>
@@ -173,13 +194,15 @@
             <div class="col-md-15">
                 <div class="box-content">
                 <div class="image">
-                    <img src="<?php echo $this->assetBaseurl; ?>Layer 45.png" alt="">
+                <a href="<?php echo CHtml::normalizeUrl(array('/home/produk_detailinq', 'lang'=>Yii::app()->language)); ?>">
+                    <img src="<?php echo $this->assetBaseurl; ?>Layer 45.png" alt=""></a>
                 </div>
                 <div class="item">
                     <p>Item #02021</p>
                 </div>
                 <div class="title">
-                    <p>Waffled Hashbrown</p>
+                <a href="<?php echo CHtml::normalizeUrl(array('/home/produk_detailinq', 'lang'=>Yii::app()->language)); ?>">
+                    <p>Waffled Hashbrown</p></a>
                 </div>
                 <div class="subtitle">
                     <p>Lamb Weston</p>
@@ -189,13 +212,17 @@
             <div class="col-md-15">
                 <div class="box-content">
                 <div class="image">
-                    <img src="<?php echo $this->assetBaseurl; ?>Layer 46.png" alt="">
+                <a href="<?php echo CHtml::normalizeUrl(array('/home/produk_detailinq', 'lang'=>Yii::app()->language)); ?>">
+
+                    <img src="<?php echo $this->assetBaseurl; ?>Layer 46.png" alt=""></a>
                 </div>
                 <div class="item">
                     <p>Item #02021</p>
                 </div>
                 <div class="title">
-                    <p>Waffled Hashbrown</p>
+                <a href="<?php echo CHtml::normalizeUrl(array('/home/produk_detailinq', 'lang'=>Yii::app()->language)); ?>">
+
+                    <p>Waffled Hashbrown</p></a>
                 </div>
                 <div class="subtitle">
                     <p>Lamb Weston</p>
@@ -205,3 +232,4 @@
         </div>
     </div>
 </section>
+
