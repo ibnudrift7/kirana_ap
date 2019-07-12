@@ -109,22 +109,22 @@
   </div>
 </section>
 
-<!-- <header class="header-mobile homepage_head">
+<header class="header-mobile homepage_head">
   <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-  <a class="navbar-brand" href="<?php echo CHtml::normalizeUrl(array('/home/index', 'lang'=>Yii::app()->language)); ?>"><img src="<?php echo $this->assetBaseurl; ?>logo-header.png" alt="" class="img img-fluid"></a>
+  <a class="navbar-brand" href="<?php echo CHtml::normalizeUrl(array('/home/index', 'lang'=>Yii::app()->language)); ?>"><img src="<?php echo $this->assetBaseurl; ?>Layer-25-copy.png" alt="" class="img img-fluid"></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
 
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
-      <li class="nav-item"><a href="<?php echo CHtml::normalizeUrl(array('/home/index', 'lang'=>Yii::app()->language)); ?>">Home</a></li>
-      <li class="nav-item"><a href="<?php echo CHtml::normalizeUrl(array('/home/about', 'lang'=>Yii::app()->language)); ?>">About Us</a></li>
-      <li class="nav-item"><a href="<?php echo CHtml::normalizeUrl(array('/home/product', 'lang'=>Yii::app()->language)); ?>">Our Products</a></li>
-      <li class="nav-item"><a href="<?php echo CHtml::normalizeUrl(array('/home/project', 'lang'=>Yii::app()->language)); ?>">Our Projects</a></li>
-      <li class="nav-item"><a href="<?php echo CHtml::normalizeUrl(array('/home/partner', 'lang'=>Yii::app()->language)); ?>">Our Partners</a></li>
-      <li class="nav-item"><a href="<?php echo CHtml::normalizeUrl(array('/home/career', 'lang'=>Yii::app()->language)); ?>">Career</a></li>
-      <li class="nav-item"><a href="<?php echo CHtml::normalizeUrl(array('/home/contact', 'lang'=>Yii::app()->language)); ?>">Contact</a></li>      
+      <li class="list-inline-item menu"><a href="<?php echo CHtml::normalizeUrl(array('/home/index', 'lang'=>Yii::app()->language)); ?>">Home</a></li>
+      <li class="list-inline-item menu"><a href="<?php echo CHtml::normalizeUrl(array('/home/about', 'lang'=>Yii::app()->language)); ?>">Tentang Kami</a></li>
+      <li class="list-inline-item menu"><a href="<?php echo CHtml::normalizeUrl(array('/home/produk', 'lang'=>Yii::app()->language)); ?>">Produk</a></li>
+      <li class="list-inline-item menu"><a href="<?php echo CHtml::normalizeUrl(array('/home/quality', 'lang'=>Yii::app()->language)); ?>">Kualitas</a></li>
+      <li class="list-inline-item menu"><a href="<?php echo CHtml::normalizeUrl(array('/home/blog', 'lang'=>Yii::app()->language)); ?>">Blog & Articles</a></li>
+      <li class="list-inline-item menu"><a href="<?php echo CHtml::normalizeUrl(array('/home/kerjasama', 'lang'=>Yii::app()->language)); ?>">Kerjasama</a></li>
+      <li class="list-inline-item menu"><a href="<?php echo CHtml::normalizeUrl(array('/home/kontak', 'lang'=>Yii::app()->language)); ?>">Hubungi Kami</a></li>    
       <li class="nav-item">
       <?php
       $get = $_GET; $get['lang'] = 'en';
@@ -135,7 +135,7 @@
     </ul>
   </div>
   </nav>
-</header> -->
+</header>
 
 <script type="text/javascript">
   $(function(){

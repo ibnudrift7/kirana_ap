@@ -9,7 +9,7 @@
 					<p>Apa yang anda dapat ketika anda memutuskan untuk membeli produk dari PT. Kirana Food?</p>
 				</div>
 			</div>
-			<div class="col-md-15">
+			<div class="col-md-15 col-30">
 				<div class="box-content">
 					<div class="image">
 						<img src="<?php echo $this->assetBaseurl; ?>png1.png" alt="">
@@ -19,7 +19,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-md-15">
+			<div class="col-md-15 col-30">
 				<div class="box-content">
 					<div class="image">
 						<img src="<?php echo $this->assetBaseurl; ?>png2.png" alt="">
@@ -29,7 +29,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-md-15">
+			<div class="col-md-15 col-30">
 				<div class="box-content">
 					<div class="image">
 						<img src="<?php echo $this->assetBaseurl; ?>png3.png" alt="">
@@ -39,7 +39,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-md-15">
+			<div class="col-md-15 col-30">
 				<div class="box-content">
 					<div class="image">
 						<img src="<?php echo $this->assetBaseurl; ?>png4.png" alt="">

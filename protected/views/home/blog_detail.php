@@ -3,7 +3,7 @@
     <!-- <div class="row"> -->
       <p class="kategori">Blog & Artikel  /  Resep</p><br>
       <p class="judul">Resep kentang goreng crispy bumbu sambal balado</p>
-      <img src="<?php echo $this->assetBaseurl; ?>blogdetail.png" alt="" class="gambar">
+      <img class="w-100" src="<?php echo $this->assetBaseurl; ?>blogdetail.png" alt="" class="gambar">
       <div class="isi">
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus mattis imperdiet interdum. Aenean sit amet sem vitae nisl consequat egestas. Morbi aliquam quam eget tortor bibendum cursus. Nulla luctus ligula id commodo dapibus. Etiam non ultrices dolor. Aliquam turpis risus, porta vel est quis, pharetra euismod neque. Integer bibendum ante sed dolor auctor tristique. Curabitur maximus lacus nisi, at iaculis mi venenatis vel. Donec consectetur cursus ante.</p>
         <p><b>Cras tincidunt</b><br> Diam in convallis auctor, ligula ex luctus diam, sit amet varius felis leo ut ipsum. Phasellus massa felis, semper vel dolor sit amet, sollicitudin aliquet enim. Etiam posuere tristique purus ut tristique. Morbi ac dolor ut quam cursus consequat.</p>
@@ -24,10 +24,10 @@
   <div class="prelative container">
   <hr pt>
   <div class="inline row">
-    <div class="col-md-30">      
+    <div class="col-md-30 col-30">      
       <p class="blog">Blog & Artikel Lainnya</p>
     </div>
-    <div class="allblog col-md-30">      
+    <div class="allblog col-md-30 col-30">      
       <a href="<?php echo CHtml::normalizeUrl(array('/home/blog', 'lang'=>Yii::app()->language)); ?>"><p>Lihat semua blog & artikel</p></a>
     </div>
   </div>

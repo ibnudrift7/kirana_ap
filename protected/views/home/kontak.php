@@ -1,16 +1,16 @@
 <section class="kontak-sec-1">
-    <div class="prelative1 container">
+    <div class="prelative container">
         <div class="row">
             <div class="col-md-60 p-0">
                 <div class="title">
                     <p>HUBUNGI KAMI</p>
                 </div>
-                <div class="prelative2 subtitle">
+                <div class="subtitle">
                     <h2>Tim layanan pelanggan kami akan senantiasa
                         siap untuk melayani segala pertanyaan anda</h2>
                 </div>
                 <div class="img1">
-                    <img src="<?php echo $this->assetBaseurl; ?>ijo.png" alt="">
+                    <img class="w-100" src="<?php echo $this->assetBaseurl; ?>ijo.png" alt="">
                 </div>
                 <div class="logo pt-5">
                     <img src="<?php echo $this->assetBaseurl; ?>kirana.jpg" alt="">
@@ -27,7 +27,7 @@
                 </div>
             </div>
         </div>
-        <div class="prelative2 row">
+        <div class="row">
             <div class="col-md-19">
                 <div class="box-content ">
                     <img class="w-40 pt-4 pb-4" src="<?php echo $this->assetBaseurl; ?>phone.png" alt="Card image cap">
@@ -41,7 +41,7 @@
                     </div>
                 </div>
             </div>
-            <div class="vl"></div>
+            <div class="vl d-none d-sm-block"></div>
             <div class="col-md-19">
                 <div class="box-content ">
                     <img class="w-40 pt-4 pb-4" src="<?php echo $this->assetBaseurl; ?>mail.png" alt="Card image cap">
@@ -55,7 +55,7 @@
                     </div>
                 </div>
             </div>
-            <div class="vl"></div>
+            <div class="vl d-none d-sm-block"></div>
             <div class="col-md-19 p-0">
                 <div class="box-content ">
                     <img class="w-40 pt-4 pb-3" src="<?php echo $this->assetBaseurl; ?>walogo.png" alt="Card image cap">
@@ -73,7 +73,7 @@
     </div>
 </section>
 
-<section class="kontak-sec-2">
+<section class="home-sec-3">
 <div class="prelative container">
 		<div class="row">
 			<div class="col-md-60">
@@ -101,7 +101,7 @@
 								</div>
 								<div class="form-group col-md-15">
 									<label for="inputEmail4">Email</label>
-									<input type="email" class="form-control" id="inputEmail4" placeholder="">
+								<input type="email" class="form-control" id="inputEmail4" placeholder="">
 								</div>
 							</div>
 						</form>

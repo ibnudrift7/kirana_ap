@@ -44,7 +44,7 @@
           <div class="col-md-20">
             <div class="box-content">
               <div class="image">
-                <a href="<?php echo CHtml::normalizeUrl(array('/home/produk_detailinq', 'lang'=>Yii::app()->language)); ?>"><img src="<?php echo $this->assetBaseurl; ?>Layer 44.png" alt=""></a>
+                <a href="<?php echo CHtml::normalizeUrl(array('/home/produk_detailinq', 'lang'=>Yii::app()->language)); ?>"><img class="w-100" src="<?php echo $this->assetBaseurl; ?>Layer 44.png" alt=""></a>
               </div>
               <div class="isi">
                 <div class="item">
@@ -65,7 +65,7 @@
             <div class="box-content">
               <div class="image">
               <a href="<?php echo CHtml::normalizeUrl(array('/home/produk_detailinq', 'lang'=>Yii::app()->language)); ?>">
-                <img src="<?php echo $this->assetBaseurl; ?>Layer 45.png" alt="">
+                <img class="w-100" src="<?php echo $this->assetBaseurl; ?>Layer 45.png" alt="">
               
               </a></div>
               <div class="isi">
@@ -85,7 +85,7 @@
             <div class="box-content">
               <div class="image">
               <a href="<?php echo CHtml::normalizeUrl(array('/home/produk_detailinq', 'lang'=>Yii::app()->language)); ?>">
-                <img src="<?php echo $this->assetBaseurl; ?>Layer 46.png" alt=""></a>
+                <img class="w-100" src="<?php echo $this->assetBaseurl; ?>Layer 46.png" alt=""></a>
               </div>
               <div class="isi">
                 <div class="item">

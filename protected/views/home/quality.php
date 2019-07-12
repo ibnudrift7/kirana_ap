@@ -70,7 +70,7 @@
   </div>
 </section>
 
-<section class="quality-sec-3">
+<section class="about-sec-4">
   <div class="prelative container">
     <div class="row">
       <div class="col-md-60">
@@ -114,7 +114,7 @@
   </div>
 </section>
 
-<section class="quality-sec-4">
+<section class="home-sec-3">
 	<div class="prelative container">
 		<div class="row">
 			<div class="col-md-60">

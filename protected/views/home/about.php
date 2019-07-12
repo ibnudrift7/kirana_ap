@@ -137,7 +137,7 @@
   </div>
 </section>
 
-<section class="about-sec-5">
+<section class="home-sec-3">
 	<div class="prelative container">
 		<div class="row">
 			<div class="col-md-60">

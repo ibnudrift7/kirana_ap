@@ -1,7 +1,7 @@
 <section class="bread">
     <div class="prelative container">
         <div class="row">
-            <div class="col-md-50">
+            <div class="col-md-50 col-50">
                 <nav aria-label="breadcrumb">
                     <ol class="breadcrumb p-0">
                         <li class="breadcrumb-item"><a href="#">Produk</a></li>
@@ -10,7 +10,7 @@
                     </ol>
                 </nav>
             </div>
-            <div class="col-md-10">
+            <div class="col-md-10 col-10">
                 <div class="kembali">
                     <a href="#">
                         <p>Kembali</p>
@@ -140,12 +140,12 @@
 <section class="detail-inq-sec2">
     <div class="prelative container">
         <div class="row">
-            <div class="col-md-45">
+            <div class="col-md-45 col-43">
                 <div class="lainya">
                     <p>Produk Kirana Food Lainnya</p>
                 </div>
             </div>
-            <div class="col-md-15">
+            <div class="col-md-15 col-17">
                 <div class="lihat-semua">
                 <a href="<?php echo CHtml::normalizeUrl(array('/home/produk_detail', 'lang'=>Yii::app()->language)); ?>">
                     <p>Lihat Semua</p></a>
