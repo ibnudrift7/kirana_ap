@@ -94,12 +94,12 @@
           <div class="menu-taffix">
             <ul class="list-inline d-inline">
               <li class="list-inline-item menu"><a href="<?php echo CHtml::normalizeUrl(array('/home/index', 'lang'=>Yii::app()->language)); ?>">Home</a></li>
-              <li class="list-inline-item menu"><a href="#">Tentang Kami</a></li>
-              <li class="list-inline-item menu"><a href="#">Produk</a></li>
-              <li class="list-inline-item menu"><a href="#">Kualitas</a></li>
-              <li class="list-inline-item menu"><a href="#">Blog & Articles</a></li>
-              <li class="list-inline-item menu"><a href="#">Kerjasama</a></li>
-              <li class="list-inline-item menu"><a href="#">Hubungi Kami</a></li>
+              <li class="list-inline-item menu"><a href="<?php echo CHtml::normalizeUrl(array('/home/about', 'lang'=>Yii::app()->language)); ?>">Tentang Kami</a></li>
+              <li class="list-inline-item menu"><a href="<?php echo CHtml::normalizeUrl(array('/home/produk', 'lang'=>Yii::app()->language)); ?>">Produk</a></li>
+              <li class="list-inline-item menu"><a href="<?php echo CHtml::normalizeUrl(array('/home/quality', 'lang'=>Yii::app()->language)); ?>">Kualitas</a></li>
+              <li class="list-inline-item menu"><a href="<?php echo CHtml::normalizeUrl(array('/home/blog', 'lang'=>Yii::app()->language)); ?>">Blog & Articles</a></li>
+              <li class="list-inline-item menu"><a href="<?php echo CHtml::normalizeUrl(array('/home/kerjasama', 'lang'=>Yii::app()->language)); ?>">Kerjasama</a></li>
+              <li class="list-inline-item menu"><a href="<?php echo CHtml::normalizeUrl(array('/home/kontak', 'lang'=>Yii::app()->language)); ?>">Hubungi Kami</a></li>
             </ul>
           </div>
         </div>

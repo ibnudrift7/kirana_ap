@@ -26,7 +26,7 @@
                 <div class="box-produk">
                     <div class="content pl-5 pt-3 pr-5">
                         <div class="pt-4">
-                            <h3 class="titlecard">Produk Kentang Beku / Frozen Potato</h3>
+                            <h3 class="titlecard"><a href="<?php echo CHtml::normalizeUrl(array('/home/produk_detail', 'lang'=>Yii::app()->language)); ?>">Produk Kentang Beku / Frozen Potato</a></h3>
                         </div>
                         <div class="pt-2">
                             <p class="text">Aneka varian produk kentang beku impor berkualitas, dengan berbagai bentuk dan bumbu saji yang membuat hidangan sangat mudah diproses dan dinikmati.</p>
@@ -41,8 +41,8 @@
                 <div class="box-produk">
                     <div class="content pl-5 pt-3 pr-5">
                         <div class="pt-4">
-                            <h3 class="titlecard">Produk Sayuran Beku / Frozen
-                                Vegetables</h3>
+                            <h3 class="titlecard"><a href="<?php echo CHtml::normalizeUrl(array('/home/produk_detail', 'lang'=>Yii::app()->language)); ?>">Produk Sayuran Beku / Frozen
+                                Vegetables</a></h3>
                         </div>
                         <div class="pt-2">
                             <p class="text">Aneka varian produk sayuran beku impor berkualitas seperti kacang polong, jagung, wortel, jamur, asparagus, brokoli dan masih banyak lagi, untuk melengkapi hidangan utama anda.</p>
@@ -67,7 +67,7 @@
                 <div class="box-produk">
                     <div class="content pl-5 pt-3 pr-5">
                         <div class="pt-4">
-                            <h3 class="titlecard">Produk Buah Beku / Frozen Fruits</h3>
+                            <h3 class="titlecard"><a href="<?php echo CHtml::normalizeUrl(array('/home/produk_detail', 'lang'=>Yii::app()->language)); ?>">Produk Buah Beku / Frozen Fruits</a></h3>
                         </div>
                         <div class="pt-2">
                             <p class="text">Buah segar yang telah dikeringkan dan siap digunakan sebagai bahan baku pendukung masakan anda.</p>
@@ -82,8 +82,8 @@
                 <div class="box-produk">
                     <div class="content pl-5 pt-3 pr-5">
                         <div class="pt-4">
-                            <h3 class="titlecard">Produk Makanan Proses / Processed
-                                Food</h3>
+                            <h3 class="titlecard"><a href="<?php echo CHtml::normalizeUrl(array('/home/produk_detail', 'lang'=>Yii::app()->language)); ?>">Produk Makanan Proses / Processed
+                                Food</a></h3>
                         </div>
                         <div class="pt-2">
                             <p class="text">Aneka produk makanan proses siap dimasak seperti daging olahan berbentuk nugget, lumpia, samosa, fish cake, siomay dan masih banyak lagi.</p>
@@ -108,7 +108,7 @@
                 <div class="box-produk">
                     <div class="content pl-5 pt-3 pr-5">
                         <div class="pt-4">
-                            <h3 class="titlecard">Produk lainnya</h3>
+                            <h3 class="titlecard"><a href="<?php echo CHtml::normalizeUrl(array('/home/produk_detail', 'lang'=>Yii::app()->language)); ?>">Produk lainnya</a></h3>
                         </div>
                         <div class="pt-2">
                             <p class="text">Berbagai pengembangan usaha PT. Kirana Food lainnya seperti daging sapi beku, ayam beku, udang beku, dan masih banyak lagi.</p>

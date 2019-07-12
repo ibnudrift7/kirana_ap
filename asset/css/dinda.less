@@ -1,8 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Volkhov:400,400i,700,700i&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Fira+Sans:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap');
 
-@volkhov : 'Volkhov',
-serif;
+@volkhov : 'Volkhov', serif;
 @fira : 'Fira Sans',
 sans-serif;
 
@@ -871,7 +870,7 @@ section.blog-sec-1 {
     .subtitle {
 
         max-width: 490px;
-        margin: 0auto;
+        margin: 0 auto;
         display: block;
         text-align: center;
         font-family: @volkhov;
@@ -894,7 +893,7 @@ section.blog-sec-1 {
             display: block;
         }
 
-        .title {
+        .title a p{
             font-size: 18px;
             font-weight: 300;
             letter-spacing: 1px;
@@ -1025,7 +1024,7 @@ section.prod-det-1 {
             background-color: #fff;
             margin-bottom: 30px;
 
-            img {
+            img a {
                 width: 100%;
             }
 
@@ -1063,9 +1062,35 @@ section.prod-det-1 {
 
 }
 
+section.bread{
+    background-color: #ffffff;
+    border-bottom: 1px solid #efefef;
+    border-top: 8px solid #e67817;
+    // padding-bottom: 50px;
+    .prelative.container{
+        margin-top: 15px;
+        nav{
+            ol.breadcrumb{
+                background-color: #ffffff;
+    
+                li.breadcrumb-item a {
+                    font-size: 15px;
+                    color: black;
+                }
+            }
+        }
+        .kembali a p{
+            font-size: 15px;
+            color: #e67817;
+            vertical-align: middle;
+            text-align: right;
+        }
+    }
+}
+
 section.detail-inq {
     background-color: #ffffff;
-
+    padding-top: 50px;
     .title-kat {
         font-family: @volkhov;
         font-weight: 700;
@@ -1128,7 +1153,7 @@ section.detail-inq {
             color: #e67817;
             padding-bottom: 15px;
             font-family: @volkhov ;
-            color: #555555;
+            color: #e67817;
 
         }
 
@@ -1146,12 +1171,16 @@ section.detail-inq {
         .image {
             img {
                 width: 100%;
+                margin-top: 70px;
             }
         }
 
         .showimage {
-            width: 100%;
-            padding-bottom: 25px;
+            img{
+                width: 100%;
+                padding-bottom: 25px;
+            }
+            
         }
 
         .desk {
@@ -1184,7 +1213,7 @@ section.detail-inq {
         }
 
         .fieldd {
-            padding-bottom: 120px;
+            padding-bottom: 30px;
 
             label {
                 font-size: 13px;
@@ -1197,8 +1226,24 @@ section.detail-inq {
                     background-color: #81be41;
                     color: #ffffff;
                     font-size: 18px;
+                    float: right;
                 }
             }
+        }
+    }
+}
+
+section.for-submit{
+    background: #efefef;
+    min-height: 115px;
+    .submit {
+        .button {
+            background-color: #81be41;
+            color: #ffffff;
+            font-size: 18px;
+            float: right;
+            padding: 5px 30px;
+            margin-top: 35px;
         }
     }
 }
@@ -1219,7 +1264,7 @@ section.detail-inq-sec2 {
     .lihat-semua a p {
         font-size: 15px;
         color: #e67817;
-
+        text-align: right;
     }
 
     .box-content {
@@ -1227,35 +1272,39 @@ section.detail-inq-sec2 {
         background-color: #fff;
 
         .image {
-            width: 100%;
+            img{
+                width: 100%;
+            }
         }
 
         .item {
+            padding-left: 25px;
             font-size: 11px;
             font-weight: 300;
-            padding-bottom: 25px;
+            padding-bottom: 20px;
             font-family: @fira;
             letter-spacing: 1px;
             color: #555555;
+            padding-top: 20px;
         }
 
-        .title {
+        .title a p{
+            padding-left: 25px;
             font-size: 17px;
             font-weight: 700;
             color: #e67817;
-            padding-bottom: 15px;
+            padding-bottom: 10px;
             font-family: @volkhov ;
-            color: #555555;
-
         }
 
         .subtitle {
+            padding-left: 25px;
             font-size: 16px;
             font-weight: 300;
             font-family: @fira;
             letter-spacing: 1px;
-            padding-bottom: 45px;
             color: #555555;
+            padding-bottom: 30px;
 
 
         }
