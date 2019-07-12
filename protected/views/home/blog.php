@@ -1,11 +1,12 @@
 <section class="blog-sec-1">
+
     <div class="prelative container">
-        <div class="row">
+        <div class="row tops_blog_cat text-center">
             <div class="col-md-60">
                 <div class="title">
                     <p>Blog & Artikel</p>
                 </div>
-                <div class="subtitle">
+                <div class="subtitle d-block mx-auto">
                     <p>Silahkan simak aneka tips, resep dan artikel seputar makanan dan kesehatan</p>
                 </div>
             </div>
