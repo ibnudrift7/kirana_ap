@@ -22,7 +22,7 @@
             <div class="carousel-inner" style="overflow: visible;">
                 <div class="carousel-item active home-slider-new">
                     <div class="row no-gutters">
-                        <div class="col-md-18">
+                        <div class="col-md-18 order-2 order-sm-1">
                             <div class="slider-container">
                                 <div class="slider-kiri px-2">
                                     <div class="content">
@@ -35,7 +35,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-42">
+                        <div class="col-md-42 order-1 order-sm-2">
                             <img class="w-100 d-none d-sm-block" src="<?php echo $this->assetBaseurl; ?>sec1.jpg" alt="" style="background-repeat: no-repeat; background-size: cover;">
                         </div>
                         <div class="image-bawah-slide"><img src="<?php echo $this->assetBaseurl; ?>Layer-30.png" alt=""></div>
