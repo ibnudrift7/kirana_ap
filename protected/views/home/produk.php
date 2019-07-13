@@ -48,12 +48,12 @@ $n_cat_prd = [
                 <?php foreach ($val as $key => $value): ?>
                     <?php if ($key == 0): ?>
                         <div class="row d-flex">
-                        <div class="col-md-30 pt-4 px-0 order-1 order-sm-2">
+                        <div class="col-md-30 pt-4 px-0 order-1 order-sm-1">
                             <div class="box-produk">
                                 <img class="img img-fluid w-100" src="<?php echo $this->assetBaseurl; ?>Rectangle1.png" alt="">
                             </div>
                         </div>
-                        <div class="col-md-30 pt-4 px-0 order-2 order-sm-1">
+                        <div class="col-md-30 pt-4 px-0 order-2 order-sm-2">
                             <div class="box-produk">
                                 <div class="content pl-5 pt-3 pr-5">
                                     <div class="pt-4">
