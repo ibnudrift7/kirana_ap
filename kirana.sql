@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jul 18, 2019 at 12:38 PM
+-- Generation Time: Jul 18, 2019 at 12:48 PM
 -- Server version: 10.1.37-MariaDB
 -- PHP Version: 7.1.24
 
@@ -811,8 +811,8 @@ CREATE TABLE `language` (
 --
 
 INSERT INTO `language` (`id`, `name`, `code`, `sort`, `status`) VALUES
-(2, 'English', 'en', 1, '0'),
-(3, 'Indonesia', 'id', 2, '1');
+(2, 'English', 'en', 1, '1'),
+(3, 'Indonesia', 'id', 2, '0');
 
 -- --------------------------------------------------------
 
@@ -3622,7 +3622,11 @@ INSERT INTO `log` (`id`, `username`, `activity`, `time`) VALUES
 (2300, 'info@markdesign.net', 'Create Category 31', '2019-07-18 10:32:51'),
 (2301, 'info@markdesign.net', 'Create Category 32', '2019-07-18 10:32:57'),
 (2302, 'info@markdesign.net', 'Create Category 33', '2019-07-18 10:38:15'),
-(2303, 'info@markdesign.net', 'Create Category 34', '2019-07-18 10:38:24');
+(2303, 'info@markdesign.net', 'Create Category 34', '2019-07-18 10:38:24'),
+(2304, 'info@markdesign.net', 'Login: info@markdesign.net', '2019-07-18 10:41:23'),
+(2305, 'info@markdesign.net', 'PrdProduct Controller Create 3', '2019-07-18 10:45:49'),
+(2306, 'info@markdesign.net', 'Login: info@markdesign.net', '2019-07-18 10:46:16'),
+(2307, 'info@markdesign.net', 'PrdProduct Controller Create 4', '2019-07-18 10:48:18');
 
 -- --------------------------------------------------------
 
@@ -4257,10 +4261,10 @@ CREATE TABLE `prd_category` (
 
 INSERT INTO `prd_category` (`id`, `parent_id`, `sort`, `image`, `image2`, `image3`, `type`, `data`) VALUES
 (1, 0, 1, '', '', '', 'category', ''),
-(2, 1, 2, '', '', '', 'category', ''),
-(34, 0, 0, '', '', '', 'category', ''),
-(13, 1, 1, '', '', '', 'category', ''),
-(33, 0, 0, '', '', '', 'category', ''),
+(2, 1, 1, '', '', '', 'category', ''),
+(34, 1, 7, '', '', '', 'category', ''),
+(13, 1, 2, '', '', '', 'category', ''),
+(33, 1, 6, '', '', '', 'category', ''),
 (21, 1, 3, '', '', '', 'category', ''),
 (23, 1, 4, '', '', '', 'category', ''),
 (26, 1, 5, '', '', '', 'category', '');
@@ -4366,6 +4370,16 @@ CREATE TABLE `prd_category_product` (
   `product_id` int(11) NOT NULL
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 
+--
+-- Dumping data for table `prd_category_product`
+--
+
+INSERT INTO `prd_category_product` (`id`, `category_id`, `product_id`) VALUES
+(1, 2, 1),
+(2, 2, 2),
+(3, 2, 3),
+(4, 2, 4);
+
 -- --------------------------------------------------------
 
 --
@@ -4377,12 +4391,13 @@ CREATE TABLE `prd_product` (
   `category_id` int(11) NOT NULL,
   `brand_id` int(11) NOT NULL,
   `image` varchar(200) NOT NULL,
+  `image2` varchar(225) DEFAULT NULL,
   `kode` varchar(50) NOT NULL,
   `harga` decimal(11,2) NOT NULL,
   `harga_coret` decimal(11,2) NOT NULL,
   `harga_retail` int(11) NOT NULL,
   `stock` int(11) NOT NULL,
-  `berat` int(11) NOT NULL,
+  `berat` varchar(225) NOT NULL,
   `terbaru` int(11) NOT NULL,
   `terlaris` int(11) NOT NULL,
   `out_stock` int(11) NOT NULL,
@@ -4391,8 +4406,19 @@ CREATE TABLE `prd_product` (
   `date_input` datetime NOT NULL,
   `date_update` datetime NOT NULL,
   `data` text NOT NULL,
-  `tag` varchar(200) NOT NULL
+  `tag` varchar(200) NOT NULL,
+  `filter` longtext
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `prd_product`
+--
+
+INSERT INTO `prd_product` (`id`, `category_id`, `brand_id`, `image`, `image2`, `kode`, `harga`, `harga_coret`, `harga_retail`, `stock`, `berat`, `terbaru`, `terlaris`, `out_stock`, `status`, `date`, `date_input`, `date_update`, `data`, `tag`, `filter`) VALUES
+(1, 0, 0, 'c0508-gueeeeee.jpg', NULL, '234324', '0.00', '0.00', 0, 0, ' 10 kg', 0, 0, 0, 1, '2019-07-18 17:41:31', '2019-07-18 17:44:37', '2019-07-18 17:44:37', 'a:1:{s:6:\"carton\";s:9:\"4 x 2,5kg\";}', '', NULL),
+(2, 0, 0, 'c9da0-gueeeeee.jpg', NULL, '234324', '0.00', '0.00', 0, 0, ' 10 kg', 0, 0, 0, 1, '2019-07-18 17:41:31', '2019-07-18 17:45:34', '2019-07-18 17:45:34', 'a:1:{s:6:\"carton\";s:9:\"4 x 2,5kg\";}', '', NULL),
+(3, 0, 0, '6f6b7-gueeeeee.jpg', NULL, '234324', '0.00', '0.00', 0, 0, ' 10 kg', 0, 0, 0, 1, '2019-07-18 17:41:31', '2019-07-18 17:45:49', '2019-07-18 17:45:49', 'a:1:{s:6:\"carton\";s:9:\"4 x 2,5kg\";}', ', brand=, category=Frozen, category=1, category=French Fries, category=2,', '||brand=||category=Frozen||category=1||category=French Fries||category=2||'),
+(4, 0, 0, '7fda6-gueeeeee.jpg', NULL, 'FF001', '0.00', '0.00', 0, 0, '10 Kg', 0, 0, 0, 1, '2019-07-18 17:46:25', '2019-07-18 17:48:18', '2019-07-18 17:48:18', 'a:1:{s:6:\"carton\";s:9:\"4 x 2,5kg\";}', ', brand=, category=Frozen, category=1, category=French Fries, category=2,', '||brand=||category=Frozen||category=1||category=French Fries||category=2||');
 
 -- --------------------------------------------------------
 
@@ -4441,6 +4467,16 @@ CREATE TABLE `prd_product_description` (
   `meta_key` text NOT NULL,
   `note` text NOT NULL
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `prd_product_description`
+--
+
+INSERT INTO `prd_product_description` (`id`, `product_id`, `language_id`, `name`, `subtitle`, `desc`, `meta_title`, `meta_desc`, `meta_key`, `note`) VALUES
+(1, 1, 2, 'Frozenland Shoestring', 'Lamb Weston', '<p>Kentang goreng dengan potongan bergerigi menawarkan keunikan tersendiri untuk hidangan Anda. Lapisan luar yang garing membalut kentang yg lembut di dalam.</p>', '', '', '', ''),
+(2, 2, 2, 'Frozenland Shoestring', 'Lamb Weston', '<p>Kentang goreng dengan potongan bergerigi menawarkan keunikan tersendiri untuk hidangan Anda. Lapisan luar yang garing membalut kentang yg lembut di dalam.</p>', '', '', '', ''),
+(3, 3, 2, 'Frozenland Shoestring', 'Lamb Weston', '<p>Kentang goreng dengan potongan bergerigi menawarkan keunikan tersendiri untuk hidangan Anda. Lapisan luar yang garing membalut kentang yg lembut di dalam.</p>', '', '', '', ''),
+(4, 4, 2, 'Frozenland Shoestring', 'Lamb Weston', '<p>Aneka varian produk kentang beku impor berkualitas, dengan berbagai bentuk dan bumbu saji yang membuat hidangan sangat mudah diproses dan dinikmati.</p>', '', '', '', '');
 
 -- --------------------------------------------------------
 
@@ -6223,7 +6259,7 @@ ALTER TABLE `language`
 -- AUTO_INCREMENT for table `log`
 --
 ALTER TABLE `log`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2304;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2308;
 
 --
 -- AUTO_INCREMENT for table `me_member`
@@ -6355,13 +6391,13 @@ ALTER TABLE `prd_category_description`
 -- AUTO_INCREMENT for table `prd_category_product`
 --
 ALTER TABLE `prd_category_product`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
 
 --
 -- AUTO_INCREMENT for table `prd_product`
 --
 ALTER TABLE `prd_product`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
 
 --
 -- AUTO_INCREMENT for table `prd_product_attributes`
@@ -6379,7 +6415,7 @@ ALTER TABLE `prd_product_color`
 -- AUTO_INCREMENT for table `prd_product_description`
 --
 ALTER TABLE `prd_product_description`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
 
 --
 -- AUTO_INCREMENT for table `prd_product_image`
