@@ -128,9 +128,9 @@ $this->menu=array(
 				                    </tbody>
 				                </table>
 				                <div class="divider5"></div>
+				                <?php /*
                             	<a data-id="<?php echo $value->onsale ?>" href="<?php echo CHtml::normalizeUrl(array('setStatus', 'id'=>$value->id, 'type'=>'onsale')); ?>" class="btn btn-small btn-onsale">On Sale <i class="fa fa-square-o"></i></a>
                             	<a data-id="<?php echo $value->terlaris ?>" href="<?php echo CHtml::normalizeUrl(array('setStatus', 'id'=>$value->id, 'type'=>'terlaris')); ?>" class="btn btn-small btn-terlaris">Trending Now <i class="fa fa-square-o"></i></a>
-				                <?php /*
                             	<a data-id="<?php echo $value->terbaru ?>" href="<?php echo CHtml::normalizeUrl(array('setStatus', 'id'=>$value->id, 'type'=>'terbaru')); ?>" class="btn btn-small btn-primary btn-terbaru">Terbaru <i class="fa fa-check-square-o"></i></a>
                             	<a data-id="<?php echo $value->out_stock ?>" href="<?php echo CHtml::normalizeUrl(array('setStatus', 'id'=>$value->id, 'type'=>'out_stock')); ?>" class="btn btn-small btn-out-stock">Out Stock <i class="fa fa-square-o"></i></a>
                             	<a data-id="<?php echo $value->rekomendasi ?>" href="<?php echo CHtml::normalizeUrl(array('setStatus', 'id'=>$value->id, 'type'=>'rekomendasi')); ?>" class="btn btn-small btn-rekomendasi">Rekomendasi <i class="fa fa-square-o"></i></a>
