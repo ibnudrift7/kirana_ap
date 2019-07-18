@@ -330,13 +330,13 @@ class ProductController extends ControllerAdmin
 						}
 					}
 
-					PrdGalleryHighlight::model()->deleteAll('product_id = :id', array(':id'=>$model->id));
-					if ($model->gallery_id != '') {
-						$modelGalhigh = new PrdGalleryHighlight;
-						$modelGalhigh->product_id = $model->id;
-						$modelGalhigh->gallery_id = $model->gallery_id;
-						$modelGalhigh->save(false);
-					}
+					// PrdGalleryHighlight::model()->deleteAll('product_id = :id', array(':id'=>$model->id));
+					// if ($model->gallery_id != '') {
+					// 	$modelGalhigh = new PrdGalleryHighlight;
+					// 	$modelGalhigh->product_id = $model->id;
+					// 	$modelGalhigh->gallery_id = $model->gallery_id;
+					// 	$modelGalhigh->save(false);
+					// }
 
 					$model->tag = implode(', ', $dataTag).',';
 					$model->filter = implode('||', $dataTag).'||';
@@ -426,8 +426,8 @@ class ProductController extends ControllerAdmin
 		$modelCategory = array();
 		$modelCategory = PrdCategoryProduct::model()->findAll('product_id = :id ORDER BY id', array(':id'=>$model->id));
 
-		$modelGalspot = array();
-		$modelGalspot = PrdGalleryHighlight::model()->find('product_id = :id ORDER BY id', array(':id'=>$model->id));
+		// $modelGalspot = array();
+		// $modelGalspot = PrdGalleryHighlight::model()->find('product_id = :id ORDER BY id', array(':id'=>$model->id));
 
 		// Uncomment the following line if AJAX validation is needed
 		// $this->performAjaxValidation($model);
@@ -661,14 +661,14 @@ class ProductController extends ControllerAdmin
 						}
 					}
 
-					PrdGalleryHighlight::model()->deleteAll('product_id = :id', array(':id'=>$model->id));
-					if ($model->gallery_id != '') {
-						$modelGalhigh = new PrdGalleryHighlight;
-						$modelGalhigh->product_id = $model->id;
-						$modelGalhigh->gallery_id = $model->gallery_id;
-						$modelGalhigh->gallery_id = $model->gallery_id;
-						$modelGalhigh->save(false);
-					}
+					// PrdGalleryHighlight::model()->deleteAll('product_id = :id', array(':id'=>$model->id));
+					// if ($model->gallery_id != '') {
+					// 	$modelGalhigh = new PrdGalleryHighlight;
+					// 	$modelGalhigh->product_id = $model->id;
+					// 	$modelGalhigh->gallery_id = $model->gallery_id;
+					// 	$modelGalhigh->gallery_id = $model->gallery_id;
+					// 	$modelGalhigh->save(false);
+					// }
 
 					$model->tag = implode(', ', $dataTag).',';
 					$model->filter = implode('||', $dataTag).'||';

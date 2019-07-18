@@ -53,18 +53,18 @@ class PrdProduct extends CActiveRecord
 			// array('category_id, image, kode, harga, status, date', 'required'),
 			array('kode, status, date', 'required'),
 			array('image, kode, harga, status, date', 'safe', 'on'=>'create'),
-			array('id, category_id, brand_id, stock, berat, terbaru, terlaris, out_stock, status, onsale, rekomendasi, turun_harga, harga_retail', 'numerical', 'integerOnly'=>true),
+			array('id, category_id, brand_id, stock, terbaru, terlaris, out_stock, status, harga_retail', 'numerical', 'integerOnly'=>true),
 			array('harga, harga_coret', 'numerical'),
-			array('image, image2', 'length', 'max'=>200),
+			array('image', 'length', 'max'=>200),
 			array('kode', 'length', 'max'=>50),
-			array('tag, data[size], data[packing], data[return], data[shipping], data[color], data[feature], data[qty_pack], data[garansi_teks], data[carton], data[garansi_nilai], filter, harga_coret, image2, gallery_id, urutan, harga', 'safe'),
+			array('tag, data[size], data[packing], data[return], data[shipping], data[color], data[feature], data[qty_pack], data[garansi_teks], data[carton], data[garansi_nilai], filter, harga_coret, image2, gallery_id, urutan, harga, berat', 'safe'),
 
-			array('image, image2', 'file', 'types'=>'jpg, gif, png', 'allowEmpty'=>FALSE, 'on'=>'insert', 'except'=>array('createTemp', 'copy')),
-			array('image, image2', 'file', 'types'=>'jpg, gif, png', 'allowEmpty'=>TRUE, 'on'=>'update', 'except'=>array('createTemp', 'copy')),
+			array('image', 'file', 'types'=>'jpg, gif, png', 'allowEmpty'=>FALSE, 'on'=>'insert', 'except'=>array('createTemp', 'copy')),
+			array('image', 'file', 'types'=>'jpg, gif, png', 'allowEmpty'=>TRUE, 'on'=>'update', 'except'=>array('createTemp', 'copy')),
 
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
-			array('id, category_id, brand_id, image, image2, kode, harga, harga_coret, stock, berat, terbaru, terlaris, out_stock, status, date, date_input, date_update, name, urutan', 'safe', 'on'=>'search'),
+			array('id, category_id, brand_id, image, kode, harga, harga_coret, stock, berat, terbaru, terlaris, out_stock, status, date, date_input, date_update, name, urutan', 'safe', 'on'=>'search'),
 		);
 	}
 

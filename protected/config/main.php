@@ -9,7 +9,7 @@ Yii::setPathOfAlias('bootstrap', dirname(__FILE__).'/../extensions/bootstrap');
 require_once dirname(__FILE__).'/../../config.php';
 return array(
 	'basePath'=>dirname(__FILE__).DIRECTORY_SEPARATOR.'..',
-	'name'=>'Arsimetris',
+	'name'=>'KiranaFood',
 	'defaultController' => 'home/index',
 	
 	// 'theme'=>'', //yii bootstrap
@@ -205,5 +205,5 @@ return array(
         'PAYPAL_API_SIGNATURE'=>'AFcWxV21C7fd0v3bYYYRCpSSRl31Ac6aHPIbN8AJEMh-jNs1Q0L7bd.D',
         'PAYPAL_MODE'=>'live'   // sandbox/live  default=sandbox
 	),
-	'language'=>'id',
+	'language'=>'en',
 );
