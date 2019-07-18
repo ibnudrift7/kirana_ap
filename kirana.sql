@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jul 02, 2019 at 11:00 AM
+-- Generation Time: Jul 18, 2019 at 12:38 PM
 -- Server version: 10.1.37-MariaDB
 -- PHP Version: 7.1.24
 
@@ -19,7 +19,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `kadujaya`
+-- Database: `kirana`
 --
 
 -- --------------------------------------------------------
@@ -811,7 +811,7 @@ CREATE TABLE `language` (
 --
 
 INSERT INTO `language` (`id`, `name`, `code`, `sort`, `status`) VALUES
-(2, 'English', 'en', 1, '1'),
+(2, 'English', 'en', 1, '0'),
 (3, 'Indonesia', 'id', 2, '1');
 
 -- --------------------------------------------------------
@@ -3587,11 +3587,42 @@ INSERT INTO `log` (`id`, `username`, `activity`, `time`) VALUES
 (2265, 'info@markdesign.net', 'BlogController Update 1', '0000-00-00 00:00:00'),
 (2266, 'info@markdesign.net', 'Login: info@markdesign.net', '0000-00-00 00:00:00'),
 (2267, 'info@markdesign.net', 'Login: info@markdesign.net', '2019-05-27 10:14:10'),
-(2268, 'info@markdesign.net', 'Login: info@markdesign.net', '2019-06-24 09:57:51'),
-(2269, 'ibnudrift@gmail.com', 'Login: ibnudrift@gmail.com', '2019-07-02 06:43:45'),
-(2270, 'ibnudrift@gmail.com', 'Login: ibnudrift@gmail.com', '2019-07-02 06:53:25'),
-(2271, 'ibnudrift@gmail.com', 'Create Category 1', '2019-07-02 07:42:37'),
-(2272, 'ibnudrift@gmail.com', 'Create Category 2', '2019-07-02 07:42:55');
+(2268, 'info@markdesign.net', 'Login: info@markdesign.net', '2019-07-18 09:33:57'),
+(2269, 'info@markdesign.net', 'Create Category 1', '2019-07-18 10:21:44'),
+(2270, 'info@markdesign.net', 'Login: info@markdesign.net', '2019-07-18 10:25:00'),
+(2271, 'info@markdesign.net', 'Create Category 2', '2019-07-18 10:27:28'),
+(2272, 'info@markdesign.net', 'Create Category 3', '2019-07-18 10:27:50'),
+(2273, 'info@markdesign.net', 'Create Category 4', '2019-07-18 10:28:07'),
+(2274, 'info@markdesign.net', 'Create Category 5', '2019-07-18 10:28:14'),
+(2275, 'info@markdesign.net', 'Create Category 6', '2019-07-18 10:28:25'),
+(2276, 'info@markdesign.net', 'Create Category 7', '2019-07-18 10:28:33'),
+(2277, 'info@markdesign.net', 'Create Category 8', '2019-07-18 10:28:40'),
+(2278, 'info@markdesign.net', 'Create Category 9', '2019-07-18 10:28:48'),
+(2279, 'info@markdesign.net', 'Create Category 10', '2019-07-18 10:28:55'),
+(2280, 'info@markdesign.net', 'Create Category 11', '2019-07-18 10:29:01'),
+(2281, 'info@markdesign.net', 'Create Category 12', '2019-07-18 10:29:11'),
+(2282, 'info@markdesign.net', 'Create Category 13', '2019-07-18 10:30:03'),
+(2283, 'info@markdesign.net', 'Create Category 14', '2019-07-18 10:30:09'),
+(2284, 'info@markdesign.net', 'Create Category 15', '2019-07-18 10:30:15'),
+(2285, 'info@markdesign.net', 'Create Category 16', '2019-07-18 10:30:58'),
+(2286, 'info@markdesign.net', 'Create Category 17', '2019-07-18 10:31:05'),
+(2287, 'info@markdesign.net', 'Create Category 18', '2019-07-18 10:31:12'),
+(2288, 'info@markdesign.net', 'Create Category 19', '2019-07-18 10:31:17'),
+(2289, 'info@markdesign.net', 'Create Category 20', '2019-07-18 10:31:23'),
+(2290, 'info@markdesign.net', 'Create Category 21', '2019-07-18 10:31:51'),
+(2291, 'info@markdesign.net', 'Create Category 22', '2019-07-18 10:31:58'),
+(2292, 'info@markdesign.net', 'Create Category 23', '2019-07-18 10:32:08'),
+(2293, 'info@markdesign.net', 'Create Category 24', '2019-07-18 10:32:13'),
+(2294, 'info@markdesign.net', 'Create Category 25', '2019-07-18 10:32:18'),
+(2295, 'info@markdesign.net', 'Create Category 26', '2019-07-18 10:32:25'),
+(2296, 'info@markdesign.net', 'Create Category 27', '2019-07-18 10:32:30'),
+(2297, 'info@markdesign.net', 'Create Category 28', '2019-07-18 10:32:35'),
+(2298, 'info@markdesign.net', 'Create Category 29', '2019-07-18 10:32:41'),
+(2299, 'info@markdesign.net', 'Create Category 30', '2019-07-18 10:32:46'),
+(2300, 'info@markdesign.net', 'Create Category 31', '2019-07-18 10:32:51'),
+(2301, 'info@markdesign.net', 'Create Category 32', '2019-07-18 10:32:57'),
+(2302, 'info@markdesign.net', 'Create Category 33', '2019-07-18 10:38:15'),
+(2303, 'info@markdesign.net', 'Create Category 34', '2019-07-18 10:38:24');
 
 -- --------------------------------------------------------
 
@@ -4225,8 +4256,14 @@ CREATE TABLE `prd_category` (
 --
 
 INSERT INTO `prd_category` (`id`, `parent_id`, `sort`, `image`, `image2`, `image3`, `type`, `data`) VALUES
-(1, 0, 0, '', '', '', 'category', ''),
-(2, 0, 0, '', '', '', 'category', '');
+(1, 0, 1, '', '', '', 'category', ''),
+(2, 1, 2, '', '', '', 'category', ''),
+(34, 0, 0, '', '', '', 'category', ''),
+(13, 1, 1, '', '', '', 'category', ''),
+(33, 0, 0, '', '', '', 'category', ''),
+(21, 1, 3, '', '', '', 'category', ''),
+(23, 1, 4, '', '', '', 'category', ''),
+(26, 1, 5, '', '', '', 'category', '');
 
 -- --------------------------------------------------------
 
@@ -4248,10 +4285,74 @@ CREATE TABLE `prd_category_description` (
 --
 
 INSERT INTO `prd_category_description` (`id`, `category_id`, `language_id`, `name`, `desc`, `data`) VALUES
-(1, 1, 2, 'plastic jerry cans', '', ''),
-(2, 1, 3, 'plastic jerry cans', '', ''),
-(3, 2, 2, 'plastic bottle, plastic container & others', '', ''),
-(4, 2, 3, 'plastic bottle, plastic container & others', '', '');
+(1, 1, 2, 'Frozen', '', ''),
+(2, 1, 3, 'Frozen', '', ''),
+(3, 2, 2, 'French Fries', '', ''),
+(4, 2, 3, 'French Fries', '', ''),
+(5, 3, 2, 'Frozenland Shoestring', '', ''),
+(6, 3, 3, 'Frozenland Shoestring', '', ''),
+(7, 4, 2, 'Frozenland Straight Cut', '', ''),
+(8, 4, 3, 'Frozenland Straight Cut', '', ''),
+(9, 5, 2, 'Frozenland Batter Coated', '', ''),
+(10, 5, 3, 'Frozenland Batter Coated', '', ''),
+(11, 6, 2, 'Frozenland Crinkle Cut', '', ''),
+(12, 6, 3, 'Frozenland Crinkle Cut', '', ''),
+(13, 7, 2, 'Noisettes', '', ''),
+(14, 7, 3, 'Noisettes', '', ''),
+(15, 8, 2, 'Spicy Wedges', '', ''),
+(16, 8, 3, 'Spicy Wedges', '', ''),
+(17, 9, 2, 'Mini Triangle Hashbrown', '', ''),
+(18, 9, 3, 'Mini Triangle Hashbrown', '', ''),
+(19, 10, 2, 'Hashbrown Patties', '', ''),
+(20, 10, 3, 'Hashbrown Patties', '', ''),
+(21, 11, 2, 'Sweet Potato Hashbrown', '', ''),
+(22, 11, 3, 'Sweet Potato Hashbrown', '', ''),
+(23, 12, 2, 'Sweet Potato', '', ''),
+(24, 12, 3, 'Sweet Potato', '', ''),
+(25, 13, 2, 'Processed Meat', '', ''),
+(26, 13, 3, 'Processed Meat', '', ''),
+(27, 14, 2, 'Breakfast Sausage', '', ''),
+(28, 14, 3, 'Breakfast Sausage', '', ''),
+(29, 15, 2, 'Cocktail Sausage', '', ''),
+(30, 15, 3, 'Cocktail Sausage', '', ''),
+(31, 16, 2, 'Original Sausage', '', ''),
+(32, 16, 3, 'Original Sausage', '', ''),
+(33, 17, 2, 'Blackpepper Sausage', '', ''),
+(34, 17, 3, 'Blackpepper Sausage', '', ''),
+(35, 18, 2, 'Cheese Sausage', '', ''),
+(36, 18, 3, 'Cheese Sausage', '', ''),
+(37, 19, 2, 'Chicken Wing', '', ''),
+(38, 19, 3, 'Chicken Wing', '', ''),
+(39, 20, 2, 'Chicken Katsu', '', ''),
+(40, 20, 3, 'Chicken Katsu', '', ''),
+(41, 21, 2, 'Fish', '', ''),
+(42, 21, 3, 'Fish', '', ''),
+(43, 22, 2, 'Dori Fillet (Pangasius)', '', ''),
+(44, 22, 3, 'Dori Fillet (Pangasius)', '', ''),
+(45, 23, 2, 'Meat', '', ''),
+(46, 23, 3, 'Meat', '', ''),
+(47, 24, 2, 'Beef Short Ribs', '', ''),
+(48, 24, 3, 'Beef Short Ribs', '', ''),
+(49, 25, 2, 'Beef Ribs', '', ''),
+(50, 25, 3, 'Beef Ribs', '', ''),
+(51, 26, 2, 'Vegetables', '', ''),
+(52, 26, 3, 'Vegetables', '', ''),
+(53, 27, 2, 'Mix Vegetables (4 Ways & 3 Ways)', '', ''),
+(54, 27, 3, 'Mix Vegetables (4 Ways & 3 Ways)', '', ''),
+(55, 28, 2, 'Corn Kernels', '', ''),
+(56, 28, 3, 'Corn Kernels', '', ''),
+(57, 29, 2, 'Green Peas', '', ''),
+(58, 29, 3, 'Green Peas', '', ''),
+(59, 30, 2, 'Carrot Cut', '', ''),
+(60, 30, 3, 'Carrot Cut', '', ''),
+(61, 31, 2, 'Broccoli', '', ''),
+(62, 31, 3, 'Broccoli', '', ''),
+(63, 32, 2, 'Cauliflower', '', ''),
+(64, 32, 3, 'Cauliflower', '', ''),
+(65, 33, 2, 'Fruits & Purees', '', ''),
+(66, 33, 3, 'Fruits & Purees', '', ''),
+(67, 34, 2, 'Snacks', '', ''),
+(68, 34, 3, 'Snacks', '', '');
 
 -- --------------------------------------------------------
 
@@ -4290,10 +4391,7 @@ CREATE TABLE `prd_product` (
   `date_input` datetime NOT NULL,
   `date_update` datetime NOT NULL,
   `data` text NOT NULL,
-  `tag` varchar(200) NOT NULL,
-  `onsale` int(2) DEFAULT NULL,
-  `rekomendasi` int(2) DEFAULT NULL,
-  `urutan` int(5) DEFAULT NULL
+  `tag` varchar(200) NOT NULL
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 
 -- --------------------------------------------------------
@@ -4424,7 +4522,72 @@ INSERT INTO `setting` (`id`, `name`, `label`, `value`, `type`, `hide`, `group`, 
 (10, 'invoice_auto_cancel_after', 'Invoice Auto Cancel After', '72', 'text', 0, 'invoice', 'n', 0),
 (11, 'lang_deff', 'Language Default', 'en', 'text', 0, 'data', 'n', 0),
 (12, 'email', 'Email Form', 'info@sumbertehnikjaya.com', 'text', 0, 'data', 'n', 1),
-(13, 'tax', 'Tax', '11', 'text', 0, 'data', 'n', 1);
+(13, 'tax', 'Tax', '11', 'text', 0, 'data', 'n', 1),
+(248, 'home_belanja_title', 'Title', '', 'text', 0, 'data', 'y', 0),
+(249, 'home_belanja_content', 'Content', '', 'text', 0, 'data', 'y', 0),
+(250, 'url_tokopedia', 'URL Tokopedia', 'http://www.tokopedia.com/sumbertehniksby', 'text', 0, 'data', 'n', 0),
+(251, 'url_bukalapak', 'URL Bukalapak', 'http://www.bukalapak.com/cvsumbertehnikjaya', 'text', 0, 'data', 'n', 0),
+(252, 'home_testimoni_content_1', 'Content', '', 'text', 0, 'data', 'y', 0),
+(253, 'home_testimoni_name_1', 'Name', '', 'text', 0, 'data', 'y', 0),
+(254, 'home_testimoni_lokasi_1', 'Lokasi', '', 'text', 0, 'data', 'y', 0),
+(255, 'home_testimoni_content_2', 'Content', '', 'text', 0, 'data', 'y', 0),
+(256, 'home_testimoni_name_2', 'Name', '', 'text', 0, 'data', 'y', 0),
+(257, 'home_testimoni_lokasi_2', 'Lokasi', '', 'text', 0, 'data', 'y', 0),
+(258, 'home_testimoni_content_3', 'Content', '', 'text', 0, 'data', 'y', 0),
+(259, 'home_testimoni_name_3', 'Name', '', 'text', 0, 'data', 'y', 0),
+(260, 'home_testimoni_lokasi_3', 'Lokasi', '', 'text', 0, 'data', 'y', 0),
+(261, 'about_hero_image', 'Image', '', 'image', 0, 'data', 'n', 0),
+(262, 'about_hero_title', 'Title', '', 'text', 0, 'data', 'y', 0),
+(263, 'about_hero_content', 'Sub Title', '', 'text', 0, 'data', 'y', 0),
+(264, 'about_title', 'Title', '', 'text', 0, 'data', 'y', 0),
+(265, 'about_subtitle', 'Sub Title', '', 'text', 0, 'data', 'y', 0),
+(266, 'about_content', 'Content', '', 'text', 0, 'data', 'y', 0),
+(267, 'about_image', 'Image', 'd1c64283f7banners-about.png', 'image', 0, 'data', 'n', 0),
+(268, 'about_content_left', 'Content', '', 'text', 0, 'data', 'y', 0),
+(269, 'about_content_right', 'Content', '', 'text', 0, 'data', 'y', 0),
+(270, 'about_komitmen_title', 'Title', '', 'text', 0, 'data', 'y', 0),
+(271, 'about_komitmen_title_1', 'Title', '', 'text', 0, 'data', 'y', 0),
+(272, 'about_komitmen_list_1', 'List', '', 'text', 0, 'data', 'y', 0),
+(273, 'about_komitmen_title_2', 'Title', '', 'text', 0, 'data', 'y', 0),
+(274, 'about_komitmen_list_2', 'List', '', 'text', 0, 'data', 'y', 0),
+(275, 'about_komitmen_title_3', 'Title', '', 'text', 0, 'data', 'y', 0),
+(276, 'about_komitmen_list_3', 'List', '', 'text', 0, 'data', 'y', 0),
+(277, 'about_komitmen_title_4', 'Title', '', 'text', 0, 'data', 'y', 0),
+(278, 'about_komitmen_list_4', 'List', '', 'text', 0, 'data', 'y', 0),
+(279, 'howto_hero_image', 'Image', '', 'image', 0, 'data', 'n', 0),
+(280, 'howto_hero_title', 'Title', '', 'text', 0, 'data', 'y', 0),
+(281, 'howto_hero_content', 'Sub Title', '', 'text', 0, 'data', 'y', 0),
+(282, 'howto_title', 'Title', '', 'text', 0, 'data', 'y', 0),
+(283, 'howto_image_1', 'Image', '13229c07b7picts-howto-1.jpg', 'image', 0, 'data', 'n', 0),
+(284, 'howto_content_1', 'content', '', 'text', 0, 'data', 'y', 0),
+(285, 'howto_image_2', 'Image', '1d66f195aapicts-howto-2.jpg', 'image', 0, 'data', 'n', 0),
+(286, 'howto_content_2', 'content', '', 'text', 0, 'data', 'y', 0),
+(287, 'howto_image_3', 'Image', 'cc043d39depicts-howto-3.jpg', 'image', 0, 'data', 'n', 0),
+(288, 'howto_content_3', 'content', '', 'text', 0, 'data', 'y', 0),
+(289, 'howto_image_4', 'Image', '7cac0ea4e9picts-howto-4.jpg', 'image', 0, 'data', 'n', 0),
+(290, 'howto_content_4', 'content', '', 'text', 0, 'data', 'y', 0),
+(291, 'howto_image_5', 'Image', '54a059ce12picts-howto-5.jpg', 'image', 0, 'data', 'n', 0),
+(292, 'howto_content_5', 'content', '', 'text', 0, 'data', 'y', 0),
+(293, 'howto_image_6', 'Image', 'fc4b1b6e49picts-howto-6.jpg', 'image', 0, 'data', 'n', 0),
+(294, 'howto_content_6', 'content', '', 'text', 0, 'data', 'y', 0),
+(295, 'howto_toko_title', 'Title', '', 'text', 0, 'data', 'y', 0),
+(296, 'howto_tokopedia_image', 'Image', '7a4d23e81a357x251.png', 'image', 0, 'data', 'n', 0),
+(297, 'howto_tokopedia_content', 'content', '', 'text', 0, 'data', 'y', 0),
+(298, 'howto_bukalapak_image', 'Image', 'e8bbb34300357x251.png', 'image', 0, 'data', 'n', 0),
+(299, 'howto_bukalapak_content', 'content', '', 'text', 0, 'data', 'y', 0),
+(300, 'merek_hero_image', 'Image', '', 'image', 0, 'data', 'n', 0),
+(301, 'merek_hero_title', 'Title', '', 'text', 0, 'data', 'y', 0),
+(302, 'merek_hero_content', 'Sub Title', '', 'text', 0, 'data', 'y', 0),
+(303, 'contact_hero_image', 'Image', '', 'image', 0, 'data', 'n', 0),
+(304, 'contact_hero_title', 'Title', '', 'text', 0, 'data', 'y', 0),
+(305, 'contact_hero_content', 'Sub Title', '', 'text', 0, 'data', 'y', 0),
+(306, 'contact_phone', 'Phone', '0819 7324 1373', 'text', 0, 'data', 'n', 0),
+(307, 'url_facebook', 'URL Facebook', '#', 'text', 0, 'data', 'n', 0),
+(308, 'url_instagram', 'URL Instagram', '#', 'text', 0, 'data', 'n', 0),
+(309, 'url_linkedin', 'URL LinkedIn', '#', 'text', 0, 'data', 'n', 0),
+(310, 'buyonline_hero_image', 'Image', '', 'image', 0, 'data', 'n', 0),
+(311, 'buyonline_hero_title', 'Title', '', 'text', 0, 'data', 'y', 0),
+(312, 'buyonline_hero_content', 'Sub Title', '', 'text', 0, 'data', 'y', 0);
 
 -- --------------------------------------------------------
 
@@ -4444,12 +4607,12 @@ CREATE TABLE `setting_description` (
 --
 
 INSERT INTO `setting_description` (`id`, `setting_id`, `language_id`, `value`) VALUES
-(1, 1, 2, 'PT. Kadujaya Perkasa'),
-(2, 2, 2, 'PT. Kadujaya Perkasa'),
-(3, 3, 2, 'PT. Kadujaya Perkasa'),
-(10, 1, 1, 'PT. Kadujaya Perkasa'),
-(11, 3, 1, 'PT. Kadujaya Perkasa'),
-(12, 2, 1, 'PT. Kadujaya Perkasa');
+(1, 1, 2, 'PT. DWI SELO GIRI MAS'),
+(2, 2, 2, 'PT. DWI SELO GIRI MAS'),
+(3, 3, 2, 'PT. DWI SELO GIRI MAS'),
+(10, 1, 1, 'PT. DWI SELO GIRI MAS'),
+(11, 3, 1, 'PT. DWI SELO GIRI MAS'),
+(12, 2, 1, 'PT. DWI SELO GIRI MAS');
 
 -- --------------------------------------------------------
 
@@ -5190,6 +5353,17 @@ CREATE TABLE `sl_slide` (
   `image2` varchar(225) DEFAULT NULL
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 
+--
+-- Dumping data for table `sl_slide`
+--
+
+INSERT INTO `sl_slide` (`id`, `topik_id`, `image`, `active`, `date_input`, `date_update`, `insert_by`, `last_update_by`, `writer`, `sort`, `image2`) VALUES
+(1, 0, 'd29b6-fcs-dsgm-01.jpg', 1, '0000-00-00 00:00:00', '2019-05-17 00:29:51', 'info@markdesign.net', 'info@markdesign.net', '', 1, 'ace19-dsgm-01-sld.jpg'),
+(2, 0, 'c125e-fcs-dsgm-02.jpg', 1, '0000-00-00 00:00:00', '2019-05-17 00:30:29', 'info@markdesign.net', 'info@markdesign.net', '', 2, '17909-dsgm-02-sld.jpg'),
+(3, 0, 'fe7ce-fcs-dsgm-03.jpg', 1, '0000-00-00 00:00:00', '2019-05-17 00:31:19', 'info@markdesign.net', 'info@markdesign.net', '', 3, 'aaf59-dsgm-03-sld.jpg'),
+(4, 0, '969d4-fcs-dsgm-04.jpg', 1, '0000-00-00 00:00:00', '2019-05-17 00:31:50', 'info@markdesign.net', 'info@markdesign.net', '', 4, '392f5-dsgm-04-sld.jpg'),
+(5, 0, '4c81f-fcs-dsgm-05.jpg', 1, '0000-00-00 00:00:00', '2019-05-17 00:32:52', 'info@markdesign.net', 'info@markdesign.net', '', 5, '412cf-dsgm-05-sld.jpg');
+
 -- --------------------------------------------------------
 
 --
@@ -5206,6 +5380,22 @@ CREATE TABLE `sl_slide_description` (
   `url_teks` varchar(200) NOT NULL,
   `url` varchar(200) NOT NULL
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `sl_slide_description`
+--
+
+INSERT INTO `sl_slide_description` (`id`, `slide_id`, `language_id`, `title`, `subtitle`, `content`, `url_teks`, `url`) VALUES
+(21, 1, 3, 'slides 1', '', '', '', ''),
+(20, 1, 2, 'slides 1', '', '', '', ''),
+(23, 2, 3, 'slide 2', '', '', '', ''),
+(22, 2, 2, 'slide 2', '', '', '', ''),
+(25, 3, 3, 'slide 3', '', '', '', ''),
+(24, 3, 2, 'slide 3', '', '', '', ''),
+(27, 4, 3, 'slide 4', '', '', '', ''),
+(26, 4, 2, 'slide 4', '', '', '', ''),
+(29, 5, 3, 'slide 5', '', '', '', ''),
+(28, 5, 2, 'slide 5', '', '', '', '');
 
 -- --------------------------------------------------------
 
@@ -5287,7 +5477,7 @@ CREATE TABLE `tb_user` (
 --
 
 INSERT INTO `tb_user` (`id`, `email`, `nama`, `pass`, `type`, `group_id`, `login_terakhir`, `aktivasi`, `aktif`, `user_input`, `tanggal_input`, `initial`, `image`) VALUES
-(1, 'ibnudrift@gmail.com', 'Ibnu Fajar', '564fda17f517ae04a86734c2b2341327ed4fd565', 'root', 0, '2019-07-02 06:41:28', 0, 1, '', '2014-02-10 03:17:36', 'deory', ''),
+(1, 'deoryzpandu@gmail.com', 'Deory Pandu', '564fda17f517ae04a86734c2b2341327ed4fd565', 'root', 0, '2015-12-30 08:16:30', 0, 1, '', '2014-02-10 03:17:36', 'deory', ''),
 (30, 'info@markdesign.net', 'info markdesign', '564fda17f517ae04a86734c2b2341327ed4fd565', 'root', 1, '2019-03-29 04:09:38', 0, 1, '', '0000-00-00 00:00:00', 'Admin', '');
 
 -- --------------------------------------------------------
@@ -5470,12 +5660,106 @@ INSERT INTO `tt_text` (`id`, `category`, `message`) VALUES
 (70, 'front', 'Quality'),
 (71, 'front', 'Events'),
 (72, 'admin', 'What We Do'),
-(73, 'admin', 'News & Events'),
-(74, 'admin', 'Static Homepage'),
-(75, 'admin', 'Static About'),
-(76, 'admin', 'Static Quality'),
-(77, 'admin', 'Blog Articles'),
-(78, 'admin', 'Custom Design');
+(73, 'admin', 'News & Events');
+
+-- --------------------------------------------------------
+
+--
+-- Stand-in structure for view `view_blog`
+-- (See below for the actual view)
+--
+CREATE TABLE `view_blog` (
+`id` int(11)
+,`topik_id` int(11)
+,`image` varchar(255)
+,`active` int(11)
+,`date_input` datetime
+,`date_update` datetime
+,`insert_by` varchar(255)
+,`last_update_by` varchar(255)
+,`writer` int(25)
+,`id2` int(11)
+,`blog_id` int(11)
+,`language_id` int(11)
+,`title` varchar(255)
+,`content` text
+,`quote` text
+);
+
+-- --------------------------------------------------------
+
+--
+-- Stand-in structure for view `view_category`
+-- (See below for the actual view)
+--
+CREATE TABLE `view_category` (
+`id` int(11)
+,`parent_id` int(11)
+,`sort` int(11)
+,`image` varchar(200)
+,`type` varchar(100)
+,`data` text
+,`id2` int(11)
+,`category_id` int(11)
+,`language_id` int(11)
+,`name` varchar(100)
+,`data2` text
+);
+
+-- --------------------------------------------------------
+
+--
+-- Stand-in structure for view `view_gallery`
+-- (See below for the actual view)
+--
+CREATE TABLE `view_gallery` (
+`id` int(11)
+,`topik_id` int(11)
+,`image` varchar(255)
+,`image2` varchar(200)
+,`active` int(11)
+,`date_input` datetime
+,`date_update` datetime
+,`insert_by` varchar(255)
+,`last_update_by` varchar(255)
+,`writer` varchar(200)
+,`city` varchar(100)
+,`harga` int(11)
+,`color` varchar(100)
+,`orientation` int(11)
+,`id2` int(11)
+,`gallery_id` int(11)
+,`language_id` int(11)
+,`title` varchar(255)
+,`sub_title` text
+,`sub_title_2` text
+,`content` text
+);
+
+-- --------------------------------------------------------
+
+--
+-- Stand-in structure for view `view_slide`
+-- (See below for the actual view)
+--
+CREATE TABLE `view_slide` (
+`id` int(11)
+,`topik_id` int(11)
+,`image` varchar(255)
+,`active` int(11)
+,`date_input` datetime
+,`date_update` datetime
+,`insert_by` varchar(255)
+,`last_update_by` varchar(255)
+,`writer` varchar(200)
+,`id2` int(11)
+,`slide_id` int(11)
+,`language_id` int(11)
+,`title` varchar(255)
+,`content` text
+,`url` varchar(200)
+,`sort` int(11)
+);
 
 -- --------------------------------------------------------
 
@@ -5484,7 +5768,7 @@ INSERT INTO `tt_text` (`id`, `category`, `message`) VALUES
 --
 DROP TABLE IF EXISTS `view_blog`;
 
-CREATE VIEW `view_blog`  AS  select `dsgm`.`pg_blog`.`id` AS `id`,`dsgm`.`pg_blog`.`topik_id` AS `topik_id`,`dsgm`.`pg_blog`.`image` AS `image`,`dsgm`.`pg_blog`.`active` AS `active`,`dsgm`.`pg_blog`.`date_input` AS `date_input`,`dsgm`.`pg_blog`.`date_update` AS `date_update`,`dsgm`.`pg_blog`.`insert_by` AS `insert_by`,`dsgm`.`pg_blog`.`last_update_by` AS `last_update_by`,`dsgm`.`pg_blog`.`writer` AS `writer`,`dsgm`.`pg_blog_description`.`id` AS `id2`,`dsgm`.`pg_blog_description`.`blog_id` AS `blog_id`,`dsgm`.`pg_blog_description`.`language_id` AS `language_id`,`dsgm`.`pg_blog_description`.`title` AS `title`,`dsgm`.`pg_blog_description`.`content` AS `content`,`dsgm`.`pg_blog_description`.`quote` AS `quote` from (`dsgm`.`pg_blog` join `dsgm`.`pg_blog_description` on((`dsgm`.`pg_blog`.`id` = `dsgm`.`pg_blog_description`.`blog_id`))) ;
+CREATE ALGORITHM=UNDEFINED DEFINER=`root`@`localhost` SQL SECURITY DEFINER VIEW `view_blog`  AS  select `pg_blog`.`id` AS `id`,`pg_blog`.`topik_id` AS `topik_id`,`pg_blog`.`image` AS `image`,`pg_blog`.`active` AS `active`,`pg_blog`.`date_input` AS `date_input`,`pg_blog`.`date_update` AS `date_update`,`pg_blog`.`insert_by` AS `insert_by`,`pg_blog`.`last_update_by` AS `last_update_by`,`pg_blog`.`writer` AS `writer`,`pg_blog_description`.`id` AS `id2`,`pg_blog_description`.`blog_id` AS `blog_id`,`pg_blog_description`.`language_id` AS `language_id`,`pg_blog_description`.`title` AS `title`,`pg_blog_description`.`content` AS `content`,`pg_blog_description`.`quote` AS `quote` from (`pg_blog` join `pg_blog_description` on((`pg_blog`.`id` = `pg_blog_description`.`blog_id`))) ;
 
 -- --------------------------------------------------------
 
@@ -5493,7 +5777,7 @@ CREATE VIEW `view_blog`  AS  select `dsgm`.`pg_blog`.`id` AS `id`,`dsgm`.`pg_blo
 --
 DROP TABLE IF EXISTS `view_category`;
 
-CREATE VIEW `view_category`  AS  select `dsgm`.`prd_category`.`id` AS `id`,`dsgm`.`prd_category`.`parent_id` AS `parent_id`,`dsgm`.`prd_category`.`sort` AS `sort`,`dsgm`.`prd_category`.`image` AS `image`,`dsgm`.`prd_category`.`type` AS `type`,`dsgm`.`prd_category`.`data` AS `data`,`dsgm`.`prd_category_description`.`id` AS `id2`,`dsgm`.`prd_category_description`.`category_id` AS `category_id`,`dsgm`.`prd_category_description`.`language_id` AS `language_id`,`dsgm`.`prd_category_description`.`name` AS `name`,`dsgm`.`prd_category_description`.`data` AS `data2` from (`dsgm`.`prd_category` join `dsgm`.`prd_category_description` on((`dsgm`.`prd_category`.`id` = `dsgm`.`prd_category_description`.`category_id`))) ;
+CREATE ALGORITHM=UNDEFINED DEFINER=`root`@`localhost` SQL SECURITY DEFINER VIEW `view_category`  AS  select `prd_category`.`id` AS `id`,`prd_category`.`parent_id` AS `parent_id`,`prd_category`.`sort` AS `sort`,`prd_category`.`image` AS `image`,`prd_category`.`type` AS `type`,`prd_category`.`data` AS `data`,`prd_category_description`.`id` AS `id2`,`prd_category_description`.`category_id` AS `category_id`,`prd_category_description`.`language_id` AS `language_id`,`prd_category_description`.`name` AS `name`,`prd_category_description`.`data` AS `data2` from (`prd_category` join `prd_category_description` on((`prd_category`.`id` = `prd_category_description`.`category_id`))) ;
 
 -- --------------------------------------------------------
 
@@ -5502,7 +5786,7 @@ CREATE VIEW `view_category`  AS  select `dsgm`.`prd_category`.`id` AS `id`,`dsgm
 --
 DROP TABLE IF EXISTS `view_gallery`;
 
-CREATE VIEW `view_gallery`  AS  select `dsgm`.`gal_gallery`.`id` AS `id`,`dsgm`.`gal_gallery`.`topik_id` AS `topik_id`,`dsgm`.`gal_gallery`.`image` AS `image`,`dsgm`.`gal_gallery`.`image2` AS `image2`,`dsgm`.`gal_gallery`.`active` AS `active`,`dsgm`.`gal_gallery`.`date_input` AS `date_input`,`dsgm`.`gal_gallery`.`date_update` AS `date_update`,`dsgm`.`gal_gallery`.`insert_by` AS `insert_by`,`dsgm`.`gal_gallery`.`last_update_by` AS `last_update_by`,`dsgm`.`gal_gallery`.`writer` AS `writer`,`dsgm`.`gal_gallery`.`city` AS `city`,`dsgm`.`gal_gallery`.`harga` AS `harga`,`dsgm`.`gal_gallery`.`color` AS `color`,`dsgm`.`gal_gallery`.`orientation` AS `orientation`,`dsgm`.`gal_gallery_description`.`id` AS `id2`,`dsgm`.`gal_gallery_description`.`gallery_id` AS `gallery_id`,`dsgm`.`gal_gallery_description`.`language_id` AS `language_id`,`dsgm`.`gal_gallery_description`.`title` AS `title`,`dsgm`.`gal_gallery_description`.`sub_title` AS `sub_title`,`dsgm`.`gal_gallery_description`.`sub_title_2` AS `sub_title_2`,`dsgm`.`gal_gallery_description`.`content` AS `content` from (`dsgm`.`gal_gallery` join `dsgm`.`gal_gallery_description` on((`dsgm`.`gal_gallery`.`id` = `dsgm`.`gal_gallery_description`.`gallery_id`))) ;
+CREATE ALGORITHM=UNDEFINED DEFINER=`root`@`localhost` SQL SECURITY DEFINER VIEW `view_gallery`  AS  select `gal_gallery`.`id` AS `id`,`gal_gallery`.`topik_id` AS `topik_id`,`gal_gallery`.`image` AS `image`,`gal_gallery`.`image2` AS `image2`,`gal_gallery`.`active` AS `active`,`gal_gallery`.`date_input` AS `date_input`,`gal_gallery`.`date_update` AS `date_update`,`gal_gallery`.`insert_by` AS `insert_by`,`gal_gallery`.`last_update_by` AS `last_update_by`,`gal_gallery`.`writer` AS `writer`,`gal_gallery`.`city` AS `city`,`gal_gallery`.`harga` AS `harga`,`gal_gallery`.`color` AS `color`,`gal_gallery`.`orientation` AS `orientation`,`gal_gallery_description`.`id` AS `id2`,`gal_gallery_description`.`gallery_id` AS `gallery_id`,`gal_gallery_description`.`language_id` AS `language_id`,`gal_gallery_description`.`title` AS `title`,`gal_gallery_description`.`sub_title` AS `sub_title`,`gal_gallery_description`.`sub_title_2` AS `sub_title_2`,`gal_gallery_description`.`content` AS `content` from (`gal_gallery` join `gal_gallery_description` on((`gal_gallery`.`id` = `gal_gallery_description`.`gallery_id`))) ;
 
 -- --------------------------------------------------------
 
@@ -5511,7 +5795,7 @@ CREATE VIEW `view_gallery`  AS  select `dsgm`.`gal_gallery`.`id` AS `id`,`dsgm`.
 --
 DROP TABLE IF EXISTS `view_slide`;
 
-CREATE VIEW `view_slide`  AS  select `dsgm`.`sl_slide`.`id` AS `id`,`dsgm`.`sl_slide`.`topik_id` AS `topik_id`,`dsgm`.`sl_slide`.`image` AS `image`,`dsgm`.`sl_slide`.`active` AS `active`,`dsgm`.`sl_slide`.`date_input` AS `date_input`,`dsgm`.`sl_slide`.`date_update` AS `date_update`,`dsgm`.`sl_slide`.`insert_by` AS `insert_by`,`dsgm`.`sl_slide`.`last_update_by` AS `last_update_by`,`dsgm`.`sl_slide`.`writer` AS `writer`,`dsgm`.`sl_slide_description`.`id` AS `id2`,`dsgm`.`sl_slide_description`.`slide_id` AS `slide_id`,`dsgm`.`sl_slide_description`.`language_id` AS `language_id`,`dsgm`.`sl_slide_description`.`title` AS `title`,`dsgm`.`sl_slide_description`.`content` AS `content`,`dsgm`.`sl_slide_description`.`url` AS `url`,`dsgm`.`sl_slide`.`sort` AS `sort` from (`dsgm`.`sl_slide` join `dsgm`.`sl_slide_description` on((`dsgm`.`sl_slide_description`.`slide_id` = `dsgm`.`sl_slide`.`id`))) ;
+CREATE ALGORITHM=UNDEFINED DEFINER=`root`@`localhost` SQL SECURITY DEFINER VIEW `view_slide`  AS  select `sl_slide`.`id` AS `id`,`sl_slide`.`topik_id` AS `topik_id`,`sl_slide`.`image` AS `image`,`sl_slide`.`active` AS `active`,`sl_slide`.`date_input` AS `date_input`,`sl_slide`.`date_update` AS `date_update`,`sl_slide`.`insert_by` AS `insert_by`,`sl_slide`.`last_update_by` AS `last_update_by`,`sl_slide`.`writer` AS `writer`,`sl_slide_description`.`id` AS `id2`,`sl_slide_description`.`slide_id` AS `slide_id`,`sl_slide_description`.`language_id` AS `language_id`,`sl_slide_description`.`title` AS `title`,`sl_slide_description`.`content` AS `content`,`sl_slide_description`.`url` AS `url`,`sl_slide`.`sort` AS `sort` from (`sl_slide` join `sl_slide_description` on((`sl_slide_description`.`slide_id` = `sl_slide`.`id`))) ;
 
 --
 -- Indexes for dumped tables
@@ -5939,7 +6223,7 @@ ALTER TABLE `language`
 -- AUTO_INCREMENT for table `log`
 --
 ALTER TABLE `log`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2273;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2304;
 
 --
 -- AUTO_INCREMENT for table `me_member`
@@ -6059,13 +6343,13 @@ ALTER TABLE `prd_brand_description`
 -- AUTO_INCREMENT for table `prd_category`
 --
 ALTER TABLE `prd_category`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=35;
 
 --
 -- AUTO_INCREMENT for table `prd_category_description`
 --
 ALTER TABLE `prd_category_description`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=69;
 
 --
 -- AUTO_INCREMENT for table `prd_category_product`
@@ -6113,7 +6397,7 @@ ALTER TABLE `sertifikasi`
 -- AUTO_INCREMENT for table `setting`
 --
 ALTER TABLE `setting`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=14;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=313;
 
 --
 -- AUTO_INCREMENT for table `setting_description`
@@ -6131,13 +6415,13 @@ ALTER TABLE `shp_shipping_price`
 -- AUTO_INCREMENT for table `sl_slide`
 --
 ALTER TABLE `sl_slide`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
 
 --
 -- AUTO_INCREMENT for table `sl_slide_description`
 --
 ALTER TABLE `sl_slide_description`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=30;
 
 --
 -- AUTO_INCREMENT for table `tb_group`
@@ -6179,7 +6463,7 @@ ALTER TABLE `trips`
 -- AUTO_INCREMENT for table `tt_text`
 --
 ALTER TABLE `tt_text`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=79;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=74;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

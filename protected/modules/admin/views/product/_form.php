@@ -258,9 +258,7 @@ jQuery(document).ready(function($) {
 				    <?php
 				}
 				?>
-					
 
-				<?php /*
 				<?php
 				foreach ($modelDesc as $key => $value) {
 					$lang = Language::model()->getName($key);
@@ -277,7 +275,6 @@ jQuery(document).ready(function($) {
 				    <?php
 				}
 				?>
-				*/ ?>
 
 				<?php
 				foreach ($modelDesc as $key => $value) {
@@ -315,44 +312,30 @@ jQuery(document).ready(function($) {
 				?>
 				*/ ?>
 
+				<?php /*
                 <label>Label</label>
                 <span class="formwrapper">
-                	<?php echo $form->checkBox($model, 'onsale') ?> On Sale &nbsp;
                 	<?php echo $form->checkBox($model, 'terlaris') ?> Trending Now &nbsp;
-					<?php /*
+                	<?php echo $form->checkBox($model, 'onsale') ?> On Sale &nbsp;
                 	<?php echo $form->checkBox($model, 'terbaru') ?> Terbaru &nbsp;
                 	<?php echo $form->checkBox($model, 'out_stock') ?> Out Stock &nbsp;
                 	<?php echo $form->checkBox($model, 'rekomendasi') ?> rekomendasi &nbsp;
                 	<?php echo $form->checkBox($model, 'turun_harga') ?> Turun Harga &nbsp;
-                	*/ ?>
                 </span>
+                */ ?>
 
 				<div class="divider10"></div>
 
 				<div class="row-fluid">
-					<div class="span3">
-					<?php echo $form->textFieldRow($model,'urutan',array('class'=>'input-block-level')); ?>
-					</div>
-				</div>
-				<div class="divider10"></div>
-
-				<div class="row-fluid">
-					<div class="span4">
-						<?php echo $form->textFieldRow($model,'harga',array('class'=>'input-block-level')); ?>
-					</div>
-					<div class="span4">
-						<?php echo $form->textFieldRow($model,'harga_coret',array('class'=>'input-block-level')); ?>
-					</div>
 					<div class="span3">
 						<?php echo $form->textFieldRow($model,'berat',array('class'=>'input-block-level',
 						'hint'=>'Note: Measurement in grams, for delivery estimation')); ?>
 					</div>
-					<?php /*
+					
 					<div class="span3">
-						<?php echo $form->textFieldRow($model,'stock',array('class'=>'input-block-level',
-						'hint'=>'Note: Masukkan Stock Barang')); ?>
+						<?php echo $form->textFieldRow($model,'data[carton]',array('class'=>'input-block-level',
+						'hint'=>'')); ?>
 					</div>
-					*/ ?>
 				</div>
 
 						<?php /*
@@ -426,7 +409,8 @@ jQuery(document).ready(function($) {
 
 		    </div>
 		</div>
-		
+
+		<?php /*
 		<!-- ----------------- Add Option ----------------- -->
 		<div class="divider15"></div>
 		<div class="widgetbox block-rightcontent">                        
@@ -481,14 +465,6 @@ jQuery(document).ready(function($) {
                 </table>
 				<div class="divider5"></div>
                 <button type="button" class="btn btn-primary tambah-option">Add Product Variations</button>
-				<!-- <div class="alert">
-				  <button type="button" class="close" data-dismiss="alert">×</button>
-				  Bila harga di kosongkan maka akan tersetting sebagai harga default atau harga normal
-				</div> -->
-				<!-- <div class="alert">
-				  <button type="button" class="close" data-dismiss="alert">×</button>
-				  Stock tidak mengikat, hanya sebagai catatan penjual
-				</div> -->
                 <script type="text/javascript">
                 jQuery(function( $ ) {
 					$('.tambah-option').tambahData({
@@ -506,6 +482,7 @@ jQuery(document).ready(function($) {
 		    </div>
 		</div>
 
+		
 		<div class="divider15"></div>
 		<div class="widgetbox block-rightcontent">                        
 		    <div class="headtitle">
@@ -532,7 +509,6 @@ jQuery(document).ready(function($) {
 		    </div>
 		</div>
 
-		<?php /*
 		<div class="widgetbox block-rightcontent">                        
 		    <div class="headtitle">
 		        <h4 class="widgettitle">Product Spotlight Gallery</h4>
@@ -663,6 +639,7 @@ jQuery(document).ready(function($) {
 				<?php endif; ?>
 		    </div>
 		</div>
+		<?php /*
 		<div class="divider15"></div>
 		<div class="widgetbox block-rightcontent">                        
 		    <div class="headtitle">
@@ -675,7 +652,7 @@ jQuery(document).ready(function($) {
 				<img style="width: 100%;" src="<?php echo Yii::app()->baseUrl.ImageHelper::thumb(600,600, '/images/product/'.$model->image2 , array('method' => 'adaptiveResize', 'quality' => '90')) ?>"/>
 				<?php endif; ?>
 		    </div>
-		</div>
+		</div>*/ ?>
 
 		<!-- ----------------- Gambar Tambahan ----------------- -->
 		<div class="divider15"></div>

@@ -77,7 +77,7 @@ class PrdProductDescription extends CActiveRecord
 			'meta_desc' => 'Meta Desc',
 			'meta_key' => 'Meta Key',
 			'note' => 'Product Spesification',
-			'subtitle' => 'Keunggulan Produk',
+			'subtitle' => 'Subtitle',
 		);
 	}
 
