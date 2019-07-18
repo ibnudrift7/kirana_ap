@@ -40,10 +40,10 @@
 <header class="head <?php if ($active_menu_pg != 'home/index'): ?>insides-head<?php endif ?>">
   <div class="prelative container cont-header mx-auto">
     <div class="row">
-      <div class="col-md-30">
+      <div class="col-md-27">
         <div class="image"><img src="<?php echo $this->assetBaseurl; ?>Layer-25.png" alt=""></div>
       </div>
-      <div class="col-md-26 garis-header">
+      <div class="col-md-29 garis-header">
         <div class="menu-block-top">
           <div class="click">
             <p>CLICK TO CHAT<span><img src="<?php echo $this->assetBaseurl; ?>wa-atas.png" alt=""></span><a href="#">0817 1712 2131</a></p>

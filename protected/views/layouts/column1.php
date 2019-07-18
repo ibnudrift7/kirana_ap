@@ -22,9 +22,9 @@
             <div class="carousel-inner" style="overflow: visible;">
                 <div class="carousel-item active home-slider-new">
                     <div class="row no-gutters">
-                        <div class="col-md-18">
+                        <div class="col-md-18 order-2 order-sm-1">
                             <div class="slider-container">
-                                <div class="slider-kiri">
+                                <div class="slider-kiri px-2">
                                     <div class="content">
                                         <h4>Mempersembahkan Produk Kentang Goreng dan Aneka Makanan Frozen Berkualitas Favorit Masyarakat Indonesia Sejak tahun 2000</h4>
                                         <p>Kirana Food telah hadir dan menjadi kegemaran rakyat dengan berbagai produk kentang goreng (french fries) seperti shoe string fries, potato wedges, waffle fries, hasbrown, crinkle cut fries, serta berbagai produk frozen siap santap lainnya. </p>
@@ -35,7 +35,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-42">
+                        <div class="col-md-42 order-1 order-sm-2">
                             <img class="w-100 d-none d-sm-block" src="<?php echo $this->assetBaseurl; ?>sec1.jpg" alt="" style="background-repeat: no-repeat; background-size: cover;">
                         </div>
                         <div class="image-bawah-slide"><img src="<?php echo $this->assetBaseurl; ?>Layer-30.png" alt=""></div>
