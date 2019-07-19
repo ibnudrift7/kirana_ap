@@ -547,7 +547,42 @@ class HomeController extends Controller
 		$this->pageTitle = 'Produk - '.$this->pageTitle;
 		$this->layout='//layouts/column2';
 
+		$criteria = new CDbCriteria;
+		$criteria->with = array('description');
+		$criteria->addCondition('t.parent_id = :par_id');
+		$criteria->params[':par_id'] = 0;
+		$criteria->addCondition('t.type = :type');
+		$criteria->params[':type'] = 'category';
+		$criteria->order = 'sort ASC';
+
+		$dataCategory = PrdCategory::model()->findAll($criteria);
+
+		$dataCategory = array_chunk($dataCategory, 2);
+
 		$this->render('produk', array(	
+			'data'=>$dataCategory,
+		));
+	}
+
+	public function actionProdukList()
+	{
+		$this->pageTitle = 'Produk - '.$this->pageTitle;
+		$this->layout='//layouts/column2';
+
+		$criteria = new CDbCriteria;
+		$criteria->with = array('description');
+		$criteria->addCondition('t.parent_id = :par_id');
+		$criteria->params[':par_id'] = 0;
+		$criteria->addCondition('t.type = :type');
+		$criteria->params[':type'] = 'category';
+		$criteria->order = 'sort ASC';
+
+		$dataCategory = PrdCategory::model()->findAll($criteria);
+
+		$dataCategory = array_chunk($dataCategory, 2);
+
+		$this->render('produk', array(	
+			'data'=>$dataCategory,
 		));
 	}
 

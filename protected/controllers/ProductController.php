@@ -9,7 +9,7 @@ class ProductController extends Controller
 	{
 		$criteria2=new CDbCriteria;
 		$criteria2->with = array('description', 'category', 'categories');
-		$criteria2->order = 't.urutan ASC';
+		// $criteria2->order = 't.urutan ASC';
 		$criteria2->addCondition('status = "1"');
 		$criteria2->addCondition('description.language_id = :language_id');
 		$criteria2->params[':language_id'] = $this->languageID;
@@ -18,11 +18,11 @@ class ProductController extends Controller
 			$criteria2->params[':q'] = '%'.$_GET['q'].'%';
 		}
 
-		if ($_GET['category']) {
+		if ($_GET['child_category']) {
 			$criteria = new CDbCriteria;
 			$criteria->with = array('description');
 			$criteria->addCondition('t.id = :id');
-			$criteria->params[':id'] = $_GET['category'];
+			$criteria->params[':id'] = $_GET['child_category'];
 			$criteria->addCondition('t.type = :type');
 			$criteria->params[':type'] = 'category';
 			// $criteria->limit = 3;
@@ -32,7 +32,7 @@ class ProductController extends Controller
 			// $inArray = PrdProduct::getInArrayCategory($_GET['category']);
 			// $criteria2->addInCondition('t.category_id', $inArray);
 			$criteria2->addCondition('t.tag LIKE :category');
-			$criteria2->params[':category'] = '%category='.$_GET['category'].',%';
+			$criteria2->params[':category'] = '%category='.$_GET['child_category'].',%';
 
 		}
 		if ($strCategory !== null) {
@@ -72,7 +72,7 @@ class ProductController extends Controller
 			$criteria = new CDbCriteria;
 			$criteria->with = array('description');
 			$criteria->addCondition('t.parent_id = :parents_id');
-			$criteria->params[':parents_id'] = $_GET['category'];
+			$criteria->params[':parents_id'] = $_GET['child_category'];
 			$criteria->addCondition('t.type = :type');
 			$criteria->params[':type'] = 'category';
 			// $criteria->limit = 3;
@@ -153,9 +153,20 @@ class ProductController extends Controller
 		    ),
 		));
 
+		$criteria = new CDbCriteria;
+		$criteria->with = array('description');
+		$criteria->addCondition('t.parent_id = :par_id');
+		$criteria->params[':par_id'] = intval($_GET['category']);
+		$criteria->addCondition('t.type = :type');
+		$criteria->params[':type'] = 'category';
+		$criteria->order = 'sort ASC';
+
+		$allCategory = PrdCategory::model()->findAll($criteria);
+
 		$this->layout='//layouts/column2';
 		$this->pageTitle = $strCategory->description->name. (($strParentCategory != null) ? ' - '.$strParentCategory->description->name.' - ' : ' ' ).$this->pageTitle;
-		$this->render('index', array(
+
+		$this->render('index_list', array(
 			'product'=>$product,
 			'strCategory'=>$strCategory,
 			'CategorySubm'=>$CategorySubm,
@@ -163,6 +174,7 @@ class ProductController extends Controller
 			'strChildCategory'=>$strChildCategory,
 			'dataBrand'=>$dataBrand,
 			'typeLabel'=>$typeLabel,
+			'allCategory'=>$allCategory,
 		)); 
 	}	
 
@@ -293,11 +305,11 @@ class ProductController extends Controller
 		if($data===null)
 			throw new CHttpException(404,'The requested page does not exist.');
 
-		if ($_GET['category'] == '') {
+		if ($_GET['child_category'] == '') {
 			if ($data->categories->category_id != null) {
-				$_GET['category'] = $data->categories->category_id;
+				$_GET['child_category'] = $data->categories->category_id;
 			}else{
-				$_GET['category'] = 12;
+				$_GET['child_category'] = 12;
 			}
 		}
 
@@ -334,8 +346,10 @@ class ProductController extends Controller
 		$criteria->addCondition('status = "1"');
 		$criteria->addCondition('description.language_id = :language_id');
 		$criteria->params[':language_id'] = $this->languageID;
-		$criteria->addCondition('t.category_id = :category');
-		$criteria->params[':category'] = $data->category_id;
+
+		$criteria->addCondition('t.tag LIKE :category');
+		$criteria->params[':category'] = '%category='.$_GET['child_category'].',%';
+
 		$criteria->addCondition('t.id != :id');
 		$criteria->params[':id'] = $data->id;
 		$criteria->limit = 4;
@@ -354,14 +368,25 @@ class ProductController extends Controller
 		// $criteria->order = 'date DESC';
 		// $criteria->group = 'product_id';
 
+		$criteria = new CDbCriteria;
+		$criteria->with = array('description');
+		$criteria->addCondition('t.parent_id = :par_id');
+		$criteria->params[':par_id'] = intval($_GET['category']);
+		$criteria->addCondition('t.type = :type');
+		$criteria->params[':type'] = 'category';
+		$criteria->order = 'sort ASC';
+		$allCategory = PrdCategory::model()->findAll($criteria);
+
 		$this->pageTitle = $data->description->name.' | '.$this->pageTitle;
 		$this->layout='//layouts/column2';
-		$this->render('detail', array(	
+
+		$this->render('detail_list', array(	
 			'data' => $data,
 			'model' => $model,
 			'product' => $product,
 			'attributes' => $attributes,
 			'category' => $category,
+			'allCategory' => $allCategory,
 		));
 	}
 	
