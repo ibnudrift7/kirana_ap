@@ -150,7 +150,7 @@ $oneChild = PrdCategory::model()->find($criteria);
             </div>
             <div class="col-md-15 col-17">
                 <div class="lihat-semua">
-                <a href="<?php echo CHtml::normalizeUrl(array('/home/produk_detail', 'lang'=>Yii::app()->language)); ?>">
+                <a href="<?php echo CHtml::normalizeUrl(array('/product/index', 'category'=> $_GET['category'], 'child_category'=> $_GET['child_category'], 'lang'=>Yii::app()->language)); ?>">
                     <p>Lihat Semua</p></a>
                 </div>
             </div>
