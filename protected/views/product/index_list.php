@@ -1,3 +1,13 @@
+<?php 
+$criteria = new CDbCriteria;
+$criteria->with = array('description');
+$criteria->addCondition('t.id = :par_id');
+$criteria->params[':par_id'] = $_GET['category'];
+$criteria->addCondition('t.type = :type');
+$criteria->params[':type'] = 'category';
+$criteria->order = 'sort ASC';
+$oneChild = PrdCategory::model()->find($criteria);
+?>
 <section class="prod-det-1">
   <div class="prelative container">
     <div class="atas row">
@@ -6,7 +16,7 @@
           <p>Produk</p>
         </div>
         <div class="subtitle">
-          <p>Produk Kentang Beku / Frozen Potato</p>
+          <p>Produk <?php echo $oneChild->description->name.' Food' ?></p>
         </div>
         <div class="image">
           <img class="w-100" src="<?php echo $this->assetBaseurl; ?>Layer43.png" alt="" class="w-100">
