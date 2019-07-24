@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 4.8.3
+-- version 4.8.5
 -- https://www.phpmyadmin.net/
 --
--- Host: 127.0.0.1
--- Generation Time: Jul 18, 2019 at 12:48 PM
--- Server version: 10.1.37-MariaDB
--- PHP Version: 7.1.24
+-- Host: localhost:3306
+-- Generation Time: Jul 24, 2019 at 06:31 AM
+-- Server version: 10.2.25-MariaDB
+-- PHP Version: 7.2.7
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET AUTOCOMMIT = 0;
@@ -19,7 +19,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `kirana`
+-- Database: `richmore_kirana`
 --
 
 -- --------------------------------------------------------
@@ -1309,7 +1309,7 @@ CREATE TABLE `log` (
   `id` int(11) NOT NULL,
   `username` varchar(100) NOT NULL,
   `activity` varchar(100) NOT NULL,
-  `time` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
+  `time` timestamp NOT NULL DEFAULT current_timestamp() ON UPDATE current_timestamp()
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
@@ -3626,7 +3626,188 @@ INSERT INTO `log` (`id`, `username`, `activity`, `time`) VALUES
 (2304, 'info@markdesign.net', 'Login: info@markdesign.net', '2019-07-18 10:41:23'),
 (2305, 'info@markdesign.net', 'PrdProduct Controller Create 3', '2019-07-18 10:45:49'),
 (2306, 'info@markdesign.net', 'Login: info@markdesign.net', '2019-07-18 10:46:16'),
-(2307, 'info@markdesign.net', 'PrdProduct Controller Create 4', '2019-07-18 10:48:18');
+(2307, 'info@markdesign.net', 'PrdProduct Controller Create 4', '2019-07-18 10:48:18'),
+(2308, 'info@markdesign.net', 'PrdProduct Controller Create 5', '2019-07-18 10:49:28'),
+(2309, 'info@markdesign.net', 'PrdProduct Controller Create 6', '2019-07-18 10:50:05'),
+(2310, 'info@markdesign.net', 'PrdProduct Controller Create 7', '2019-07-18 10:50:48'),
+(2311, 'info@markdesign.net', 'PrdProduct Controller Create 8', '2019-07-18 10:51:27'),
+(2312, 'info@markdesign.net', 'Login: info@markdesign.net', '0000-00-00 00:00:00'),
+(2313, 'info@markdesign.net', 'Login: info@markdesign.net', '0000-00-00 00:00:00'),
+(2314, 'info@markdesign.net', 'PrdProduct Controller Create 9', '0000-00-00 00:00:00'),
+(2315, 'info@markdesign.net', 'PrdProduct Controller Create 10', '0000-00-00 00:00:00'),
+(2316, 'info@markdesign.net', 'PrdProduct Controller Create 11', '0000-00-00 00:00:00'),
+(2317, 'info@markdesign.net', 'PrdProduct Controller Create 12', '0000-00-00 00:00:00'),
+(2318, 'info@markdesign.net', 'ProductController Update 12', '0000-00-00 00:00:00'),
+(2319, 'info@markdesign.net', 'PrdProduct Controller Create 13', '0000-00-00 00:00:00'),
+(2320, 'info@markdesign.net', 'PrdProduct Controller Create 14', '0000-00-00 00:00:00'),
+(2321, 'info@markdesign.net', 'PrdProduct Controller Create 15', '0000-00-00 00:00:00'),
+(2322, 'info@markdesign.net', 'PrdProduct Controller Create 16', '0000-00-00 00:00:00'),
+(2323, 'info@markdesign.net', 'PrdProduct Controller Create 17', '0000-00-00 00:00:00'),
+(2324, 'info@markdesign.net', 'PrdProduct Controller Create 18', '0000-00-00 00:00:00'),
+(2325, 'info@markdesign.net', 'PrdProduct Controller Create 19', '0000-00-00 00:00:00'),
+(2326, 'info@markdesign.net', 'PrdProduct Controller Create 20', '0000-00-00 00:00:00'),
+(2327, 'info@markdesign.net', 'PrdProduct Controller Create 21', '0000-00-00 00:00:00'),
+(2328, 'info@markdesign.net', 'PrdProduct Controller Create 22', '0000-00-00 00:00:00'),
+(2329, 'info@markdesign.net', 'PrdProduct Controller Create 23', '0000-00-00 00:00:00'),
+(2330, 'info@markdesign.net', 'PrdProduct Controller Create 24', '0000-00-00 00:00:00'),
+(2331, 'info@markdesign.net', 'PrdProduct Controller Create 25', '0000-00-00 00:00:00'),
+(2332, 'info@markdesign.net', 'PrdProduct Controller Create 26', '0000-00-00 00:00:00'),
+(2333, 'info@markdesign.net', 'PrdProduct Controller Create 27', '0000-00-00 00:00:00'),
+(2334, 'info@markdesign.net', 'PrdProduct Controller Create 28', '0000-00-00 00:00:00'),
+(2335, 'info@markdesign.net', 'PrdProduct Controller Create 29', '0000-00-00 00:00:00'),
+(2336, 'info@markdesign.net', 'PrdProduct Controller Create 30', '0000-00-00 00:00:00'),
+(2337, 'info@markdesign.net', 'PrdProduct Controller Create 31', '0000-00-00 00:00:00'),
+(2338, 'info@markdesign.net', 'PrdProduct Controller Create 32', '0000-00-00 00:00:00'),
+(2339, 'info@markdesign.net', 'PrdProduct Controller Create 33', '0000-00-00 00:00:00'),
+(2340, 'info@markdesign.net', 'PrdProduct Controller Create 34', '0000-00-00 00:00:00'),
+(2341, 'info@markdesign.net', 'PrdProduct Controller Create 35', '0000-00-00 00:00:00'),
+(2342, 'info@markdesign.net', 'PrdProduct Controller Create 36', '0000-00-00 00:00:00'),
+(2343, 'info@markdesign.net', 'PrdProduct Controller Create 37', '0000-00-00 00:00:00'),
+(2344, 'info@markdesign.net', 'PrdProduct Controller Create 38', '0000-00-00 00:00:00'),
+(2345, 'info@markdesign.net', 'PrdProduct Controller Create 39', '0000-00-00 00:00:00'),
+(2346, 'info@markdesign.net', 'PrdProduct Controller Create 40', '0000-00-00 00:00:00'),
+(2347, 'info@markdesign.net', 'PrdProduct Controller Create 41', '0000-00-00 00:00:00'),
+(2348, 'info@markdesign.net', 'PrdProduct Controller Create 42', '0000-00-00 00:00:00'),
+(2349, 'info@markdesign.net', 'PrdProduct Controller Create 43', '0000-00-00 00:00:00'),
+(2350, 'info@markdesign.net', 'PrdProduct Controller Create 44', '0000-00-00 00:00:00'),
+(2351, 'info@markdesign.net', 'PrdProduct Controller Create 45', '0000-00-00 00:00:00'),
+(2352, 'info@markdesign.net', 'PrdProduct Controller Create 46', '0000-00-00 00:00:00'),
+(2353, 'info@markdesign.net', 'PrdProduct Controller Create 47', '0000-00-00 00:00:00'),
+(2354, 'info@markdesign.net', 'PrdProduct Controller Create 48', '0000-00-00 00:00:00'),
+(2355, 'info@markdesign.net', 'PrdProduct Controller Create 49', '0000-00-00 00:00:00'),
+(2356, 'info@markdesign.net', 'PrdProduct Controller Create 50', '0000-00-00 00:00:00'),
+(2357, 'info@markdesign.net', 'PrdProduct Controller Create 51', '0000-00-00 00:00:00'),
+(2358, 'info@markdesign.net', 'PrdProduct Controller Create 52', '0000-00-00 00:00:00'),
+(2359, 'info@markdesign.net', 'PrdProduct Controller Create 53', '0000-00-00 00:00:00'),
+(2360, 'info@markdesign.net', 'PrdProduct Controller Create 54', '0000-00-00 00:00:00'),
+(2361, 'info@markdesign.net', 'PrdProduct Controller Create 55', '0000-00-00 00:00:00'),
+(2362, 'info@markdesign.net', 'PrdProduct Controller Create 56', '0000-00-00 00:00:00'),
+(2363, 'info@markdesign.net', 'PrdProduct Controller Create 57', '0000-00-00 00:00:00'),
+(2364, 'info@markdesign.net', 'PrdProduct Controller Create 58', '0000-00-00 00:00:00'),
+(2365, 'info@markdesign.net', 'PrdProduct Controller Create 59', '0000-00-00 00:00:00'),
+(2366, 'info@markdesign.net', 'PrdProduct Controller Create 60', '0000-00-00 00:00:00'),
+(2367, 'info@markdesign.net', 'PrdProduct Controller Create 61', '0000-00-00 00:00:00'),
+(2368, 'info@markdesign.net', 'PrdProduct Controller Create 62', '0000-00-00 00:00:00'),
+(2369, 'info@markdesign.net', 'Login: info@markdesign.net', '0000-00-00 00:00:00'),
+(2370, 'info@markdesign.net', 'Create Category 1', '0000-00-00 00:00:00'),
+(2371, 'info@markdesign.net', 'Create Category 1', '0000-00-00 00:00:00'),
+(2372, 'info@markdesign.net', 'Login: info@markdesign.net', '0000-00-00 00:00:00'),
+(2373, 'info@markdesign.net', 'Login: info@markdesign.net', '0000-00-00 00:00:00'),
+(2374, 'info@markdesign.net', 'SlideController Update 1', '0000-00-00 00:00:00'),
+(2375, 'info@markdesign.net', 'SlideController Update 2', '0000-00-00 00:00:00'),
+(2376, 'info@markdesign.net', 'SlideController Update 3', '0000-00-00 00:00:00'),
+(2377, 'info@markdesign.net', 'Create Category 35', '0000-00-00 00:00:00'),
+(2378, 'info@markdesign.net', 'Create Category 36', '0000-00-00 00:00:00'),
+(2379, 'info@markdesign.net', 'Create Category 37', '0000-00-00 00:00:00'),
+(2380, 'info@markdesign.net', 'Create Category 38', '0000-00-00 00:00:00'),
+(2381, 'info@markdesign.net', 'Create Category 39', '0000-00-00 00:00:00'),
+(2382, 'info@markdesign.net', 'Create Category 40', '0000-00-00 00:00:00'),
+(2383, 'info@markdesign.net', 'Create Category 41', '0000-00-00 00:00:00'),
+(2384, 'info@markdesign.net', 'Create Category 35', '0000-00-00 00:00:00'),
+(2385, 'info@markdesign.net', 'Create Category 36', '0000-00-00 00:00:00'),
+(2386, 'info@markdesign.net', 'Create Category 41', '0000-00-00 00:00:00'),
+(2387, 'info@markdesign.net', 'Create Category 35', '0000-00-00 00:00:00'),
+(2388, 'info@markdesign.net', 'Create Category 36', '0000-00-00 00:00:00'),
+(2389, 'info@markdesign.net', 'Create Category 37', '0000-00-00 00:00:00'),
+(2390, 'info@markdesign.net', 'Create Category 38', '0000-00-00 00:00:00'),
+(2391, 'info@markdesign.net', 'Create Category 39', '0000-00-00 00:00:00'),
+(2392, 'info@markdesign.net', 'Create Category 40', '0000-00-00 00:00:00'),
+(2393, 'info@markdesign.net', 'Create Category 37', '0000-00-00 00:00:00'),
+(2394, 'info@markdesign.net', 'Create Category 38', '0000-00-00 00:00:00'),
+(2395, 'info@markdesign.net', 'Create Category 39', '0000-00-00 00:00:00'),
+(2396, 'info@markdesign.net', 'ProductController Update 4', '0000-00-00 00:00:00'),
+(2397, 'info@markdesign.net', 'ProductController Update 5', '0000-00-00 00:00:00'),
+(2398, 'info@markdesign.net', 'ProductController Update 6', '0000-00-00 00:00:00'),
+(2399, 'info@markdesign.net', 'ProductController Update 7', '0000-00-00 00:00:00'),
+(2400, 'info@markdesign.net', 'ProductController Update 8', '0000-00-00 00:00:00'),
+(2401, 'info@markdesign.net', 'ProductController Update 9', '0000-00-00 00:00:00'),
+(2402, 'info@markdesign.net', 'ProductController Update 10', '0000-00-00 00:00:00'),
+(2403, 'info@markdesign.net', 'ProductController Update 11', '0000-00-00 00:00:00'),
+(2404, 'info@markdesign.net', 'ProductController Update 12', '0000-00-00 00:00:00'),
+(2405, 'info@markdesign.net', 'ProductController Update 13', '0000-00-00 00:00:00'),
+(2406, 'info@markdesign.net', 'ProductController Update 14', '0000-00-00 00:00:00'),
+(2407, 'info@markdesign.net', 'ProductController Update 15', '0000-00-00 00:00:00'),
+(2408, 'info@markdesign.net', 'ProductController Update 16', '0000-00-00 00:00:00'),
+(2409, 'info@markdesign.net', 'ProductController Update 17', '0000-00-00 00:00:00'),
+(2410, 'info@markdesign.net', 'ProductController Update 18', '0000-00-00 00:00:00'),
+(2411, 'info@markdesign.net', 'ProductController Update 19', '0000-00-00 00:00:00'),
+(2412, 'info@markdesign.net', 'ProductController Update 20', '0000-00-00 00:00:00'),
+(2413, 'info@markdesign.net', 'ProductController Update 21', '0000-00-00 00:00:00'),
+(2414, 'info@markdesign.net', 'ProductController Update 22', '0000-00-00 00:00:00'),
+(2415, 'info@markdesign.net', 'ProductController Update 23', '0000-00-00 00:00:00'),
+(2416, 'info@markdesign.net', 'ProductController Update 24', '0000-00-00 00:00:00'),
+(2417, 'info@markdesign.net', 'ProductController Update 25', '0000-00-00 00:00:00'),
+(2418, 'info@markdesign.net', 'ProductController Update 26', '0000-00-00 00:00:00'),
+(2419, 'info@markdesign.net', 'ProductController Update 27', '0000-00-00 00:00:00'),
+(2420, 'info@markdesign.net', 'ProductController Update 28', '0000-00-00 00:00:00'),
+(2421, 'info@markdesign.net', 'ProductController Update 29', '0000-00-00 00:00:00'),
+(2422, 'info@markdesign.net', 'ProductController Update 30', '0000-00-00 00:00:00'),
+(2423, 'info@markdesign.net', 'ProductController Update 31', '0000-00-00 00:00:00'),
+(2424, 'info@markdesign.net', 'ProductController Update 32', '0000-00-00 00:00:00'),
+(2425, 'info@markdesign.net', 'ProductController Update 33', '0000-00-00 00:00:00'),
+(2426, 'info@markdesign.net', 'ProductController Update 34', '0000-00-00 00:00:00'),
+(2427, 'info@markdesign.net', 'ProductController Update 35', '0000-00-00 00:00:00'),
+(2428, 'info@markdesign.net', 'ProductController Update 36', '0000-00-00 00:00:00'),
+(2429, 'info@markdesign.net', 'ProductController Update 37', '0000-00-00 00:00:00'),
+(2430, 'info@markdesign.net', 'ProductController Update 38', '0000-00-00 00:00:00'),
+(2431, 'info@markdesign.net', 'ProductController Update 39', '0000-00-00 00:00:00'),
+(2432, 'info@markdesign.net', 'ProductController Update 40', '0000-00-00 00:00:00'),
+(2433, 'info@markdesign.net', 'ProductController Update 41', '0000-00-00 00:00:00'),
+(2434, 'info@markdesign.net', 'ProductController Update 42', '0000-00-00 00:00:00'),
+(2435, 'info@markdesign.net', 'ProductController Update 43', '0000-00-00 00:00:00'),
+(2436, 'info@markdesign.net', 'ProductController Update 44', '0000-00-00 00:00:00'),
+(2437, 'info@markdesign.net', 'ProductController Update 45', '0000-00-00 00:00:00'),
+(2438, 'info@markdesign.net', 'ProductController Update 46', '0000-00-00 00:00:00'),
+(2439, 'info@markdesign.net', 'ProductController Update 47', '0000-00-00 00:00:00'),
+(2440, 'info@markdesign.net', 'ProductController Update 48', '0000-00-00 00:00:00'),
+(2441, 'info@markdesign.net', 'ProductController Update 49', '0000-00-00 00:00:00'),
+(2442, 'info@markdesign.net', 'ProductController Update 50', '0000-00-00 00:00:00'),
+(2443, 'info@markdesign.net', 'ProductController Update 51', '0000-00-00 00:00:00'),
+(2444, 'info@markdesign.net', 'ProductController Update 52', '0000-00-00 00:00:00'),
+(2445, 'info@markdesign.net', 'ProductController Update 53', '0000-00-00 00:00:00'),
+(2446, 'info@markdesign.net', 'ProductController Update 54', '0000-00-00 00:00:00'),
+(2447, 'info@markdesign.net', 'ProductController Update 55', '0000-00-00 00:00:00'),
+(2448, 'info@markdesign.net', 'ProductController Update 56', '0000-00-00 00:00:00'),
+(2449, 'info@markdesign.net', 'ProductController Update 57', '0000-00-00 00:00:00'),
+(2450, 'info@markdesign.net', 'ProductController Update 58', '0000-00-00 00:00:00'),
+(2451, 'info@markdesign.net', 'ProductController Update 59', '0000-00-00 00:00:00'),
+(2452, 'info@markdesign.net', 'ProductController Update 60', '0000-00-00 00:00:00'),
+(2453, 'info@markdesign.net', 'ProductController Update 61', '0000-00-00 00:00:00'),
+(2454, 'info@markdesign.net', 'ProductController Update 62', '0000-00-00 00:00:00'),
+(2455, 'info@markdesign.net', 'Login: info@markdesign.net', '0000-00-00 00:00:00'),
+(2456, 'info@markdesign.net', 'Login: info@markdesign.net', '0000-00-00 00:00:00'),
+(2457, 'info@markdesign.net', 'ProductController Update 8', '0000-00-00 00:00:00'),
+(2458, 'info@markdesign.net', 'ProductController Update 10', '0000-00-00 00:00:00'),
+(2459, 'info@markdesign.net', 'ProductController Update 9', '0000-00-00 00:00:00'),
+(2460, 'info@markdesign.net', 'ProductController Update 12', '0000-00-00 00:00:00'),
+(2461, 'info@markdesign.net', 'ProductController Update 15', '0000-00-00 00:00:00'),
+(2462, 'info@markdesign.net', 'ProductController Update 16', '0000-00-00 00:00:00'),
+(2463, 'info@markdesign.net', 'ProductController Update 17', '0000-00-00 00:00:00'),
+(2464, 'info@markdesign.net', 'ProductController Update 18', '0000-00-00 00:00:00'),
+(2465, 'info@markdesign.net', 'ProductController Update 19', '0000-00-00 00:00:00'),
+(2466, 'info@markdesign.net', 'ProductController Update 20', '0000-00-00 00:00:00'),
+(2467, 'info@markdesign.net', 'ProductController Update 21', '0000-00-00 00:00:00'),
+(2468, 'info@markdesign.net', 'ProductController Update 24', '0000-00-00 00:00:00');
+INSERT INTO `log` (`id`, `username`, `activity`, `time`) VALUES
+(2469, 'info@markdesign.net', 'ProductController Update 25', '0000-00-00 00:00:00'),
+(2470, 'info@markdesign.net', 'ProductController Update 26', '0000-00-00 00:00:00'),
+(2471, 'info@markdesign.net', 'ProductController Update 36', '0000-00-00 00:00:00'),
+(2472, 'info@markdesign.net', 'ProductController Update 37', '0000-00-00 00:00:00'),
+(2473, 'info@markdesign.net', 'ProductController Update 33', '0000-00-00 00:00:00'),
+(2474, 'info@markdesign.net', 'ProductController Update 40', '0000-00-00 00:00:00'),
+(2475, 'info@markdesign.net', 'ProductController Update 46', '0000-00-00 00:00:00'),
+(2476, 'info@markdesign.net', 'ProductController Update 51', '0000-00-00 00:00:00'),
+(2477, 'info@markdesign.net', 'ProductController Update 62', '0000-00-00 00:00:00'),
+(2478, 'info@markdesign.net', 'ProductController Update 61', '0000-00-00 00:00:00'),
+(2479, 'info@markdesign.net', 'ProductController Update 59', '0000-00-00 00:00:00'),
+(2480, 'info@markdesign.net', 'ProductController Update 58', '0000-00-00 00:00:00'),
+(2481, 'info@markdesign.net', 'ProductController Update 50', '0000-00-00 00:00:00'),
+(2482, 'info@markdesign.net', 'ProductController Update 4', '0000-00-00 00:00:00'),
+(2483, 'info@markdesign.net', 'ProductController Update 5', '0000-00-00 00:00:00'),
+(2484, 'info@markdesign.net', 'ProductController Update 6', '0000-00-00 00:00:00'),
+(2485, 'info@markdesign.net', 'ProductController Update 7', '0000-00-00 00:00:00'),
+(2486, 'info@markdesign.net', 'PrdProduct Controller Create 63', '0000-00-00 00:00:00'),
+(2487, 'info@markdesign.net', 'PrdProduct Controller Create 64', '0000-00-00 00:00:00');
 
 -- --------------------------------------------------------
 
@@ -3640,7 +3821,7 @@ CREATE TABLE `me_member` (
   `first_name` varchar(200) NOT NULL,
   `last_name` varchar(200) NOT NULL,
   `pass` varchar(100) NOT NULL,
-  `login_terakhir` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  `login_terakhir` timestamp NOT NULL DEFAULT current_timestamp() ON UPDATE current_timestamp(),
   `aktivasi` int(11) NOT NULL,
   `aktif` int(11) NOT NULL,
   `image` varchar(200) NOT NULL,
@@ -4079,7 +4260,7 @@ INSERT INTO `pg_list_bank` (`id`, `nama`, `label`) VALUES
 CREATE TABLE `pg_pages` (
   `id` int(11) NOT NULL,
   `name` varchar(256) NOT NULL,
-  `type` int(1) NOT NULL DEFAULT '1',
+  `type` int(1) NOT NULL DEFAULT 1,
   `group` varchar(100) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
@@ -4260,14 +4441,20 @@ CREATE TABLE `prd_category` (
 --
 
 INSERT INTO `prd_category` (`id`, `parent_id`, `sort`, `image`, `image2`, `image3`, `type`, `data`) VALUES
-(1, 0, 1, '', '', '', 'category', ''),
+(36, 0, 0, '77983-Rendang met jacked wedges_LR.jpg', '', '', 'category', ''),
 (2, 1, 1, '', '', '', 'category', ''),
 (34, 1, 7, '', '', '', 'category', ''),
 (13, 1, 2, '', '', '', 'category', ''),
 (33, 1, 6, '', '', '', 'category', ''),
 (21, 1, 3, '', '', '', 'category', ''),
 (23, 1, 4, '', '', '', 'category', ''),
-(26, 1, 5, '', '', '', 'category', '');
+(26, 1, 5, '', '', '', 'category', ''),
+(35, 0, 0, 'ed0db-PS ALLUMETTE-103 medium.jpg', '', '', 'category', ''),
+(37, 0, 0, '04c05-PS ROSTI DRIEHOEK-136 medium.jpg', '', '', 'category', ''),
+(38, 0, 0, '05abc-Kip Tikka Masala met wedges_LR.jpg', '', '', 'category', ''),
+(39, 0, 0, '686a1-Nasi goreng met rijst hashbrown_LR.jpg', '', '', 'category', ''),
+(40, 0, 0, '', '', '', 'category', ''),
+(41, 0, 0, '', '', '', 'category', '');
 
 -- --------------------------------------------------------
 
@@ -4289,8 +4476,6 @@ CREATE TABLE `prd_category_description` (
 --
 
 INSERT INTO `prd_category_description` (`id`, `category_id`, `language_id`, `name`, `desc`, `data`) VALUES
-(1, 1, 2, 'Frozen', '', ''),
-(2, 1, 3, 'Frozen', '', ''),
 (3, 2, 2, 'French Fries', '', ''),
 (4, 2, 3, 'French Fries', '', ''),
 (5, 3, 2, 'Frozenland Shoestring', '', ''),
@@ -4356,7 +4541,15 @@ INSERT INTO `prd_category_description` (`id`, `category_id`, `language_id`, `nam
 (65, 33, 2, 'Fruits & Purees', '', ''),
 (66, 33, 3, 'Fruits & Purees', '', ''),
 (67, 34, 2, 'Snacks', '', ''),
-(68, 34, 3, 'Snacks', '', '');
+(68, 34, 3, 'Snacks', '', ''),
+(70, 1, 2, 'Frozen', 'Aneka varian produk kentang beku impor berkualitas, dengan berbagai bentuk dan bumbu saji yang membuat hidangan sangat mudah diproses dan dinikmati.', ''),
+(81, 35, 2, 'French Fries', 'Aneka varian produk kentang beku impor berkualitas, dengan berbagai bentuk dan bumbu saji yang membuat hidangan sangat mudah diproses dan dinikmati.', ''),
+(82, 36, 2, 'Processed Meat', 'Aneka produk makanan proses siap dimasak seperti daging olahan berbentuk nugget, lumpia, samosa, fish cake, siomay dan masih banyak lagi.', ''),
+(86, 40, 2, 'Fruits & Purees', 'Buah segar yang telah dikeringkan dan siap digunakan sebagai bahan baku pendukung masakan anda.', ''),
+(80, 41, 2, 'Snacks', 'Buah segar yang telah dikeringkan dan siap digunakan sebagai bahan baku pendukung masakan anda.', ''),
+(87, 37, 2, 'Fish', 'Aneka produk makanan proses siap dimasak seperti daging olahan berbentuk nugget, lumpia, samosa, fish cake, siomay dan masih banyak lagi.', ''),
+(88, 38, 2, 'Meat', 'Aneka produk makanan proses siap dimasak seperti daging olahan berbentuk nugget, lumpia, samosa, fish cake, siomay dan masih banyak lagi.', ''),
+(89, 39, 2, 'Vegetables', 'Aneka varian produk sayuran beku impor berkualitas seperti kacang polong, jagung, wortel, jamur, asparagus, brokoli dan masih banyak lagi, untuk melengkapi hidangan utama anda.', '');
 
 -- --------------------------------------------------------
 
@@ -4378,7 +4571,66 @@ INSERT INTO `prd_category_product` (`id`, `category_id`, `product_id`) VALUES
 (1, 2, 1),
 (2, 2, 2),
 (3, 2, 3),
-(4, 2, 4);
+(145, 35, 4),
+(146, 35, 5),
+(147, 35, 6),
+(148, 35, 7),
+(120, 35, 8),
+(122, 35, 9),
+(68, 35, 11),
+(123, 35, 12),
+(70, 35, 13),
+(71, 36, 14),
+(124, 36, 15),
+(125, 36, 16),
+(126, 36, 17),
+(127, 36, 18),
+(128, 36, 19),
+(129, 36, 20),
+(130, 37, 21),
+(79, 38, 22),
+(131, 39, 24),
+(132, 39, 25),
+(133, 39, 26),
+(84, 39, 27),
+(85, 39, 28),
+(86, 39, 29),
+(87, 40, 30),
+(88, 40, 31),
+(89, 40, 32),
+(136, 40, 33),
+(91, 40, 34),
+(92, 40, 35),
+(134, 40, 36),
+(135, 40, 37),
+(95, 40, 38),
+(96, 40, 39),
+(137, 40, 40),
+(98, 40, 41),
+(99, 40, 42),
+(100, 40, 43),
+(101, 40, 44),
+(102, 40, 45),
+(138, 40, 46),
+(104, 40, 47),
+(105, 40, 48),
+(106, 40, 49),
+(144, 40, 50),
+(139, 40, 51),
+(109, 40, 52),
+(110, 40, 53),
+(111, 40, 54),
+(112, 40, 55),
+(113, 41, 56),
+(114, 41, 57),
+(143, 41, 58),
+(142, 41, 59),
+(117, 41, 60),
+(141, 41, 61),
+(140, 41, 62),
+(121, 35, 10),
+(80, 38, 23),
+(149, 36, 64);
 
 -- --------------------------------------------------------
 
@@ -4407,7 +4659,7 @@ CREATE TABLE `prd_product` (
   `date_update` datetime NOT NULL,
   `data` text NOT NULL,
   `tag` varchar(200) NOT NULL,
-  `filter` longtext
+  `filter` longtext DEFAULT NULL
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 
 --
@@ -4415,10 +4667,67 @@ CREATE TABLE `prd_product` (
 --
 
 INSERT INTO `prd_product` (`id`, `category_id`, `brand_id`, `image`, `image2`, `kode`, `harga`, `harga_coret`, `harga_retail`, `stock`, `berat`, `terbaru`, `terlaris`, `out_stock`, `status`, `date`, `date_input`, `date_update`, `data`, `tag`, `filter`) VALUES
-(1, 0, 0, 'c0508-gueeeeee.jpg', NULL, '234324', '0.00', '0.00', 0, 0, ' 10 kg', 0, 0, 0, 1, '2019-07-18 17:41:31', '2019-07-18 17:44:37', '2019-07-18 17:44:37', 'a:1:{s:6:\"carton\";s:9:\"4 x 2,5kg\";}', '', NULL),
-(2, 0, 0, 'c9da0-gueeeeee.jpg', NULL, '234324', '0.00', '0.00', 0, 0, ' 10 kg', 0, 0, 0, 1, '2019-07-18 17:41:31', '2019-07-18 17:45:34', '2019-07-18 17:45:34', 'a:1:{s:6:\"carton\";s:9:\"4 x 2,5kg\";}', '', NULL),
-(3, 0, 0, '6f6b7-gueeeeee.jpg', NULL, '234324', '0.00', '0.00', 0, 0, ' 10 kg', 0, 0, 0, 1, '2019-07-18 17:41:31', '2019-07-18 17:45:49', '2019-07-18 17:45:49', 'a:1:{s:6:\"carton\";s:9:\"4 x 2,5kg\";}', ', brand=, category=Frozen, category=1, category=French Fries, category=2,', '||brand=||category=Frozen||category=1||category=French Fries||category=2||'),
-(4, 0, 0, '7fda6-gueeeeee.jpg', NULL, 'FF001', '0.00', '0.00', 0, 0, '10 Kg', 0, 0, 0, 1, '2019-07-18 17:46:25', '2019-07-18 17:48:18', '2019-07-18 17:48:18', 'a:1:{s:6:\"carton\";s:9:\"4 x 2,5kg\";}', ', brand=, category=Frozen, category=1, category=French Fries, category=2,', '||brand=||category=Frozen||category=1||category=French Fries||category=2||');
+(9, 0, 0, '82c2d-Spicy-Wedges.jpg', NULL, 'FF006', '0.00', '0.00', 0, 0, '10 Kg', 0, 0, 0, 1, '2019-07-18 18:46:23', '2019-07-18 18:46:23', '2019-07-24 15:11:18', 'a:1:{s:6:\"carton\";s:9:\"4 x 2,5kg\";}', 'category=French Fries, category=35,', 'category=French Fries||category=35||'),
+(10, 0, 0, 'adc35-Mini-Triangle-Hashbrown.jpg', NULL, 'FF007', '0.00', '0.00', 0, 0, '10 Kg', 0, 0, 0, 1, '2019-07-18 18:47:26', '2019-07-18 18:47:26', '2019-07-24 15:10:11', 'a:1:{s:6:\"carton\";s:9:\"4 x 2,5kg\";}', 'category=French Fries, category=35,', 'category=French Fries||category=35||'),
+(11, 0, 0, '2f7c9-gueeeeee.jpg', NULL, 'FF008', '0.00', '0.00', 0, 0, '10 Kg', 0, 0, 0, 1, '2019-07-18 18:48:20', '2019-07-18 18:48:20', '2019-07-24 11:10:07', 'a:1:{s:6:\"carton\";s:9:\"4 x 2,5kg\";}', 'category=French Fries, category=35,', 'category=French Fries||category=35||'),
+(4, 0, 0, '7c531-Frozenland-Shoestring.jpg', NULL, 'FF001', '0.00', '0.00', 0, 0, '10 Kg', 0, 0, 0, 1, '2019-07-18 17:48:18', '2019-07-18 17:48:18', '2019-07-24 15:26:29', 'a:1:{s:6:\"carton\";s:9:\"4 x 2,5kg\";}', 'category=French Fries, category=35,', 'category=French Fries||category=35||'),
+(5, 0, 0, 'eac26-Frozenland-Straight-Cut.jpg', NULL, 'FF002', '0.00', '0.00', 0, 0, '10 Kg', 0, 0, 0, 1, '2019-07-18 17:49:28', '2019-07-18 17:49:28', '2019-07-24 15:26:50', 'a:1:{s:6:\"carton\";s:9:\"4 x 2,5kg\";}', 'category=French Fries, category=35,', 'category=French Fries||category=35||'),
+(6, 0, 0, '6cb6d-Frozenland-Batter-Coated.jpg', NULL, 'FF003', '0.00', '0.00', 0, 0, '10 Kg', 0, 0, 0, 1, '2019-07-18 17:50:05', '2019-07-18 17:50:05', '2019-07-24 15:27:16', 'a:1:{s:6:\"carton\";s:9:\"4 x 2,5kg\";}', 'category=French Fries, category=35,', 'category=French Fries||category=35||'),
+(7, 0, 0, '1ac07-Frozenland-Crinkle-Cut.jpg', NULL, 'FF004', '0.00', '0.00', 0, 0, '10 Kg', 0, 0, 0, 1, '2019-07-18 17:50:48', '2019-07-18 17:50:48', '2019-07-24 15:27:33', 'a:1:{s:6:\"carton\";s:9:\"4 x 2,5kg\";}', 'category=French Fries, category=35,', 'category=French Fries||category=35||'),
+(8, 0, 0, '879c0-Noisettes.jpg', NULL, 'FF005', '0.00', '0.00', 0, 0, '10 Kg', 0, 0, 0, 1, '2019-07-18 17:51:27', '2019-07-18 17:51:27', '2019-07-24 15:09:39', 'a:1:{s:6:\"carton\";s:9:\"4 x 2,5kg\";}', 'category=French Fries, category=35,', 'category=French Fries||category=35||'),
+(12, 0, 0, '72460-Sweet-Potato-Hashbrown.jpg', NULL, 'FF009', '0.00', '0.00', 0, 0, '10 Kg', 0, 0, 0, 1, '2019-07-18 18:49:06', '2019-07-18 18:49:06', '2019-07-24 15:11:51', 'a:1:{s:6:\"carton\";s:9:\"4 x 2,5kg\";}', 'category=French Fries, category=35,', 'category=French Fries||category=35||'),
+(13, 0, 0, 'e762f-gueeeeee.jpg', NULL, 'FF010', '0.00', '0.00', 0, 0, '10 Kg', 0, 0, 0, 1, '2019-07-18 18:49:56', '2019-07-18 18:49:56', '2019-07-24 11:10:31', 'a:1:{s:6:\"carton\";s:9:\"4 x 2,5kg\";}', 'category=French Fries, category=35,', 'category=French Fries||category=35||'),
+(14, 0, 0, '0e3f4-gueeeeee.jpg', NULL, 'PM001', '0.00', '0.00', 0, 0, '10 Kg', 0, 0, 0, 1, '2019-07-18 18:51:39', '2019-07-18 18:51:39', '2019-07-24 11:10:47', 'a:1:{s:6:\"carton\";s:9:\"4 x 2,5kg\";}', 'category=Processed Meat, category=36,', 'category=Processed Meat||category=36||'),
+(15, 0, 0, '4aa44-Cocktail-Sausage.jpg', NULL, 'PM002', '0.00', '0.00', 0, 0, '10 Kg', 0, 0, 0, 1, '2019-07-18 18:52:39', '2019-07-18 18:52:39', '2019-07-24 15:13:24', 'a:1:{s:6:\"carton\";s:9:\"4 x 2,5kg\";}', 'category=Processed Meat, category=36,', 'category=Processed Meat||category=36||'),
+(16, 0, 0, '4de68-Original-Sausage-Jumbo.jpg', NULL, 'PM003', '0.00', '0.00', 0, 0, '10 Kg', 0, 0, 0, 1, '2019-07-18 18:53:29', '2019-07-18 18:53:29', '2019-07-24 15:14:39', 'a:1:{s:6:\"carton\";s:9:\"4 x 2,5kg\";}', 'category=Processed Meat, category=36,', 'category=Processed Meat||category=36||'),
+(17, 0, 0, '7c0cd-Blackpepper-Sausage.jpg', NULL, 'PM004', '0.00', '0.00', 0, 0, '10 Kg', 0, 0, 0, 1, '2019-07-18 18:54:34', '2019-07-18 18:54:34', '2019-07-24 15:15:02', 'a:1:{s:6:\"carton\";s:9:\"4 x 2,5kg\";}', 'category=Processed Meat, category=36,', 'category=Processed Meat||category=36||'),
+(18, 0, 0, 'cc46b-Cheese-Sausage.jpg', NULL, 'PM005', '0.00', '0.00', 0, 0, '10 Kg', 0, 0, 0, 1, '2019-07-18 18:55:23', '2019-07-18 18:55:23', '2019-07-24 15:15:21', 'a:1:{s:6:\"carton\";s:9:\"4 x 2,5kg\";}', 'category=Processed Meat, category=36,', 'category=Processed Meat||category=36||'),
+(19, 0, 0, 'fab65-Spicy-Chicken-Wing.jpg', NULL, 'PM006', '0.00', '0.00', 0, 0, '10 Kg', 0, 0, 0, 1, '2019-07-18 18:56:07', '2019-07-18 18:56:07', '2019-07-24 15:15:40', 'a:1:{s:6:\"carton\";s:9:\"4 x 2,5kg\";}', 'category=Processed Meat, category=36,', 'category=Processed Meat||category=36||'),
+(20, 0, 0, 'f02a3-Chicken-Katsu.jpg', NULL, 'PM007', '0.00', '0.00', 0, 0, '10 Kg', 0, 0, 0, 1, '2019-07-18 18:56:43', '2019-07-18 18:56:43', '2019-07-24 15:15:57', 'a:1:{s:6:\"carton\";s:9:\"4 x 2,5kg\";}', 'category=Processed Meat, category=36,', 'category=Processed Meat||category=36||'),
+(21, 0, 0, '47acb-Dori-Fillet-(Pangasius)-isi-5.jpg', NULL, 'F001', '0.00', '0.00', 0, 0, '10 Kg', 0, 0, 0, 1, '2019-07-18 18:59:50', '2019-07-18 18:59:50', '2019-07-24 15:16:40', 'a:1:{s:6:\"carton\";s:9:\"4 x 2,5kg\";}', 'category=Fish, category=37,', 'category=Fish||category=37||'),
+(22, 0, 0, '23d9c-gueeeeee.jpg', NULL, 'M001', '0.00', '0.00', 0, 0, '10 Kg', 0, 0, 0, 1, '2019-07-18 19:01:30', '2019-07-18 19:01:30', '2019-07-24 11:12:08', 'a:1:{s:6:\"carton\";s:9:\"4 x 2,5kg\";}', 'category=Meat, category=38,', 'category=Meat||category=38||'),
+(23, 0, 0, 'db21a-gueeeeee.jpg', NULL, 'M002', '0.00', '0.00', 0, 0, '10 Kg', 0, 0, 0, 1, '2019-07-18 19:02:15', '2019-07-18 19:02:15', '2019-07-24 11:12:19', 'a:1:{s:6:\"carton\";s:9:\"4 x 2,5kg\";}', 'category=Meat, category=38,', 'category=Meat||category=38||'),
+(24, 0, 0, 'ac8e9-Mix-Vegetables-(4-Ways-&-3-Ways).jpg', NULL, 'V001', '0.00', '0.00', 0, 0, '10 Kg', 0, 0, 0, 1, '2019-07-18 19:03:14', '2019-07-18 19:03:14', '2019-07-24 15:17:26', 'a:1:{s:6:\"carton\";s:9:\"4 x 2,5kg\";}', 'category=Vegetables, category=39,', 'category=Vegetables||category=39||'),
+(63, 0, 0, '45670-Spinach.jpg', NULL, 'V007', '0.00', '0.00', 0, 0, '10 Kg', 0, 0, 0, 1, '2019-07-24 15:29:04', '2019-07-24 15:30:26', '2019-07-24 15:30:26', 'a:1:{s:6:\"carton\";s:9:\"4 x 2,5kg\";}', ', brand=,', '||brand=||'),
+(25, 0, 0, 'd69ff-Corn-Kernels.jpg', NULL, 'V002', '0.00', '0.00', 0, 0, '10 Kg', 0, 0, 0, 1, '2019-07-18 19:03:46', '2019-07-18 19:03:46', '2019-07-24 15:17:41', 'a:1:{s:6:\"carton\";s:9:\"4 x 2,5kg\";}', 'category=Vegetables, category=39,', 'category=Vegetables||category=39||'),
+(26, 0, 0, '5f24b-Green-Peas-Besar.jpg', NULL, 'V003', '0.00', '0.00', 0, 0, '10 Kg', 0, 0, 0, 1, '2019-07-18 19:04:16', '2019-07-18 19:04:16', '2019-07-24 15:18:00', 'a:1:{s:6:\"carton\";s:9:\"4 x 2,5kg\";}', 'category=Vegetables, category=39,', 'category=Vegetables||category=39||'),
+(27, 0, 0, '64a7d-gueeeeee.jpg', NULL, 'V004', '0.00', '0.00', 0, 0, '10 Kg', 0, 0, 0, 1, '2019-07-18 19:06:00', '2019-07-18 19:06:00', '2019-07-24 11:13:15', 'a:1:{s:6:\"carton\";s:9:\"4 x 2,5kg\";}', 'category=Vegetables, category=39,', 'category=Vegetables||category=39||'),
+(28, 0, 0, 'b91d0-gueeeeee.jpg', NULL, 'V005', '0.00', '0.00', 0, 0, '10 Kg', 0, 0, 0, 1, '2019-07-18 19:06:42', '2019-07-18 19:06:42', '2019-07-24 11:13:25', 'a:1:{s:6:\"carton\";s:9:\"4 x 2,5kg\";}', 'category=Vegetables, category=39,', 'category=Vegetables||category=39||'),
+(29, 0, 0, 'bf839-gueeeeee.jpg', NULL, 'V006', '0.00', '0.00', 0, 0, '10 Kg', 0, 0, 0, 1, '2019-07-18 19:07:25', '2019-07-18 19:07:25', '2019-07-24 11:13:34', 'a:1:{s:6:\"carton\";s:9:\"4 x 2,5kg\";}', 'category=Vegetables, category=39,', 'category=Vegetables||category=39||'),
+(30, 0, 0, '40db0-gueeeeee.jpg', NULL, 'FP001', '0.00', '0.00', 0, 0, '10 Kg', 0, 0, 0, 1, '2019-07-18 19:08:24', '2019-07-18 19:08:24', '2019-07-24 11:13:46', 'a:1:{s:6:\"carton\";s:9:\"4 x 2,5kg\";}', 'category=Fruits & Purees, category=40,', 'category=Fruits & Purees||category=40||'),
+(31, 0, 0, 'df136-gueeeeee.jpg', NULL, 'FP002', '0.00', '0.00', 0, 0, '10 Kg', 0, 0, 0, 1, '2019-07-18 19:08:59', '2019-07-18 19:08:59', '2019-07-24 11:13:54', 'a:1:{s:6:\"carton\";s:9:\"4 x 2,5kg\";}', 'category=Fruits & Purees, category=40,', 'category=Fruits & Purees||category=40||'),
+(32, 0, 0, '992a7-gueeeeee.jpg', NULL, 'FP003', '0.00', '0.00', 0, 0, '10 Kg', 0, 0, 0, 1, '2019-07-18 19:09:55', '2019-07-18 19:09:55', '2019-07-24 11:14:07', 'a:1:{s:6:\"carton\";s:9:\"4 x 2,5kg\";}', 'category=Fruits & Purees, category=40,', 'category=Fruits & Purees||category=40||'),
+(33, 0, 0, 'd989d-Soursop-Puree-(Seedless).jpg', NULL, 'FP004', '0.00', '0.00', 0, 0, '10 Kg', 0, 0, 0, 1, '2019-07-18 19:30:08', '2019-07-18 19:30:08', '2019-07-24 15:19:27', 'a:1:{s:6:\"carton\";s:9:\"4 x 2,5kg\";}', 'category=Fruits & Purees, category=40,', 'category=Fruits & Purees||category=40||'),
+(34, 0, 0, '9d2ab-gueeeeee.jpg', NULL, 'FP005', '0.00', '0.00', 0, 0, '10 Kg', 0, 0, 0, 1, '2019-07-18 19:30:44', '2019-07-18 19:30:44', '2019-07-24 11:14:24', 'a:1:{s:6:\"carton\";s:9:\"4 x 2,5kg\";}', 'category=Fruits & Purees, category=40,', 'category=Fruits & Purees||category=40||'),
+(35, 0, 0, 'e7b4c-gueeeeee.jpg', NULL, 'FP006', '0.00', '0.00', 0, 0, '10 Kg', 0, 0, 0, 1, '2019-07-18 19:31:23', '2019-07-18 19:31:23', '2019-07-24 11:14:31', 'a:1:{s:6:\"carton\";s:9:\"4 x 2,5kg\";}', 'category=Fruits & Purees, category=40,', 'category=Fruits & Purees||category=40||'),
+(36, 0, 0, 'f2a1f-Passion-Fruit-Puree-(With-Seed).jpg', NULL, 'FP007', '0.00', '0.00', 0, 0, '10 Kg', 0, 0, 0, 1, '2019-07-18 19:31:53', '2019-07-18 19:31:53', '2019-07-24 15:18:49', 'a:1:{s:6:\"carton\";s:9:\"4 x 2,5kg\";}', 'category=Fruits & Purees, category=40,', 'category=Fruits & Purees||category=40||'),
+(37, 0, 0, '2502b-Avocado-Puree.jpg', NULL, 'FP008', '0.00', '0.00', 0, 0, '10 Kg', 0, 0, 0, 1, '2019-07-18 19:32:54', '2019-07-18 19:32:54', '2019-07-24 15:19:04', 'a:1:{s:6:\"carton\";s:9:\"4 x 2,5kg\";}', 'category=Fruits & Purees, category=40,', 'category=Fruits & Purees||category=40||'),
+(38, 0, 0, '94279-gueeeeee.jpg', NULL, 'FP009', '0.00', '0.00', 0, 0, '10 Kg', 0, 0, 0, 1, '2019-07-18 19:34:49', '2019-07-18 19:34:49', '2019-07-24 11:14:55', 'a:1:{s:6:\"carton\";s:9:\"4 x 2,5kg\";}', 'category=Fruits & Purees, category=40,', 'category=Fruits & Purees||category=40||'),
+(39, 0, 0, '37f8f-gueeeeee.jpg', NULL, 'FP010', '0.00', '0.00', 0, 0, '10 Kg', 0, 0, 0, 1, '2019-07-18 19:39:00', '2019-07-18 19:39:00', '2019-07-24 11:15:01', 'a:1:{s:6:\"carton\";s:9:\"4 x 2,5kg\";}', 'category=Fruits & Purees, category=40,', 'category=Fruits & Purees||category=40||'),
+(40, 0, 0, '52049-Pink-Guava-Puree.jpg', NULL, 'FP011', '0.00', '0.00', 0, 0, '10 Kg', 0, 0, 0, 1, '2019-07-18 19:39:29', '2019-07-18 19:39:29', '2019-07-24 15:20:01', 'a:1:{s:6:\"carton\";s:9:\"4 x 2,5kg\";}', 'category=Fruits & Purees, category=40,', 'category=Fruits & Purees||category=40||'),
+(41, 0, 0, '4d5ce-gueeeeee.jpg', NULL, 'FP012', '0.00', '0.00', 0, 0, '10 Kg', 0, 0, 0, 1, '2019-07-18 19:41:16', '2019-07-18 19:41:16', '2019-07-24 11:15:21', 'a:1:{s:6:\"carton\";s:9:\"4 x 2,5kg\";}', 'category=Fruits & Purees, category=40,', 'category=Fruits & Purees||category=40||'),
+(42, 0, 0, '1c906-gueeeeee.jpg', NULL, 'FP013', '0.00', '0.00', 0, 0, '10 Kg', 0, 0, 0, 1, '2019-07-18 19:41:52', '2019-07-18 19:41:52', '2019-07-24 11:15:30', 'a:1:{s:6:\"carton\";s:9:\"4 x 2,5kg\";}', 'category=Fruits & Purees, category=40,', 'category=Fruits & Purees||category=40||'),
+(43, 0, 0, '345fd-gueeeeee.jpg', NULL, 'FP014', '0.00', '0.00', 0, 0, '10 Kg', 0, 0, 0, 1, '2019-07-18 19:42:25', '2019-07-18 19:42:25', '2019-07-24 11:15:39', 'a:1:{s:6:\"carton\";s:9:\"4 x 2,5kg\";}', 'category=Fruits & Purees, category=40,', 'category=Fruits & Purees||category=40||'),
+(44, 0, 0, 'c4d13-gueeeeee.jpg', NULL, 'FP015', '0.00', '0.00', 0, 0, '10 Kg', 0, 0, 0, 1, '2019-07-18 19:48:12', '2019-07-18 19:48:12', '2019-07-24 11:15:48', 'a:1:{s:6:\"carton\";s:9:\"4 x 2,5kg\";}', 'category=Fruits & Purees, category=40,', 'category=Fruits & Purees||category=40||'),
+(45, 0, 0, '9eb6f-gueeeeee.jpg', NULL, 'FP016', '0.00', '0.00', 0, 0, '10 Kg', 0, 0, 0, 1, '2019-07-18 19:48:42', '2019-07-18 19:48:42', '2019-07-24 11:15:55', 'a:1:{s:6:\"carton\";s:9:\"4 x 2,5kg\";}', 'category=Fruits & Purees, category=40,', 'category=Fruits & Purees||category=40||'),
+(46, 0, 0, '8d59d-Diced-Kiwi.jpg', NULL, 'FP017', '0.00', '0.00', 0, 0, '10 Kg', 0, 0, 0, 1, '2019-07-18 19:51:16', '2019-07-18 19:51:16', '2019-07-24 15:20:49', 'a:1:{s:6:\"carton\";s:9:\"4 x 2,5kg\";}', 'category=Fruits & Purees, category=40,', 'category=Fruits & Purees||category=40||'),
+(47, 0, 0, '802f3-gueeeeee.jpg', NULL, 'FP018', '0.00', '0.00', 0, 0, '10 Kg', 0, 0, 0, 1, '2019-07-18 19:57:12', '2019-07-18 19:57:12', '2019-07-24 11:16:19', 'a:1:{s:6:\"carton\";s:9:\"4 x 2,5kg\";}', 'category=Fruits & Purees, category=40,', 'category=Fruits & Purees||category=40||'),
+(48, 0, 0, 'fc18f-gueeeeee.jpg', NULL, 'FP019', '0.00', '0.00', 0, 0, '10 Kg', 0, 0, 0, 1, '2019-07-18 19:57:38', '2019-07-18 19:57:38', '2019-07-24 11:16:27', 'a:1:{s:6:\"carton\";s:9:\"4 x 2,5kg\";}', 'category=Fruits & Purees, category=40,', 'category=Fruits & Purees||category=40||'),
+(49, 0, 0, '6046b-gueeeeee.jpg', NULL, 'FP020', '0.00', '0.00', 0, 0, '10 Kg', 0, 0, 0, 1, '2019-07-18 19:58:09', '2019-07-18 19:58:09', '2019-07-24 11:16:33', 'a:1:{s:6:\"carton\";s:9:\"4 x 2,5kg\";}', 'category=Fruits & Purees, category=40,', 'category=Fruits & Purees||category=40||'),
+(50, 0, 0, '980d9-Strawberry.jpg', NULL, 'FP021', '0.00', '0.00', 0, 0, '10 Kg', 0, 0, 0, 1, '2019-07-18 19:58:59', '2019-07-18 19:58:59', '2019-07-24 15:23:02', 'a:1:{s:6:\"carton\";s:9:\"4 x 2,5kg\";}', 'category=Fruits & Purees, category=40,', 'category=Fruits & Purees||category=40||'),
+(51, 0, 0, '414a9-Rasberry.jpg', NULL, 'FP022', '0.00', '0.00', 0, 0, '10 Kg', 0, 0, 0, 1, '2019-07-18 19:59:30', '2019-07-18 19:59:30', '2019-07-24 15:21:15', 'a:1:{s:6:\"carton\";s:9:\"4 x 2,5kg\";}', 'category=Fruits & Purees, category=40,', 'category=Fruits & Purees||category=40||'),
+(52, 0, 0, '67643-gueeeeee.jpg', NULL, 'FP023', '0.00', '0.00', 0, 0, '10 Kg', 0, 0, 0, 1, '2019-07-18 20:00:48', '2019-07-18 20:00:48', '2019-07-24 11:16:53', 'a:1:{s:6:\"carton\";s:9:\"4 x 2,5kg\";}', 'category=Fruits & Purees, category=40,', 'category=Fruits & Purees||category=40||'),
+(53, 0, 0, '4dc17-gueeeeee.jpg', NULL, 'FP024', '0.00', '0.00', 0, 0, '10 Kg', 0, 0, 0, 1, '2019-07-18 20:02:01', '2019-07-18 20:02:01', '2019-07-24 11:17:02', 'a:1:{s:6:\"carton\";s:9:\"4 x 2,5kg\";}', 'category=Fruits & Purees, category=40,', 'category=Fruits & Purees||category=40||'),
+(54, 0, 0, '9bfa9-gueeeeee.jpg', NULL, 'FP025', '0.00', '0.00', 0, 0, '10 Kg', 0, 0, 0, 1, '2019-07-18 20:02:34', '2019-07-18 20:02:34', '2019-07-24 11:17:09', 'a:1:{s:6:\"carton\";s:9:\"4 x 2,5kg\";}', 'category=Fruits & Purees, category=40,', 'category=Fruits & Purees||category=40||'),
+(55, 0, 0, '49e0c-gueeeeee.jpg', NULL, 'FP026', '0.00', '0.00', 0, 0, '10 Kg', 0, 0, 0, 1, '2019-07-18 20:03:41', '2019-07-18 20:03:41', '2019-07-24 11:17:16', 'a:1:{s:6:\"carton\";s:9:\"4 x 2,5kg\";}', 'category=Fruits & Purees, category=40,', 'category=Fruits & Purees||category=40||'),
+(56, 0, 0, 'c74c9-gueeeeee.jpg', NULL, 'S001', '0.00', '0.00', 0, 0, '10 Kg', 0, 0, 0, 1, '2019-07-18 20:05:55', '2019-07-18 20:05:55', '2019-07-24 11:17:22', 'a:1:{s:6:\"carton\";s:9:\"4 x 2,5kg\";}', 'category=Snacks, category=41,', 'category=Snacks||category=41||'),
+(57, 0, 0, '48c01-gueeeeee.jpg', NULL, 'S002', '0.00', '0.00', 0, 0, '10 Kg', 0, 0, 0, 1, '2019-07-18 20:06:24', '2019-07-18 20:06:24', '2019-07-24 11:17:31', 'a:1:{s:6:\"carton\";s:9:\"4 x 2,5kg\";}', 'category=Snacks, category=41,', 'category=Snacks||category=41||'),
+(58, 0, 0, '1cffb-Cassava-Hashbrown.jpg', NULL, 'S003', '0.00', '0.00', 0, 0, '10 Kg', 0, 0, 0, 1, '2019-07-18 20:07:04', '2019-07-18 20:07:04', '2019-07-24 15:22:40', 'a:1:{s:6:\"carton\";s:9:\"4 x 2,5kg\";}', 'category=Snacks, category=41,', 'category=Snacks||category=41||'),
+(59, 0, 0, '4ba36-Taro-Hashbrown.jpg', NULL, 'S004', '0.00', '0.00', 0, 0, '10 Kg', 0, 0, 0, 1, '2019-07-18 20:07:39', '2019-07-18 20:07:39', '2019-07-24 15:22:24', 'a:1:{s:6:\"carton\";s:9:\"4 x 2,5kg\";}', 'category=Snacks, category=41,', 'category=Snacks||category=41||'),
+(60, 0, 0, 'd273b-gueeeeee.jpg', NULL, 'S005', '0.00', '0.00', 0, 0, '10 Kg', 0, 0, 0, 1, '2019-07-18 20:08:30', '2019-07-18 20:08:30', '2019-07-24 11:17:51', 'a:1:{s:6:\"carton\";s:9:\"4 x 2,5kg\";}', 'category=Snacks, category=41,', 'category=Snacks||category=41||'),
+(61, 0, 0, 'b2692-Durian-Goreng.jpg', NULL, 'S006', '0.00', '0.00', 0, 0, '10 Kg', 0, 0, 0, 1, '2019-07-18 20:14:39', '2019-07-18 20:14:39', '2019-07-24 15:22:05', 'a:1:{s:6:\"carton\";s:9:\"4 x 2,5kg\";}', 'category=Snacks, category=41,', 'category=Snacks||category=41||'),
+(64, 0, 0, 'ba5ee-Original-Sausage-Jumbo-With-Cornstratch.jpg', NULL, 'PM008', '0.00', '0.00', 0, 0, '10 Kg', 0, 0, 0, 1, '2019-07-24 15:35:14', '2019-07-24 15:38:03', '2019-07-24 15:38:03', 'a:1:{s:6:\"carton\";s:9:\"4 x 2,5kg\";}', ', brand=, category=Processed Meat, category=36,', '||brand=||category=Processed Meat||category=36||'),
+(62, 0, 0, '0a225-Cempedak-Goreng.jpg', NULL, 'S007', '0.00', '0.00', 0, 0, '10 Kg', 0, 0, 0, 1, '2019-07-18 20:15:12', '2019-07-18 20:15:12', '2019-07-24 15:21:46', 'a:1:{s:6:\"carton\";s:9:\"4 x 2,5kg\";}', 'category=Snacks, category=41,', 'category=Snacks||category=41||');
 
 -- --------------------------------------------------------
 
@@ -4476,7 +4785,67 @@ INSERT INTO `prd_product_description` (`id`, `product_id`, `language_id`, `name`
 (1, 1, 2, 'Frozenland Shoestring', 'Lamb Weston', '<p>Kentang goreng dengan potongan bergerigi menawarkan keunikan tersendiri untuk hidangan Anda. Lapisan luar yang garing membalut kentang yg lembut di dalam.</p>', '', '', '', ''),
 (2, 2, 2, 'Frozenland Shoestring', 'Lamb Weston', '<p>Kentang goreng dengan potongan bergerigi menawarkan keunikan tersendiri untuk hidangan Anda. Lapisan luar yang garing membalut kentang yg lembut di dalam.</p>', '', '', '', ''),
 (3, 3, 2, 'Frozenland Shoestring', 'Lamb Weston', '<p>Kentang goreng dengan potongan bergerigi menawarkan keunikan tersendiri untuk hidangan Anda. Lapisan luar yang garing membalut kentang yg lembut di dalam.</p>', '', '', '', ''),
-(4, 4, 2, 'Frozenland Shoestring', 'Lamb Weston', '<p>Aneka varian produk kentang beku impor berkualitas, dengan berbagai bentuk dan bumbu saji yang membuat hidangan sangat mudah diproses dan dinikmati.</p>', '', '', '', '');
+(148, 4, 2, 'Frozenland Shoestring', 'Lamb Weston', '<p>Aneka varian produk kentang beku impor berkualitas, dengan berbagai bentuk dan bumbu saji yang membuat hidangan sangat mudah diproses dan dinikmati.</p>', '', '', '', ''),
+(149, 5, 2, 'Frozenland Straight Cut', 'Lamb Weston', '<p>Aneka varian produk kentang beku impor berkualitas,dengan berbagai bentuk dan bumbu saji yang membuat hidangan sangat mudah diproses dan dinikmati.</p>', '', '', '', ''),
+(150, 6, 2, 'Frozenland Batter Coated', 'Lamb Weston', '<p>Aneka varian produk kentang beku impor berkualitas, dengan berbagai bentuk dan bumbu saji yang membuat hidangan sangat mudah diproses dan dinikmati.</p>', '', '', '', ''),
+(151, 7, 2, 'Frozenland Crinkle Cut', 'Lamb Weston\r\n', '<p>Aneka varian produk kentang beku impor berkualitas, dengan berbagai bentuk dan bumbu saji yang membuat hidangan sangat mudah diproses dan dinikmati.</p>', '', '', '', ''),
+(123, 8, 2, 'Noisettes', 'Lamb Weston', '<p>Aneka varian produk kentang beku impor berkualitas, dengan berbagai bentuk dan bumbu saji yang membuat hidangan sangat mudah diproses dan dinikmati.</p>', '', '', '', ''),
+(125, 9, 2, 'Spicy Wedges', 'Lamb Weston', '<p>Aneka varian produk kentang beku impor berkualitas, dengan berbagai bentuk dan bumbu saji yang membuat hidangan sangat mudah diproses dan dinikmati.</p>', '', '', '', ''),
+(124, 10, 2, 'Mini Triangle Hashbrown', 'Lam Weston', '<p>Aneka varian produk kentang beku impor berkualitas, dengan berbagai bentuk dan bumbu saji yang membuat hidangan sangat mudah diproses dan dinikmati.</p>', '', '', '', ''),
+(71, 11, 2, 'Hashbrown Patties', 'Lamb Weston', '<p>Aneka varian produk kentang beku impor berkualitas, dengan berbagai bentuk dan bumbu saji yang membuat hidangan sangat mudah diproses dan dinikmati.</p>', '', '', '', ''),
+(126, 12, 2, 'Sweet Potato Hashbrown', 'Lamb Weston', '<p>Aneka varian produk kentang beku impor berkualitas, dengan berbagai bentuk dan bumbu saji yang membuat hidangan sangat mudah diproses dan dinikmati.</p>', '', '', '', ''),
+(73, 13, 2, 'Sweet Potato', 'Lamb Weston', '<p>Aneka varian produk kentang beku impor berkualitas, dengan berbagai bentuk dan bumbu saji yang membuat hidangan sangat mudah diproses dan dinikmati.</p>', '', '', '', ''),
+(74, 14, 2, 'Breakfast Sausage', 'Lamb Weston', '<p>Aneka produk makanan proses siap dimasak seperti daging olahan berbentuk nugget, lumpia, samosa, fish cake, siomay dan masih banyak lagi.</p>', '', '', '', ''),
+(127, 15, 2, 'Cocktail Sausage', 'Lamb Weston', '<p>Aneka produk makanan proses siap dimasak seperti daging olahan berbentuk nugget, lumpia, samosa, fish cake, siomay dan masih banyak lagi.</p>', '', '', '', ''),
+(128, 16, 2, 'Original Sausage Jumbo', 'Lamb Weston', '<p>Aneka produk makanan proses siap dimasak seperti daging olahan berbentuk nugget, lumpia, samosa, fish cake, siomay dan masih banyak lagi.</p>', '', '', '', ''),
+(129, 17, 2, 'Blackpepper Sausage', 'Lamb Weston', '<p>Aneka produk makanan proses siap dimasak seperti daging olahan berbentuk nugget, lumpia, samosa, fish cake, siomay dan masih banyak lagi.</p>', '', '', '', ''),
+(130, 18, 2, 'Cheese Sausage', 'Lamb Weston', '<p>Aneka produk makanan proses siap dimasak seperti daging olahan berbentuk nugget, lumpia, samosa, fish cake, siomay dan masih banyak lagi.</p>', '', '', '', ''),
+(131, 19, 2, 'Spicy Chicken Wing', 'Lamb Weston', '<p>Aneka produk makanan proses siap dimasak seperti daging olahan berbentuk nugget, lumpia, samosa, fish cake, siomay dan masih banyak lagi.</p>', '', '', '', ''),
+(132, 20, 2, 'Chicken Katsu', 'Lamb Weston', '<p>Aneka produk makanan proses siap dimasak seperti daging olahan berbentuk nugget, lumpia, samosa, fish cake, siomay dan masih banyak lagi.</p>', '', '', '', ''),
+(133, 21, 2, 'Dori Fillet (Pangasius)', 'Lamb Weston', '<p>Aneka produk makanan proses siap dimasak seperti daging olahan berbentuk nugget, lumpia, samosa, fish cake, siomay dan masih banyak lagi.</p>', '', '', '', ''),
+(82, 22, 2, 'Beef Short Ribs', 'Lamb Weston', '<p>Aneka produk makanan proses siap dimasak seperti daging olahan berbentuk nugget, lumpia, samosa, fish cake, siomay dan masih banyak lagi.</p>', '', '', '', ''),
+(83, 23, 2, 'Beef Ribs', 'Lamb Weston', '<p>Aneka produk makanan proses siap dimasak seperti daging olahan berbentuk nugget, lumpia, samosa, fish cake, siomay dan masih banyak lagi.</p>', '', '', '', ''),
+(134, 24, 2, 'Mix Vegetables (4 Ways & 3 Ways)', 'Lamb Weston', '<p>Aneka varian produk sayuran beku impor berkualitas seperti kacang polong, jagung, wortel, jamur, asparagus, brokoli dan masih banyak lagi, untuk melengkapi hidangan utama anda.</p>', '', '', '', ''),
+(135, 25, 2, 'Corn Kernels', 'Lamb Weston', '<p>Aneka varian produk sayuran beku impor berkualitas seperti kacang polong, jagung, wortel, jamur, asparagus, brokoli dan masih banyak lagi, untuk melengkapi hidangan utama anda.</p>', '', '', '', ''),
+(136, 26, 2, 'Green Peas', 'Lamb Weston', '<p>Aneka varian produk sayuran beku impor berkualitas seperti kacang polong, jagung, wortel, jamur, asparagus, brokoli dan masih banyak lagi, untuk melengkapi hidangan utama anda.</p>', '', '', '', ''),
+(87, 27, 2, 'Carrot Cut', 'Lamb Weston', '<p>Aneka varian produk sayuran beku impor berkualitas seperti kacang polong, jagung, wortel, jamur, asparagus, brokoli dan masih banyak lagi, untuk melengkapi hidangan utama anda.</p>', '', '', '', ''),
+(88, 28, 2, 'Broccoli', 'Lamb Weston', '<p>Aneka varian produk sayuran beku impor berkualitas seperti kacang polong, jagung, wortel, jamur, asparagus, brokoli dan masih banyak lagi, untuk melengkapi hidangan utama anda.</p>', '', '', '', ''),
+(89, 29, 2, 'Cauliflower', 'Lamb Weston', '<p>Aneka varian produk sayuran beku impor berkualitas seperti kacang polong, jagung, wortel, jamur, asparagus, brokoli dan masih banyak lagi, untuk melengkapi hidangan utama anda.</p>', '', '', '', ''),
+(90, 30, 2, 'Raspberry Puree (Seedless)', 'Lamb Weston', '<p>Buah segar yang telah dikeringkan dan siap digunakan sebagai bahan baku pendukung masakan anda.</p>', '', '', '', ''),
+(91, 31, 2, 'Blueberry Puree (Seedless)', 'Lamb Weston', '<p>Buah segar yang telah dikeringkan dan siap digunakan sebagai bahan baku pendukung masakan anda.</p>', '', '', '', ''),
+(92, 32, 2, 'Strawberry Puree (Seedless)', 'Lamb Weston', '<p>Buah segar yang telah dikeringkan dan siap digunakan sebagai bahan baku pendukung masakan anda.</p>', '', '', '', ''),
+(139, 33, 2, 'Soursop Puree (Seedless)', 'Lamb Weston', '<p>Buah segar yang telah dikeringkan dan siap digunakan sebagai bahan baku pendukung masakan anda.</p>', '', '', '', ''),
+(94, 34, 2, 'Soursop Puree (With Seed)', 'Lamb Weston', '<p>Buah segar yang telah dikeringkan dan siap digunakan sebagai bahan baku pendukung masakan anda.</p>', '', '', '', ''),
+(95, 35, 2, 'Passion Fruit Puree (Seedless)', 'Lamb Weston', '<p>Buah segar yang telah dikeringkan dan siap digunakan sebagai bahan baku pendukung masakan anda.</p>', '', '', '', ''),
+(137, 36, 2, 'Passion Fruit Puree (With Seed)', 'Lamb Weston', '<p>Buah segar yang telah dikeringkan dan siap digunakan sebagai bahan baku pendukung masakan anda.</p>', '', '', '', ''),
+(138, 37, 2, 'Avocado Puree', 'Lamb Weston', '<p>Buah segar yang telah dikeringkan dan siap digunakan sebagai bahan baku pendukung masakan anda.</p>', '', '', '', ''),
+(98, 38, 2, 'Jack Fruit Puree', 'Lamb Weston', '<p>Buah segar yang telah dikeringkan dan siap digunakan sebagai bahan baku pendukung masakan anda.</p>', '', '', '', ''),
+(99, 39, 2, 'Durian Puree', 'Lamb Weston', '<p>Buah segar yang telah dikeringkan dan siap digunakan sebagai bahan baku pendukung masakan anda.</p>', '', '', '', ''),
+(140, 40, 2, 'Pink Guava Puree', 'Lamb Weston', '<p>Buah segar yang telah dikeringkan dan siap digunakan sebagai bahan baku pendukung masakan anda.</p>', '', '', '', ''),
+(101, 41, 2, 'Quinine Mango Puree', 'Lamb Weston', '<p>Buah segar yang telah dikeringkan dan siap digunakan sebagai bahan baku pendukung masakan anda.</p>', '', '', '', ''),
+(102, 42, 2, 'Banana Puree', 'Lamb Weston', '<p>Buah segar yang telah dikeringkan dan siap digunakan sebagai bahan baku pendukung masakan anda.</p>', '', '', '', ''),
+(103, 43, 2, 'Pineapple Puree', 'Lamb Weston', '<p>Buah segar yang telah dikeringkan dan siap digunakan sebagai bahan baku pendukung masakan anda.</p>', '', '', '', ''),
+(104, 44, 2, 'Mango Puree', 'Lamb Weston', '<p>Buah segar yang telah dikeringkan dan siap digunakan sebagai bahan baku pendukung masakan anda.</p>', '', '', '', ''),
+(105, 45, 2, 'Lingonberry', 'Lamb Weston', '<p>Buah segar yang telah dikeringkan dan siap digunakan sebagai bahan baku pendukung masakan anda.</p>', '', '', '', ''),
+(141, 46, 2, 'Diced Kiwi', 'Lamb Weston', '<p>Buah segar yang telah dikeringkan dan siap digunakan sebagai bahan baku pendukung masakan anda.</p>', '', '', '', ''),
+(107, 47, 2, 'Diced Sweet Mango', 'Lamb Weston', '<p>Buah segar yang telah dikeringkan dan siap digunakan sebagai bahan baku pendukung masakan anda.</p>', '', '', '', ''),
+(108, 48, 2, 'Blueberry', 'Lamb Weston', '<p>Buah segar yang telah dikeringkan dan siap digunakan sebagai bahan baku pendukung masakan anda.</p>', '', '', '', ''),
+(109, 49, 2, 'Blackberry', 'Lamb Weston', '<p>Buah segar yang telah dikeringkan dan siap digunakan sebagai bahan baku pendukung masakan anda.</p>', '', '', '', ''),
+(147, 50, 2, 'Strawberry', 'Lamb Weston', '<p>Buah segar yang telah dikeringkan dan siap digunakan sebagai bahan baku pendukung masakan anda.</p>', '', '', '', ''),
+(142, 51, 2, 'Raspberry', 'Lamb Weston', '<p>Buah segar yang telah dikeringkan dan siap digunakan sebagai bahan baku pendukung masakan anda.</p>', '', '', '', ''),
+(112, 52, 2, 'Sliced Yellow Peach', 'Lamb Weston', '<p>Buah segar yang telah dikeringkan dan siap digunakan sebagai bahan baku pendukung masakan anda.</p>', '', '', '', ''),
+(113, 53, 2, 'Blackcurrant', 'Lamb Weston', '<p>Buah segar yang telah dikeringkan dan siap digunakan sebagai bahan baku pendukung masakan anda.</p>', '', '', '', ''),
+(114, 54, 2, 'Peach Half Cut', 'Lamb Weston', '<p>Buah segar yang telah dikeringkan dan siap digunakan sebagai bahan baku pendukung masakan anda.</p>', '', '', '', ''),
+(115, 55, 2, 'Apricot Half Cut', 'Lamb Weston', '<p>Buah segar yang telah dikeringkan dan siap digunakan sebagai bahan baku pendukung masakan anda.</p>', '', '', '', ''),
+(116, 56, 2, 'Pisang Goreng Crispy', 'Lamb Weston', '<p>Buah segar yang telah dikeringkan dan siap digunakan sebagai bahan baku pendukung masakan anda.</p>', '', '', '', ''),
+(117, 57, 2, 'Pisang Goreng Tanduk', 'Lamb Weston', '<p>Buah segar yang telah dikeringkan dan siap digunakan sebagai bahan baku pendukung masakan anda.</p>', '', '', '', ''),
+(146, 58, 2, 'Cassava Hashbrown', 'Lamb Weston', '<p>Buah segar yang telah dikeringkan dan siap digunakan sebagai bahan baku pendukung masakan anda.</p>', '', '', '', ''),
+(145, 59, 2, 'Taro Hashbrown', 'Lamb Weston', '<p>Buah segar yang telah dikeringkan dan siap digunakan sebagai bahan baku pendukung masakan anda.</p>', '', '', '', ''),
+(120, 60, 2, 'Potato Croquette With Cheese', 'Lamb Weston', '<p>Buah segar yang telah dikeringkan dan siap digunakan sebagai bahan baku pendukung masakan anda.</p>', '', '', '', ''),
+(144, 61, 2, 'Durian Goreng', 'Lamb Weston', '<p>Buah segar yang telah dikeringkan dan siap digunakan sebagai bahan baku pendukung masakan anda.</p>', '', '', '', ''),
+(143, 62, 2, 'Cempedak Goreng', 'Lamb Weston', '<p>Buah segar yang telah dikeringkan dan siap digunakan sebagai bahan baku pendukung masakan anda.</p>', '', '', '', ''),
+(152, 63, 2, 'Spinach', 'Lamb Weston', '<p>Aneka varian produk sayuran beku impor berkualitas seperti kacang polong, jagung, wortel, jamur, asparagus, brokoli dan masih banyak lagi, untuk melengkapi hidangan utama anda.</p>', '', '', '', ''),
+(153, 64, 2, 'Original Sausage Jumbo With Cornstratch', 'Lamb Weston', '<p>Aneka produk makanan proses siap dimasak seperti daging olahan berbentuk nugget, lumpia, samosa, fish cake, siomay dan masih banyak lagi.</p>', '', '', '', '');
 
 -- --------------------------------------------------------
 
@@ -4489,6 +4858,18 @@ CREATE TABLE `prd_product_image` (
   `product_id` int(11) NOT NULL,
   `image` varchar(200) NOT NULL
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `prd_product_image`
+--
+
+INSERT INTO `prd_product_image` (`id`, `product_id`, `image`) VALUES
+(1, 21, '47acb-Dori-Fillet-(Pangasius)-isi-4.jpg'),
+(2, 26, '5f24b-Green-Peas-Kecil.jpg'),
+(3, 4, '7c531-Frozenland-Shoestring-1000.jpg'),
+(4, 5, 'eac26-Frozenland-Straight-Cut-1000.jpg'),
+(5, 6, '6cb6d-Frozenland-Batter-Coated-1000.jpg'),
+(6, 7, '1ac07-Frozenland-Crinkle-Cut-1000.jpg');
 
 -- --------------------------------------------------------
 
@@ -4643,12 +5024,12 @@ CREATE TABLE `setting_description` (
 --
 
 INSERT INTO `setting_description` (`id`, `setting_id`, `language_id`, `value`) VALUES
-(1, 1, 2, 'PT. DWI SELO GIRI MAS'),
-(2, 2, 2, 'PT. DWI SELO GIRI MAS'),
-(3, 3, 2, 'PT. DWI SELO GIRI MAS'),
-(10, 1, 1, 'PT. DWI SELO GIRI MAS'),
-(11, 3, 1, 'PT. DWI SELO GIRI MAS'),
-(12, 2, 1, 'PT. DWI SELO GIRI MAS');
+(1, 1, 2, 'KiranaFood'),
+(2, 2, 2, 'KiranaFood'),
+(3, 3, 2, 'KiranaFood'),
+(10, 1, 1, 'KiranaFood'),
+(11, 3, 1, 'KiranaFood'),
+(12, 2, 1, 'KiranaFood');
 
 -- --------------------------------------------------------
 
@@ -5394,9 +5775,9 @@ CREATE TABLE `sl_slide` (
 --
 
 INSERT INTO `sl_slide` (`id`, `topik_id`, `image`, `active`, `date_input`, `date_update`, `insert_by`, `last_update_by`, `writer`, `sort`, `image2`) VALUES
-(1, 0, 'd29b6-fcs-dsgm-01.jpg', 1, '0000-00-00 00:00:00', '2019-05-17 00:29:51', 'info@markdesign.net', 'info@markdesign.net', '', 1, 'ace19-dsgm-01-sld.jpg'),
-(2, 0, 'c125e-fcs-dsgm-02.jpg', 1, '0000-00-00 00:00:00', '2019-05-17 00:30:29', 'info@markdesign.net', 'info@markdesign.net', '', 2, '17909-dsgm-02-sld.jpg'),
-(3, 0, 'fe7ce-fcs-dsgm-03.jpg', 1, '0000-00-00 00:00:00', '2019-05-17 00:31:19', 'info@markdesign.net', 'info@markdesign.net', '', 3, 'aaf59-dsgm-03-sld.jpg'),
+(1, 0, '4448e-Crinkle met kip sate en pinda saus_LR.jpg', 1, '0000-00-00 00:00:00', '2019-07-24 09:38:05', 'info@markdesign.net', 'info@markdesign.net', '', 1, 'ace19-dsgm-01-sld.jpg'),
+(2, 0, 'a49c8-Pad Thai met allumetten_LR.jpg', 1, '0000-00-00 00:00:00', '2019-07-24 09:38:29', 'info@markdesign.net', 'info@markdesign.net', '', 2, '17909-dsgm-02-sld.jpg'),
+(3, 0, '7e18b-Sharing Azië_LR.jpg', 1, '0000-00-00 00:00:00', '2019-07-24 09:39:02', 'info@markdesign.net', 'info@markdesign.net', '', 3, 'aaf59-dsgm-03-sld.jpg'),
 (4, 0, '969d4-fcs-dsgm-04.jpg', 1, '0000-00-00 00:00:00', '2019-05-17 00:31:50', 'info@markdesign.net', 'info@markdesign.net', '', 4, '392f5-dsgm-04-sld.jpg'),
 (5, 0, '4c81f-fcs-dsgm-05.jpg', 1, '0000-00-00 00:00:00', '2019-05-17 00:32:52', 'info@markdesign.net', 'info@markdesign.net', '', 5, '412cf-dsgm-05-sld.jpg');
 
@@ -5422,12 +5803,9 @@ CREATE TABLE `sl_slide_description` (
 --
 
 INSERT INTO `sl_slide_description` (`id`, `slide_id`, `language_id`, `title`, `subtitle`, `content`, `url_teks`, `url`) VALUES
-(21, 1, 3, 'slides 1', '', '', '', ''),
-(20, 1, 2, 'slides 1', '', '', '', ''),
-(23, 2, 3, 'slide 2', '', '', '', ''),
-(22, 2, 2, 'slide 2', '', '', '', ''),
-(25, 3, 3, 'slide 3', '', '', '', ''),
-(24, 3, 2, 'slide 3', '', '', '', ''),
+(30, 1, 2, 'slides 1', '', '', '', ''),
+(31, 2, 2, 'slide 2', '', '', '', ''),
+(32, 3, 2, 'slide 3', '', '', '', ''),
 (27, 4, 3, 'slide 4', '', '', '', ''),
 (26, 4, 2, 'slide 4', '', '', '', ''),
 (29, 5, 3, 'slide 5', '', '', '', ''),
@@ -5499,7 +5877,7 @@ CREATE TABLE `tb_user` (
   `pass` varchar(100) NOT NULL,
   `type` varchar(50) NOT NULL,
   `group_id` int(11) NOT NULL,
-  `login_terakhir` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  `login_terakhir` timestamp NOT NULL DEFAULT current_timestamp() ON UPDATE current_timestamp(),
   `aktivasi` int(11) NOT NULL,
   `aktif` int(11) NOT NULL,
   `user_input` varchar(200) NOT NULL,
@@ -5528,7 +5906,7 @@ CREATE TABLE `to_toko` (
   `first_name` varchar(200) NOT NULL,
   `last_name` varchar(200) NOT NULL,
   `pass` varchar(100) NOT NULL,
-  `login_terakhir` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  `login_terakhir` timestamp NOT NULL DEFAULT current_timestamp() ON UPDATE current_timestamp(),
   `aktivasi` int(11) NOT NULL,
   `aktif` int(11) NOT NULL,
   `image` varchar(200) NOT NULL,
@@ -5699,112 +6077,12 @@ INSERT INTO `tt_text` (`id`, `category`, `message`) VALUES
 (73, 'admin', 'News & Events');
 
 -- --------------------------------------------------------
-
---
--- Stand-in structure for view `view_blog`
--- (See below for the actual view)
---
-CREATE TABLE `view_blog` (
-`id` int(11)
-,`topik_id` int(11)
-,`image` varchar(255)
-,`active` int(11)
-,`date_input` datetime
-,`date_update` datetime
-,`insert_by` varchar(255)
-,`last_update_by` varchar(255)
-,`writer` int(25)
-,`id2` int(11)
-,`blog_id` int(11)
-,`language_id` int(11)
-,`title` varchar(255)
-,`content` text
-,`quote` text
-);
-
--- --------------------------------------------------------
-
---
--- Stand-in structure for view `view_category`
--- (See below for the actual view)
---
-CREATE TABLE `view_category` (
-`id` int(11)
-,`parent_id` int(11)
-,`sort` int(11)
-,`image` varchar(200)
-,`type` varchar(100)
-,`data` text
-,`id2` int(11)
-,`category_id` int(11)
-,`language_id` int(11)
-,`name` varchar(100)
-,`data2` text
-);
-
--- --------------------------------------------------------
-
---
--- Stand-in structure for view `view_gallery`
--- (See below for the actual view)
---
-CREATE TABLE `view_gallery` (
-`id` int(11)
-,`topik_id` int(11)
-,`image` varchar(255)
-,`image2` varchar(200)
-,`active` int(11)
-,`date_input` datetime
-,`date_update` datetime
-,`insert_by` varchar(255)
-,`last_update_by` varchar(255)
-,`writer` varchar(200)
-,`city` varchar(100)
-,`harga` int(11)
-,`color` varchar(100)
-,`orientation` int(11)
-,`id2` int(11)
-,`gallery_id` int(11)
-,`language_id` int(11)
-,`title` varchar(255)
-,`sub_title` text
-,`sub_title_2` text
-,`content` text
-);
-
--- --------------------------------------------------------
-
---
--- Stand-in structure for view `view_slide`
--- (See below for the actual view)
---
-CREATE TABLE `view_slide` (
-`id` int(11)
-,`topik_id` int(11)
-,`image` varchar(255)
-,`active` int(11)
-,`date_input` datetime
-,`date_update` datetime
-,`insert_by` varchar(255)
-,`last_update_by` varchar(255)
-,`writer` varchar(200)
-,`id2` int(11)
-,`slide_id` int(11)
-,`language_id` int(11)
-,`title` varchar(255)
-,`content` text
-,`url` varchar(200)
-,`sort` int(11)
-);
-
--- --------------------------------------------------------
-
 --
 -- Structure for view `view_blog`
 --
 DROP TABLE IF EXISTS `view_blog`;
 
-CREATE ALGORITHM=UNDEFINED DEFINER=`root`@`localhost` SQL SECURITY DEFINER VIEW `view_blog`  AS  select `pg_blog`.`id` AS `id`,`pg_blog`.`topik_id` AS `topik_id`,`pg_blog`.`image` AS `image`,`pg_blog`.`active` AS `active`,`pg_blog`.`date_input` AS `date_input`,`pg_blog`.`date_update` AS `date_update`,`pg_blog`.`insert_by` AS `insert_by`,`pg_blog`.`last_update_by` AS `last_update_by`,`pg_blog`.`writer` AS `writer`,`pg_blog_description`.`id` AS `id2`,`pg_blog_description`.`blog_id` AS `blog_id`,`pg_blog_description`.`language_id` AS `language_id`,`pg_blog_description`.`title` AS `title`,`pg_blog_description`.`content` AS `content`,`pg_blog_description`.`quote` AS `quote` from (`pg_blog` join `pg_blog_description` on((`pg_blog`.`id` = `pg_blog_description`.`blog_id`))) ;
+CREATE VIEW `view_blog`  AS  select `pg_blog`.`id` AS `id`,`pg_blog`.`topik_id` AS `topik_id`,`pg_blog`.`image` AS `image`,`pg_blog`.`active` AS `active`,`pg_blog`.`date_input` AS `date_input`,`pg_blog`.`date_update` AS `date_update`,`pg_blog`.`insert_by` AS `insert_by`,`pg_blog`.`last_update_by` AS `last_update_by`,`pg_blog`.`writer` AS `writer`,`pg_blog_description`.`id` AS `id2`,`pg_blog_description`.`blog_id` AS `blog_id`,`pg_blog_description`.`language_id` AS `language_id`,`pg_blog_description`.`title` AS `title`,`pg_blog_description`.`content` AS `content`,`pg_blog_description`.`quote` AS `quote` from (`pg_blog` join `pg_blog_description` on(`pg_blog`.`id` = `pg_blog_description`.`blog_id`)) ;
 
 -- --------------------------------------------------------
 
@@ -5813,7 +6091,7 @@ CREATE ALGORITHM=UNDEFINED DEFINER=`root`@`localhost` SQL SECURITY DEFINER VIEW 
 --
 DROP TABLE IF EXISTS `view_category`;
 
-CREATE ALGORITHM=UNDEFINED DEFINER=`root`@`localhost` SQL SECURITY DEFINER VIEW `view_category`  AS  select `prd_category`.`id` AS `id`,`prd_category`.`parent_id` AS `parent_id`,`prd_category`.`sort` AS `sort`,`prd_category`.`image` AS `image`,`prd_category`.`type` AS `type`,`prd_category`.`data` AS `data`,`prd_category_description`.`id` AS `id2`,`prd_category_description`.`category_id` AS `category_id`,`prd_category_description`.`language_id` AS `language_id`,`prd_category_description`.`name` AS `name`,`prd_category_description`.`data` AS `data2` from (`prd_category` join `prd_category_description` on((`prd_category`.`id` = `prd_category_description`.`category_id`))) ;
+CREATE VIEW `view_category`  AS  select `prd_category`.`id` AS `id`,`prd_category`.`parent_id` AS `parent_id`,`prd_category`.`sort` AS `sort`,`prd_category`.`image` AS `image`,`prd_category`.`type` AS `type`,`prd_category`.`data` AS `data`,`prd_category_description`.`id` AS `id2`,`prd_category_description`.`category_id` AS `category_id`,`prd_category_description`.`language_id` AS `language_id`,`prd_category_description`.`name` AS `name`,`prd_category_description`.`data` AS `data2` from (`prd_category` join `prd_category_description` on(`prd_category`.`id` = `prd_category_description`.`category_id`)) ;
 
 -- --------------------------------------------------------
 
@@ -5822,7 +6100,7 @@ CREATE ALGORITHM=UNDEFINED DEFINER=`root`@`localhost` SQL SECURITY DEFINER VIEW 
 --
 DROP TABLE IF EXISTS `view_gallery`;
 
-CREATE ALGORITHM=UNDEFINED DEFINER=`root`@`localhost` SQL SECURITY DEFINER VIEW `view_gallery`  AS  select `gal_gallery`.`id` AS `id`,`gal_gallery`.`topik_id` AS `topik_id`,`gal_gallery`.`image` AS `image`,`gal_gallery`.`image2` AS `image2`,`gal_gallery`.`active` AS `active`,`gal_gallery`.`date_input` AS `date_input`,`gal_gallery`.`date_update` AS `date_update`,`gal_gallery`.`insert_by` AS `insert_by`,`gal_gallery`.`last_update_by` AS `last_update_by`,`gal_gallery`.`writer` AS `writer`,`gal_gallery`.`city` AS `city`,`gal_gallery`.`harga` AS `harga`,`gal_gallery`.`color` AS `color`,`gal_gallery`.`orientation` AS `orientation`,`gal_gallery_description`.`id` AS `id2`,`gal_gallery_description`.`gallery_id` AS `gallery_id`,`gal_gallery_description`.`language_id` AS `language_id`,`gal_gallery_description`.`title` AS `title`,`gal_gallery_description`.`sub_title` AS `sub_title`,`gal_gallery_description`.`sub_title_2` AS `sub_title_2`,`gal_gallery_description`.`content` AS `content` from (`gal_gallery` join `gal_gallery_description` on((`gal_gallery`.`id` = `gal_gallery_description`.`gallery_id`))) ;
+CREATE VIEW `view_gallery`  AS  select `gal_gallery`.`id` AS `id`,`gal_gallery`.`topik_id` AS `topik_id`,`gal_gallery`.`image` AS `image`,`gal_gallery`.`image2` AS `image2`,`gal_gallery`.`active` AS `active`,`gal_gallery`.`date_input` AS `date_input`,`gal_gallery`.`date_update` AS `date_update`,`gal_gallery`.`insert_by` AS `insert_by`,`gal_gallery`.`last_update_by` AS `last_update_by`,`gal_gallery`.`writer` AS `writer`,`gal_gallery`.`city` AS `city`,`gal_gallery`.`harga` AS `harga`,`gal_gallery`.`color` AS `color`,`gal_gallery`.`orientation` AS `orientation`,`gal_gallery_description`.`id` AS `id2`,`gal_gallery_description`.`gallery_id` AS `gallery_id`,`gal_gallery_description`.`language_id` AS `language_id`,`gal_gallery_description`.`title` AS `title`,`gal_gallery_description`.`sub_title` AS `sub_title`,`gal_gallery_description`.`sub_title_2` AS `sub_title_2`,`gal_gallery_description`.`content` AS `content` from (`gal_gallery` join `gal_gallery_description` on(`gal_gallery`.`id` = `gal_gallery_description`.`gallery_id`)) ;
 
 -- --------------------------------------------------------
 
@@ -5831,7 +6109,7 @@ CREATE ALGORITHM=UNDEFINED DEFINER=`root`@`localhost` SQL SECURITY DEFINER VIEW 
 --
 DROP TABLE IF EXISTS `view_slide`;
 
-CREATE ALGORITHM=UNDEFINED DEFINER=`root`@`localhost` SQL SECURITY DEFINER VIEW `view_slide`  AS  select `sl_slide`.`id` AS `id`,`sl_slide`.`topik_id` AS `topik_id`,`sl_slide`.`image` AS `image`,`sl_slide`.`active` AS `active`,`sl_slide`.`date_input` AS `date_input`,`sl_slide`.`date_update` AS `date_update`,`sl_slide`.`insert_by` AS `insert_by`,`sl_slide`.`last_update_by` AS `last_update_by`,`sl_slide`.`writer` AS `writer`,`sl_slide_description`.`id` AS `id2`,`sl_slide_description`.`slide_id` AS `slide_id`,`sl_slide_description`.`language_id` AS `language_id`,`sl_slide_description`.`title` AS `title`,`sl_slide_description`.`content` AS `content`,`sl_slide_description`.`url` AS `url`,`sl_slide`.`sort` AS `sort` from (`sl_slide` join `sl_slide_description` on((`sl_slide_description`.`slide_id` = `sl_slide`.`id`))) ;
+CREATE VIEW `view_slide`  AS  select `sl_slide`.`id` AS `id`,`sl_slide`.`topik_id` AS `topik_id`,`sl_slide`.`image` AS `image`,`sl_slide`.`active` AS `active`,`sl_slide`.`date_input` AS `date_input`,`sl_slide`.`date_update` AS `date_update`,`sl_slide`.`insert_by` AS `insert_by`,`sl_slide`.`last_update_by` AS `last_update_by`,`sl_slide`.`writer` AS `writer`,`sl_slide_description`.`id` AS `id2`,`sl_slide_description`.`slide_id` AS `slide_id`,`sl_slide_description`.`language_id` AS `language_id`,`sl_slide_description`.`title` AS `title`,`sl_slide_description`.`content` AS `content`,`sl_slide_description`.`url` AS `url`,`sl_slide`.`sort` AS `sort` from (`sl_slide` join `sl_slide_description` on(`sl_slide_description`.`slide_id` = `sl_slide`.`id`)) ;
 
 --
 -- Indexes for dumped tables
@@ -6259,7 +6537,7 @@ ALTER TABLE `language`
 -- AUTO_INCREMENT for table `log`
 --
 ALTER TABLE `log`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2308;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2488;
 
 --
 -- AUTO_INCREMENT for table `me_member`
@@ -6379,25 +6657,25 @@ ALTER TABLE `prd_brand_description`
 -- AUTO_INCREMENT for table `prd_category`
 --
 ALTER TABLE `prd_category`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=35;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=42;
 
 --
 -- AUTO_INCREMENT for table `prd_category_description`
 --
 ALTER TABLE `prd_category_description`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=69;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=90;
 
 --
 -- AUTO_INCREMENT for table `prd_category_product`
 --
 ALTER TABLE `prd_category_product`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=150;
 
 --
 -- AUTO_INCREMENT for table `prd_product`
 --
 ALTER TABLE `prd_product`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=65;
 
 --
 -- AUTO_INCREMENT for table `prd_product_attributes`
@@ -6415,13 +6693,13 @@ ALTER TABLE `prd_product_color`
 -- AUTO_INCREMENT for table `prd_product_description`
 --
 ALTER TABLE `prd_product_description`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=154;
 
 --
 -- AUTO_INCREMENT for table `prd_product_image`
 --
 ALTER TABLE `prd_product_image`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
 
 --
 -- AUTO_INCREMENT for table `sertifikasi`
@@ -6457,7 +6735,7 @@ ALTER TABLE `sl_slide`
 -- AUTO_INCREMENT for table `sl_slide_description`
 --
 ALTER TABLE `sl_slide_description`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=30;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=33;
 
 --
 -- AUTO_INCREMENT for table `tb_group`
