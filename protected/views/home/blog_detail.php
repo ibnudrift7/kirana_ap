@@ -4,7 +4,7 @@
       <p class="kategori">Blog & Artikel  /  Resep</p><br>
       <p class="judul">Resep kentang goreng crispy bumbu sambal balado</p>
       <img class="w-100" src="<?php echo $this->assetBaseurl; ?>blogdetail.png" alt="" class="gambar">
-      <div class="isi">
+      <div class="isi pt-4 mt-3">
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus mattis imperdiet interdum. Aenean sit amet sem vitae nisl consequat egestas. Morbi aliquam quam eget tortor bibendum cursus. Nulla luctus ligula id commodo dapibus. Etiam non ultrices dolor. Aliquam turpis risus, porta vel est quis, pharetra euismod neque. Integer bibendum ante sed dolor auctor tristique. Curabitur maximus lacus nisi, at iaculis mi venenatis vel. Donec consectetur cursus ante.</p>
         <p><b>Cras tincidunt</b><br> Diam in convallis auctor, ligula ex luctus diam, sit amet varius felis leo ut ipsum. Phasellus massa felis, semper vel dolor sit amet, sollicitudin aliquet enim. Etiam posuere tristique purus ut tristique. Morbi ac dolor ut quam cursus consequat.</p>
         <p><b>Morbi a dignissim nisi</b><br> Vestibulum pretium tempor est vel elementum. Etiam ut facilisis tellus, ut tincidunt felis. Nulla laoreet ligula lectus, nec eleifend risus ornare sit amet. Phasellus et erat rhoncus, bibendum sapien sed, ornare arcu. Pellentesque ultrices non neque quis viverra. Cras in velit lacus.</p>

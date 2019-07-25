@@ -84,50 +84,6 @@
   </div>
 </section>
 
-<section class="about-sec-4">
-  <div class="prelative container">
-    <div class="row">
-      <div class="col-md-60">
-        <div class="heading">
-          <div class="title">
-            <p>SINERGI TRILOGI</p>
-          </div>
-          <div class="subtitle">
-            <p>Kami percaya bahwa usaha dan keberlangsungan dari PT. Kirana Food hingga saat ini adalah wujud sukses dari sinergi Trilogi aspek berikut. </p>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-20">
-        <div class="content">
-          <div class="image"><img src="<?php echo $this->assetBaseurl; ?>ourpeople.png" alt=""></div>
-          <p class="title">TENAGA KERJA KAMI</p>
-          <div class="isi">
-            <p>Kami percaya bahwa karyawan kami adalah sumber daya terbesar kami, oleh karena itu kami selalu berusaha membantu mereka tumbuh dengan potensi penuh mereka. Semua orang berinteraksi seperti satu keluarga besar dengan pertemuan reguler untuk bertukar ide segar untuk memperbaiki dan meningkatkan nilai lebih kami. Kami berusaha menjadi perusahaan yang menyediakan lingkungan aman dan merangsang kreatifitas untuk memberi kontribusi pada masyarakat.</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-20">
-        <div class="content">
-        <div class="image"><img src="<?php echo $this->assetBaseurl; ?>ourcustomer.png" alt=""></div>
-          <p class="title">PELANGGAN KAMI</p>
-          <div class="isi">
-            <p>Kami bertindak sebagai mitra untuk setiap pelanggan kami. Kami selalu bekerja lebih keras karena kami percaya bahwa kesuksesan Anda adalah kesuksesan kami juga. Kami membuka komunikasi sebesa-besarnya agar Anda dapat membantu kami dan memberitahu kami bagaimana cara melayani Anda dengan lebih baik.</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-20">
-        <div class="content">
-        <div class="image"><img src="<?php echo $this->assetBaseurl; ?>ourprincipals.png" alt=""></div>
-          <p class="title">PEMASOK KAMI</p>
-          <div class="isi">
-            <p>PT. Kirana Food hanya memilih pemasok terbaik dan terkemuka dengan kualitas makanan nomor satu. Tiap pemasok adalah perusahaan bersertifikat seperti HACCP, ISO 9001, ISO 14001 dan sertifikat makanan Halal. Kami telah berpengalaman dalam menangani banyak.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
 <section class="home-sec-3">
 	<div class="prelative container">
 		<div class="row">
