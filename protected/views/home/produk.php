@@ -47,16 +47,17 @@ $n_cat_prd = [
             <?php foreach ($data as $ke => $val): ?>
                 <?php foreach ($val as $key => $value): ?>
                     <?php 
-                    $criteria = new CDbCriteria;
-                    $criteria->with = array('description');
-                    $criteria->addCondition('t.parent_id = :par_id');
-                    $criteria->params[':par_id'] = $value->id;
-                    $criteria->addCondition('t.type = :type');
-                    $criteria->params[':type'] = 'category';
-                    $criteria->order = 'sort ASC';
+                    // $criteria = new CDbCriteria;
+                    // $criteria->with = array('description');
+                    // $criteria->addCondition('t.parent_id = :par_id');
+                    // $criteria->params[':par_id'] = $value->id;
+                    // $criteria->addCondition('t.type = :type');
+                    // $criteria->params[':type'] = 'category';
+                    // $criteria->order = 'sort ASC';
 
-                    $oneChild = PrdCategory::model()->find($criteria);
+                    // $oneChild = PrdCategory::model()->find($criteria);
                     ?>
+                    <?php // echo CHtml::normalizeUrl(array('/product/index', 'category'=> $value->id, 'child_category'=> $oneChild->id, 'lang'=>Yii::app()->language)); ?>
                     <?php if ($key == 0): ?>
                         <div class="row d-flex">
                         <div class="col-md-30 pt-4 px-0 order-1 order-sm-1">
@@ -68,14 +69,14 @@ $n_cat_prd = [
                             <div class="box-produk">
                                 <div class="content pl-5 pt-3 pr-5">
                                     <div class="pt-4">
-                                        <h3 class="titlecard"><a href="<?php echo CHtml::normalizeUrl(array('/product/index', 'category'=> $value->id, 'child_category'=> $oneChild->id, 'lang'=>Yii::app()->language)); ?>"><?php echo $value->description->name ?></a></h3>
+                                        <h3 class="titlecard"><a href="<?php echo CHtml::normalizeUrl(array('/product/index', 'category'=> $value->id, 'lang'=>Yii::app()->language)); ?>"><?php echo $value->description->name ?></a></h3>
                                     </div>
                                     <div class="pt-2">
                                         <p class="text"><?php echo $value->description->desc ?></p>
                                     </div>
                                 </div>
                                 <div class="cardfooter d-table pl-5">
-                                    <p class="textfooter d-table-cell align-middle"><a href="<?php echo CHtml::normalizeUrl(array('/product/index', 'category'=> $value->id, 'child_category'=> $oneChild->id, 'lang'=>Yii::app()->language)); ?>">Lihat varian produk</a></p>
+                                    <p class="textfooter d-table-cell align-middle"><a href="<?php echo CHtml::normalizeUrl(array('/product/index', 'category'=> $value->id, 'lang'=>Yii::app()->language)); ?>">Lihat varian produk</a></p>
                                 </div>
                             </div>
                         </div>
@@ -86,14 +87,14 @@ $n_cat_prd = [
                             <div class="box-produk">
                                 <div class="content pl-5 pt-3 pr-5">
                                     <div class="pt-4">
-                                        <h3 class="titlecard"><a href="<?php echo CHtml::normalizeUrl(array('/product/index', 'category'=> $value->id, 'child_category'=> $oneChild->id, 'lang'=>Yii::app()->language)); ?>"><?php echo $value->description->name ?></a></h3>
+                                        <h3 class="titlecard"><a href="<?php echo CHtml::normalizeUrl(array('/product/index', 'category'=> $value->id, 'lang'=>Yii::app()->language)); ?>"><?php echo $value->description->name ?></a></h3>
                                     </div>
                                     <div class="pt-2">
                                         <p class="text"><?php echo $value->description->desc ?></p>
                                     </div>
                                 </div>
                                 <div class="cardfooter d-table pl-5">
-                                <p class="textfooter d-table-cell align-middle"><a href="<?php echo CHtml::normalizeUrl(array('/product/index', 'category'=> $value->id, 'child_category'=> $oneChild->id, 'lang'=>Yii::app()->language)); ?>">Lihat varian produk</a></p>
+                                <p class="textfooter d-table-cell align-middle"><a href="<?php echo CHtml::normalizeUrl(array('/product/index', 'category'=> $value->id, 'lang'=>Yii::app()->language)); ?>">Lihat varian produk</a></p>
                                 </div>
                             </div>
                         </div>
