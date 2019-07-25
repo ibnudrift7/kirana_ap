@@ -2,8 +2,11 @@
 @import url('https://fonts.googleapis.com/css?family=Fira+Sans:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap');
 
 @volkhov : 'Volkhov', serif;
-@fira : 'Fira Sans',
-sans-serif;
+@fira : 'Fira Sans', sans-serif;
+
+body, p{
+    font-family: @fira;    
+}
 
 p {
     margin-bottom: 0;
@@ -461,7 +464,7 @@ section.kerjasama-sec-1 {
             min-height: 455px;
 
             .form-group {
-                margin: 0auto;
+                margin: 0 auto;
                 display: block;
                 width: 100%;
 
@@ -469,18 +472,21 @@ section.kerjasama-sec-1 {
                     float: left;
                     display: inline-block;
                     color: #afafaf;
+                    font-size: 14px;
+                    letter-spacing: 1px;
+                    padding-right: 1rem;
                 }
 
                 .no-border {
-                    color: #afafaf;
                     float: left;
                     display: inline-block;
-                    width: 100%;
+                    width: 74%;
                     border: 0;
                     outline: 0;
                     background: transparent;
-                    border-bottom: 1px solid#a8a8a8;
+                    border-bottom: 1px solid #a8a8a8;
                     box-shadow: none;
+                    color: #afafaf;
                 }
             }
 
@@ -1389,4 +1395,8 @@ section.detail-inq-sec2 {
     background-size: cover;
     background-repeat: no-repeat;
     height: 900px;
+}
+
+header.head.insides-head{
+    border-bottom: 9px solid #e67817;
 }
