@@ -1,4 +1,4 @@
-<section class="cover-inside about">
+<section class="cover-inside quality">
   <div class="prelative container">
     <div class="row">
       <div class="col-md-60">
@@ -60,11 +60,25 @@
           <p>Telah bertahun-tahun PT. Kirana Food mampu menembus pasar nasional Indonesia yang sangat berkompetisi dan memiliki kompetitor produk sejenis dengan varian yang sangat banyak. Keberhasilan kami tersebut juga berkat sumbangsih dari kehandalan dalam penanganan hulu ke hilir distribusi, yakni dari pengemasan yang rapi, pengangkutan muatan yang aman, pendokumentasian yang teliti, serta transportasi dan logistik yang menjaga kualitas dan rasa dengan prima.</p>
         </div>
       </div>
-      <?php for($i=0;$i<=5;$i++){?>
         <div class="col-md-20">
-          <div class="frame"><img src="<?php echo $this->assetBaseurl; ?>boximg.png" alt=""></div>
+          <div class="frame"><img src="<?php echo $this->assetBaseurl; ?>kualitas-section-2-1.jpg" alt=""></div>
         </div>
-      <?php } ?>
+        <div class="col-md-20">
+          <div class="frame"><img src="<?php echo $this->assetBaseurl; ?>kualitas-section-2-2.jpg" alt=""></div>
+        </div>
+        <div class="col-md-20">
+          <div class="frame"><img src="<?php echo $this->assetBaseurl; ?>kualitas-section-2-3.jpg" alt=""></div>
+        </div>
+        <div class="col-md-20">
+          <div class="frame"><img src="<?php echo $this->assetBaseurl; ?>kualitas-section-2-4.jpg" alt=""></div>
+        </div>
+        <div class="col-md-20">
+          <div class="frame"><img src="<?php echo $this->assetBaseurl; ?>kualitas-section-2-5.jpg" alt=""></div>
+        </div>
+        <div class="col-md-20">
+          <div class="frame"><img src="<?php echo $this->assetBaseurl; ?>kualitas-section-2-6.jpg" alt=""></div>
+        </div>
+
       
     </div>
   </div>

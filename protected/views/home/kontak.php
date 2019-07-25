@@ -10,7 +10,7 @@
                         siap untuk melayani segala pertanyaan anda</h2>
                 </div>
                 <div class="img1">
-                    <img class="w-100" src="<?php echo $this->assetBaseurl; ?>ijo.png" alt="">
+                    <img class="w-100" src="<?php echo $this->assetBaseurl; ?>Kontak.jpg" alt="">
                 </div>
                 <div class="logo pt-5">
                     <img src="<?php echo $this->assetBaseurl; ?>kirana.jpg" alt="">
