@@ -112,7 +112,7 @@
               <li class="list-inline-item menu"><a href="<?php echo CHtml::normalizeUrl(array('/home/kontak', 'lang'=>Yii::app()->language)); ?>">Hubungi Kami</a></li>
             </ul>
             <div class="click">
-            <p>CLICK TO CHAT<span><img src="<?php echo $this->assetBaseurl; ?>wa-atas.png" alt=""></span><a href="#">0817 1712 2131</a>
+            <p><span><img src="<?php echo $this->assetBaseurl; ?>wa-atas.png" alt=""></span><a href="#">0817 1712 2131</a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
              <?php
               $get = $_GET; $get['lang'] = 'en';
