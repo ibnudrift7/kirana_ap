@@ -294,9 +294,9 @@ class CategoryController extends ControllerAdmin
 	 */
 	public function actionDelete($id)
 	{
-			$this->loadModel($id)->delete();
+		$this->loadModel($id)->delete();
 
-			$this->redirect(array('index'));
+		$this->redirect(array('index'));
 	}
 
 	/**

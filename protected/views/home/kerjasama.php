@@ -36,25 +36,29 @@
         </div>
       </div>
       <div class="col-md-30">
-        <div class="content-sec-2">
+        <div class="content-sec-2 mx-auto d-block rights_kerjasam">
           <p class="teks">Silahkan mengisi formulir ini</p>
-          <form class="fieldd form-inline">
-                <div class="form-group">
-                    <label for="inputEmail4" class="label">NAME</label>
-                    <input type="text" class="no-border" id="" placeholder="">
-                </div>
-                <div class="form-group">
-                    <label for="inputEmail4" class="label">EMAIL</label>
-                    <input type="text" class="no-border" id="" placeholder="">
-                </div>
-                <div class="form-group">
-                    <label for="inputEmail4" class="label">PHONE</label>
-                    <input type="nama" class="no-border" id="inputEmail4" placeholder="">
-                </div>
-                <button class="form-control">SUBMIT INQUIRY</button>
+          <form class="fieldd">
+              <div class="form-group">
+                  <label for="inputEmail4" class="label">NAME</label>
+                  <input type="text" class="no-border" id="" placeholder="">
+              </div>
+              <div class="form-group">
+                  <label for="inputEmail4" class="label">EMAIL</label>
+                  <input type="text" class="no-border" id="" placeholder="">
+              </div>
+              <div class="form-group">
+                  <label for="inputEmail4" class="label">PHONE</label>
+                  <input type="nama" class="no-border" id="inputEmail4" placeholder="">
+              </div>
+              <div class="g-recaptcha" data-sitekey="6LdFaa8UAAAAALC0YiJdSKgneYMYlXF9GqPONLSJ"></div>
+              <div class="py-2 my-1"></div>
+              <button class="form-control">SUBMIT INQUIRY</button>
         </form>
         </div>
       </div>
     </div>
   </div>
 </section>
+
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>

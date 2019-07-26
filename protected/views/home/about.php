@@ -34,13 +34,13 @@
         <div class="content-sec-2">
           <div class="row">
             <div class="col-md-60">
-              <img src="<?php echo $this->assetBaseurl; ?>Rectangle7.png" alt="">
+              <img src="<?php echo $this->assetBaseurl; ?>About-section-1-1.jpg" alt="">
             </div>
             <div class="col-md-30">
-              <img src="<?php echo $this->assetBaseurl; ?>Rectangle8.png" alt="">
+              <img src="<?php echo $this->assetBaseurl; ?>About-section-1-2.jpg" alt="">
             </div>
             <div class="col-md-30">
-              <img src="<?php echo $this->assetBaseurl; ?>Rectangle8.png" alt="">
+              <img src="<?php echo $this->assetBaseurl; ?>About-section-1-3.jpg" alt="">
             </div>
           </div>
         </div>
@@ -94,6 +94,7 @@
 
 
 <section class="about-sec-4">
+  <div class="spacer about_sec4"></div>
   <div class="prelative container">
     <div class="row">
       <div class="col-md-60">
