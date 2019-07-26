@@ -69,7 +69,7 @@
 	<div class="control-group">
 		<label class="control-label">&nbsp;</label>
 		<div class="controls">
-			<img style="background-color: #999;" src="<?php echo Yii::app()->baseUrl.ImageHelper::thumb(1264,668, '/images/category/'.$model->image , array('method' => 'adaptiveResize', 'quality' => '90')) ?>"/>
+			<img style="background-color: #999;max-width: 100%;" src="<?php echo Yii::app()->baseUrl.'/images/category/'.$model->image; ?>"/>
 		</div>
 	</div>
 	<?php endif; ?>

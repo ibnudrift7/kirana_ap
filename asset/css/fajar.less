@@ -7,7 +7,66 @@
 		position: relative; z-index: 6;
 	}
 }
+.quality-sc-1_right img{
+	width: auto !important;
+	display: block;
+	margin: 0 auto;
+}
+section.produk-sec-1{
+	.row.d-flex{
+		// background-color: #fff;
+		overflow: hidden;
+	}
+}
+section.kerjasama-sec-1{
+	background-color: #fff;
+}
 
+.menu-taffix{
+	ul{
+		display: inline-block;
+	}
+	.click {
+	  display: inline-block;
+	  text-align: right;
+	  padding-left: 2rem;
+	  p {
+	    color: #e67817;
+	    font-size: 13px;
+	    font-weight: 400;
+
+	    img {
+	      margin: 0 10px;
+	    }
+
+	    a {
+	      color: #e67817;
+	      font-weight: 700;
+	    }
+	    a.lang{
+	      font-weight: 400;
+	    }
+	    a.lang.active{
+	      font-weight: 700;
+	    }
+	  }
+	}
+}
+
+
+@media screen and (min-width: 1650px) {
+
+	.image-bawah-slide{
+		left: 3%;
+	}
+
+	.spacer.about_sec4{
+		background: url(../images/About-section-4-1.jpg) bottom center no-repeat;
+		min-height: 1250px;
+		height: auto;
+	}
+
+}
 
 @media screen and (max-width: 1360px) {
 	
@@ -67,6 +126,16 @@
 	}
 	section.produk-sec-1 h3.subtitle br{
 		display: none;
+	}
+
+	.navbar-light .navbar-toggler{
+		padding: 0px;
+	}
+	header.header-mobile.homepage_head ul.navbar-nav li{
+		margin-right: 0;
+	}
+	header.header-mobile.homepage_head ul.navbar-nav li {
+	    padding: 8px 15px;
 	}
  
 }

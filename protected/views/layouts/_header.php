@@ -41,12 +41,24 @@
   <div class="prelative container cont-header mx-auto">
     <div class="row">
       <div class="col-md-27">
-        <div class="image"><img src="<?php echo $this->assetBaseurl; ?>Layer-25.png" alt=""></div>
+        <div class="image">
+          <a href="<?php echo CHtml::normalizeUrl(array('/home/index')); ?>"><img src="<?php echo $this->assetBaseurl; ?>Layer-25.png" alt=""></a>
+        </div>
       </div>
       <div class="col-md-29 garis-header">
         <div class="menu-block-top">
           <div class="click">
-            <p>CLICK TO CHAT<span><img src="<?php echo $this->assetBaseurl; ?>wa-atas.png" alt=""></span><a href="#">0817 1712 2131</a></p>
+            <p>CLICK TO CHAT<span><img src="<?php echo $this->assetBaseurl; ?>wa-atas.png" alt=""></span><a href="#">0817 1712 2131</a>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+             <?php
+              $get = $_GET; $get['lang'] = 'en';
+              ?>
+              <a href="<?php echo $this->createUrl($this->route, $get) ?>" class="lang <?php if (Yii::app()->language == 'en'): ?>active<?php endif ?>" title="ENG">EN</a> | 
+              <?php
+              $get = $_GET; $get['lang'] = 'id';
+              ?>
+              <a href="<?php echo $this->createUrl($this->route, $get) ?>" class="lang <?php if (Yii::app()->language == 'id'): ?>active<?php endif ?>" title="ID">ID</a>
+            </p>
           </div>
         </div>
         <div class="menu-block-bottom">
@@ -82,14 +94,14 @@
   <!-- <div class="clear height-15"></div> -->
   <div class="prelative container cont-header mx-auto">
     <div class="row">
-      <div class="col-md-15 col-sm-15">
+      <div class="col-md-10 col-sm-10">
         <div class="lgo_web_headrs_wb">
           <a href="<?php echo CHtml::normalizeUrl(array('/home/index', 'lang'=>Yii::app()->language)); ?>">
             <img src="<?php echo $this->assetBaseurl; ?>Layer-25-copy.png" alt="" class="img img-fluid">
           </a>
         </div>
       </div>
-      <div class="col-md-45 col-sm-45">
+      <div class="col-md-50 col-sm-50">
         <div class="text-right"> 
           <div class="menu-taffix">
             <ul class="list-inline d-inline">
@@ -101,6 +113,19 @@
               <li class="list-inline-item menu"><a href="<?php echo CHtml::normalizeUrl(array('/home/kerjasama', 'lang'=>Yii::app()->language)); ?>">Kerjasama</a></li>
               <li class="list-inline-item menu"><a href="<?php echo CHtml::normalizeUrl(array('/home/kontak', 'lang'=>Yii::app()->language)); ?>">Hubungi Kami</a></li>
             </ul>
+            <div class="click">
+            <p><span><img src="<?php echo $this->assetBaseurl; ?>wa-atas.png" alt=""></span><a href="#">0817 1712 2131</a>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+             <?php
+              $get = $_GET; $get['lang'] = 'en';
+              ?>
+              <a href="<?php echo $this->createUrl($this->route, $get) ?>" class="lang <?php if (Yii::app()->language == 'en'): ?>active<?php endif ?>" title="ENG">EN</a> | 
+              <?php
+              $get = $_GET; $get['lang'] = 'id';
+              ?>
+              <a href="<?php echo $this->createUrl($this->route, $get) ?>" class="lang <?php if (Yii::app()->language == 'id'): ?>active<?php endif ?>" title="ID">ID</a>
+            </p>
+          </div>
           </div>
         </div>
       </div>
@@ -130,6 +155,9 @@
       $get = $_GET; $get['lang'] = 'en';
       ?>
       <a href="<?php echo $this->createUrl($this->route, $get) ?>" title="ENG">EN | </a>
+      <?php
+      $get = $_GET; $get['lang'] = 'id';
+      ?>
       <a href="<?php echo $this->createUrl($this->route, $get) ?>" title="Bahasa">ID</a>
       </li>
     </ul>
