@@ -144,3 +144,9 @@
 		</div>
 	</div>
 </section>
+
+<style type="text/css">
+  section.home-sec-3{
+    background: url(<?php echo Yii::app()->baseUrl; ?>/asset/images/bottom-backsedit2_02.jpg) no-repeat;
+  }
+</style>

@@ -41,7 +41,9 @@
   <div class="prelative container cont-header mx-auto">
     <div class="row">
       <div class="col-md-27">
-        <div class="image"><img src="<?php echo $this->assetBaseurl; ?>Layer-25.png" alt=""></div>
+        <div class="image">
+          <a href="<?php echo CHtml::normalizeUrl(array('/home/index')); ?>"><img src="<?php echo $this->assetBaseurl; ?>Layer-25.png" alt=""></a>
+        </div>
       </div>
       <div class="col-md-29 garis-header">
         <div class="menu-block-top">
