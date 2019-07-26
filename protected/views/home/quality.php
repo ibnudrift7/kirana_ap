@@ -34,8 +34,8 @@
         </div>
       </div>
       <div class="col-md-30">
-        <div class="content-sec-2">
-          <div class="row">
+        <div class="content-sec-2 d-block mx-auto quality-sc-1_right">
+          <div class="row mx-auto">
             <div class="atas col-md-60">
               <img src="<?php echo $this->assetBaseurl; ?>atas.png" alt="">
             </div>
