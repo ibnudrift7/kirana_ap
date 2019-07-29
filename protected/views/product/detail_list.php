@@ -120,6 +120,7 @@ $oneChild = PrdCategory::model()->find($criteria);
                         <div class="row">
                             <div class="col-md-60">
                                     <div class="form-row">
+                                        <input type="hidden" name="Enquire[product_name]" value="<?php echo $data->description->name ?> - <?php echo $data->description->subtitle ?>">
                                         <div class="form-group col-md-20">
                                             <label for="inputEmail4">NAMA</label>
                                             <input type="text" name="Enquire[name]" class="form-control" id="" placeholder="">
@@ -183,6 +184,7 @@ $oneChild = PrdCategory::model()->find($criteria);
 
 <section class="detail-inq-sec2 back-more-products">
     <div class="prelative container">
+        <div class="py-2"></div>
         <div class="row">
             <div class="col-md-45 col-43">
                 <div class="lainya">
