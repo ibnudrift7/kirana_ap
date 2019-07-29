@@ -49,6 +49,36 @@
   </div>
 </section>
 
+<section class="quality-download">
+  <div class="prelative container">
+    <div class="row">
+      <div class="col-md-60">
+        <div class="title">
+          <p>SERTIFIKAT KAMI</p>
+        </div>
+        <div class="subtitle">
+          <p>Komitmen kami terhadap kualitas </p>
+        </div>
+      </div>
+      <div class="col-md-20">
+
+      </div>
+      <div class="col-md-20">
+        <div class="image"><img class="w-100" src="<?php echo $this->assetBaseurl; ?>Tuv Nord (sample iso).jpg" alt=""></div>
+        <div class="download">
+          <a href="<?php echo $this->assetBaseurl; ?>Certificate HACCP - Kirana Food.pdf" download="filename">
+            <i class="fa fa-download"></i>&nbsp;&nbsp;	
+            Click To Download
+          </a>
+        </div>
+      </div>
+      <div class="col-md-20">
+
+      </div>
+    </div>
+  </div>
+</section>
+
 <section class="quality-sec-2">
   <div class="prelative container">
     <div class="row">
