@@ -103,31 +103,72 @@ $oneChild = PrdCategory::model()->find($criteria);
                         <div class="form-inq-bawah">
                             <p>Tinggalkan kontak anda, agar kami dapat menghubungi anda terkait ketertarikan anda terhadap produk ini.</p>
                         </div>
-                        <form class="fieldd">
-                            <div class="form-row">
-                                <div class="form-group col-md-20">
-                                    <label for="inputEmail4">NAMA</label>
-                                    <input type="text" class="form-control" id="" placeholder="">
-                                </div>
-                                <div class="form-group col-md-20">
-                                    <label for="inputEmail4">TELEPON</label>
-                                    <input type="nama" class="form-control" id="inputEmail4" placeholder="">
-                                </div>
-                                <div class="form-group col-md-20">
-                                    <label for="inputEmail4">EMAIL</label>
-                                    <input type="email" class="form-control" id="inputEmail4" placeholder="">
-                                </div>
-                            </div>
-                            <!-- <div class="submit"><button class="btn button">SUBMIT</button></div> -->
-                        </form>
                     </div>
                 </div>
             </div>
         </div>
+
+
     </div>
+
+    <div class="prelative container">
+        <form class="fieldd" method="post" action="#">
+            <div class="outers_block_form">
+                <div class="row">
+                    <div class="col-md-15"></div>
+                    <div class="col-md-45">
+                        <div class="row">
+                            <div class="col-md-60">
+                                    <div class="form-row">
+                                        <div class="form-group col-md-20">
+                                            <label for="inputEmail4">NAMA</label>
+                                            <input type="text" name="Enquire[name]" class="form-control" id="" placeholder="">
+                                        </div>
+                                        <div class="form-group col-md-20">
+                                            <label for="inputEmail4">TELEPON</label>
+                                            <input type="text" name="Enquire[phone]" class="form-control" id="inputEmail4" placeholder="">
+                                        </div>
+                                        <div class="form-group col-md-20">
+                                            <label for="inputEmail4">EMAIL</label>
+                                            <input type="email" name="Enquire[email]" class="form-control" id="inputEmail4" placeholder="">
+                                        </div>
+                                    </div>
+                                    <div class="py-1 my-1"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="outers_bck_bottom">
+            <div class="prelative container">
+            <div class="outers_block_form bottoms_submit py-3 my-1">
+                <div class="row">
+                    <div class="col-md-15"></div>
+                    <div class="col-md-45">
+                        <div class="row">
+                            <div class="col-md-60">
+                                <div class="row">
+                                    <div class="col-md-30">
+                                        <div class="g-recaptcha" data-sitekey="6LfK-q8UAAAAAKi1Sos20Tv0yFdxcb-Eykz35_Ci"></div>
+                                    </div>
+                                    <div class="col-md-30 text-right">
+                                        <div class="py-2"></div>
+                                        <button class="btn btn-info">SUBMIT</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>     
+            </div>
+        </div>   
+    </form>
 </section>
 
-<section class="for-submit">
+<!-- <section class="for-submit">
     <div class="prelative container">
         <div class="row">
             <div class="col-md-15">
@@ -138,9 +179,9 @@ $oneChild = PrdCategory::model()->find($criteria);
             </div>
         </div>
     </div>
-</section>
+</section> -->
 
-<section class="detail-inq-sec2">
+<section class="detail-inq-sec2 back-more-products">
     <div class="prelative container">
         <div class="row">
             <div class="col-md-45 col-43">
@@ -181,3 +222,4 @@ $oneChild = PrdCategory::model()->find($criteria);
     </div>
 </section>
 
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
