@@ -64,10 +64,9 @@
 
       </div>
       <div class="col-md-20">
-        <div class="image"><img class="w-100" src="<?php echo $this->assetBaseurl; ?>Tuv-Nord-(sample-iso).jpg" alt=""></div>
+        <div class="image"><img class="w-100" src="<?php echo $this->assetBaseurl; ?>Tuv Nord (sample iso).jpg" alt=""></div>
         <div class="download">
           <a href="<?php echo $this->assetBaseurl; ?>Certificate HACCP - Kirana Food.pdf" download="filename">
-            <i class="fa fa-download"></i>&nbsp;&nbsp;	
             Click To Download
           </a>
         </div>
