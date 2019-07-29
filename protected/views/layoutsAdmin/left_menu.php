@@ -41,11 +41,10 @@
 
         <li><a href="<?php echo CHtml::normalizeUrl(array('/admin/address/index')); ?>"><span class="fa fa-building"></span> <?php echo Tt::t('admin', 'Store Locator') ?></a></li>
 
-        <li class="dropdown"><a href="<?php echo CHtml::normalizeUrl(array('/admin/blog/index')); ?>"><span class="fa fa-flag"></span> <?php echo Tt::t('admin', 'Seen On') ?></a>
+        <li class="dropdown"><a href="<?php echo CHtml::normalizeUrl(array('/admin/blog/index')); ?>"><span class="fa fa-flag"></span> <?php echo Tt::t('admin', 'Blog Articles') ?></a>
             <ul>
-                <li><a href="<?php echo CHtml::normalizeUrl(array('/admin/blog/index')); ?>">List Seen On</a></li>
-                <li><a href="<?php echo CHtml::normalizeUrl(array('/admin/blog/create')); ?>">Create Seen On</a></li>
-                <!-- <li><a href="<?php echo CHtml::normalizeUrl(array('/admin/address/create')); ?>">Create Lokasi Toko</a></li> -->
+                <li><a href="<?php echo CHtml::normalizeUrl(array('/admin/blog/index')); ?>">List Blog Articles</a></li>
+                <li><a href="<?php echo CHtml::normalizeUrl(array('/admin/blog/create')); ?>">Create Blog Articles</a></li>
             </ul>
         </li>
 

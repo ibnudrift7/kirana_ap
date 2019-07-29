@@ -81,21 +81,25 @@
 			}
 			?>
 			<?php 
-			$criteria2=new CDbCriteria;
-			$criteria2->with = array('description');
-			$criteria2->order = 'date DESC';
-			$criteria2->addCondition('status = "1"');
-			$criteria2->addCondition('description.language_id = :language_id');
-			$criteria2->params[':language_id'] = $this->languageID;
-			$listProduct = PrdProduct::model()->findAll($criteria2);
-			$res_product = array();
-			foreach ($listProduct as $key => $value) {
-				$res_product[$value->id] = $value->description->name;
-			}
+			// $criteria2=new CDbCriteria;
+			// $criteria2->with = array('description');
+			// $criteria2->order = 'date DESC';
+			// $criteria2->addCondition('status = "1"');
+			// $criteria2->addCondition('description.language_id = :language_id');
+			// $criteria2->params[':language_id'] = $this->languageID;
+			// $listProduct = PrdProduct::model()->findAll($criteria2);
+			// $res_product = array();
+			// foreach ($listProduct as $key => $value) {
+			// 	$res_product[$value->id] = $value->description->name;
+			// }
+			$res_product = array(
+							'1'=>'Resep',
+							'2'=>'Artikel',
+							);
 			?>
 			<?php echo $form->textFieldRow($model, 'link', array('class'=>'form-control span6',)); ?>
 			
-			<?php echo $form->dropDownListRow($model, 'topik_id', $res_product , array('class'=>'form-control span6', 'empty'=>'-- Pilih Produk --')); ?>
+			<?php echo $form->dropDownListRow($model, 'topik_id', $res_product , array('class'=>'form-control span6', 'empty'=>'-- Pilih Kategori --')); ?>
 
 
 			<?php echo $form->fileFieldRow($model,'image',array(

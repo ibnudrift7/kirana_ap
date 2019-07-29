@@ -31,31 +31,34 @@ class BlogController extends Controller
 		$criteria->params[':language_id'] = $this->languageID;
 		$criteria->order = 'date_input DESC';
 
-		$dataFeatured = new CActiveDataProvider('Blog', array(
-			'criteria'=>$criteria,
-		    'pagination'=>array(
-		        'pageSize'=>2,
-		    ),
-		));
-		$arrayFeatured = array();
-		foreach ($dataFeatured->getData() as $key => $value) {
-			$arrayFeatured[] = $value->id;
-		}
-		$criteria->addNotInCondition('t.id', $arrayFeatured);
+		// $dataFeatured = new CActiveDataProvider('Blog', array(
+		// 	'criteria'=>$criteria,
+		//     'pagination'=>array(
+		//         'pageSize'=>2,
+		//     ),
+		// ));
+		// $arrayFeatured = array();
+		// foreach ($dataFeatured->getData() as $key => $value) {
+		// 	$arrayFeatured[] = $value->id;
+		// }
+		// $criteria->addNotInCondition('t.id', $arrayFeatured);
+
 		$dataBlog = new CActiveDataProvider('Blog', array(
 			'criteria'=>$criteria,
 		    'pagination'=>array(
-		        'pageSize'=>6,
+		        'pageSize'=>12,
 		    ),
 		));
 
 		$this->layout='//layouts/column2';
-		$this->pageTitle = 'News & Articles - '.$this->pageTitle;
-		$this->render('index', array(
+		$this->pageTitle = 'Blog & Articles - '.$this->pageTitle;
+
+		$this->render('index_list', array(
 			'dataBlog'=>$dataBlog,
-			'dataFeatured'=>$dataFeatured,
+			// 'dataFeatured'=>$dataFeatured,
 		));
 	}
+
 	public function actionDetail($id)
 	{
 		$criteria = new CDbCriteria;
@@ -74,16 +77,16 @@ class BlogController extends Controller
 		$criteria->order = 'RAND()';
 		$criteria->addCondition('id != :id');
 		$criteria->params[':id'] = $dataBlog->id;
+		$criteria->limit = 3;
 		$dataBlogs = new CActiveDataProvider('Blog', array(
 			'criteria'=>$criteria,
-		    'pagination'=>array(
-		        'pageSize'=>10,
-		    ),
+		    'pagination'=>false,
 		));
 
-		$this->pageTitle = $dataBlog->description->title . ' - News & Articles - '.$this->pageTitle;
+		$this->pageTitle = $dataBlog->description->title . ' - Blog & Articles - '.$this->pageTitle;
 		$this->layout='//layouts/column2';
-		$this->render('detail', array(
+
+		$this->render('detail_list', array(
 			'dataBlog' => $dataBlog,
 			'dataBlogs' => $dataBlogs,
 			// 'menu'=>$menu,
