@@ -36,7 +36,7 @@
                             </div>
                         </div>
                         <div class="col-md-42 order-1 order-sm-2">
-                            <img class="w-100 d-none d-sm-block" src="<?php echo $this->assetBaseurl; ?>sec1.jpg" alt="" style="background-repeat: no-repeat; background-size: cover;">
+                            <img class="w-100 d-none d-sm-block featureds_image" src="<?php echo $this->assetBaseurl; ?>sec1.jpg" alt="" style="background-repeat: no-repeat; background-size: cover;">
                         </div>
                         <div class="image-bawah-slide"><img src="<?php echo $this->assetBaseurl; ?>Layer-30.png" alt=""></div>
                     </div>
@@ -61,8 +61,6 @@
                     <ol class="carousel-indicators">
                         <li data-target="#myCarousel_home" class="active" data-slide-to="0"></li>
                         <li data-target="#myCarousel_home" data-slide-to="1"></li>
-                        <li data-target="#myCarousel_home" data-slide-to="2"></li>
-                        <li data-target="#myCarousel_home" data-slide-to="3"></li>
                     </ol>
                 </div>
             </div>

@@ -140,4 +140,10 @@
 	</div>
 </section>
 
-<section class="home-sec-4"></section>
+<section class="kontak-sec-3">
+<div class="mapouter">
+    <div class="gmap_canvas">
+        <iframe width="100%" height="588" id="gmap_canvas" src="https://maps.google.com/maps?q=PT%20Kirana%20Food&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+        <div class="clear"></div>
+    </div>
+</div>
