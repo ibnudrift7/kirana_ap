@@ -17,7 +17,7 @@
         <?php foreach ($dataBlog->getData() as $key => $value): ?>
             <div class="box-content col-md-20">
                 <a href="<?php echo CHtml::normalizeUrl(array('/blog/detail', 'id'=>$value->id, 'lang'=>Yii::app()->language)); ?>">
-                    <img class="w-100" src="<?php echo $this->assetBaseurl; ?>blogthumb.png" alt="">
+                    <img class="w-100" src="<?php echo Yii::app()->baseUrl.ImageHelper::thumb(331,208, '/images/blog/'.$value->image , array('method' => 'adaptiveResize', 'quality' => '90')) ?>" alt="<?php echo $value->description->title ?>">
                 </a>
 
                 <div class="inline2">
