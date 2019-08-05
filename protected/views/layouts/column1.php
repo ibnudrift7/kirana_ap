@@ -38,9 +38,8 @@
                         <div class="col-md-42 order-1 order-sm-2">
                             <img class="w-100 d-none d-sm-block featureds_image" src="<?php echo $this->assetBaseurl; ?>sec1.jpg" alt="" style="background-repeat: no-repeat; background-size: cover;">
                         </div>
-                        <div class="image-bawah-slide"><img src="<?php echo $this->assetBaseurl; ?>Layer-30.png" alt=""></div>
+                        <!-- <div class="image-bawah-slide"><img src="<?php echo $this->assetBaseurl; ?>Layer-30.png" alt=""></div> -->
                     </div>
-                    <!-- <img class="w-100 d-block d-sm-none" src="<?php echo $this->assetBaseurl; ?>mobile-home_02.jpg" alt=""> -->
                 </div>
             </div>
             <!-- <div class="carousel-caption caption-slider-home">

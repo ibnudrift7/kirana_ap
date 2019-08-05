@@ -9,7 +9,7 @@
                     <p>Jakarta Office</p>
                 </div>
                 <div class="alamat-isi">
-                    <p>Jl. Rw. Sumur III Blok Dd No.11, Cakung <br> Jakarta Timur 13930 - Indonesia <br> Tel. (62) 21 4604456/57 <br> Email. info@kiranafood.com</p>
+                    <p>Jl Rawa Sumur III Blok DD no 12<br> Kawasan Industri Pulogadung<br> Jakarta Timur 13930 - Indonesia <br> Tel. (62) 21 4604456/57 <br> Email. info@kiranafood.com</p>
                 </div>
             </div>
             <div class="col-md-20">

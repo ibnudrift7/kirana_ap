@@ -1,3 +1,6 @@
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+
 <section class="cover-inside quality">
   <div class="prelative container">
     <div class="row">
@@ -64,13 +67,13 @@
 
       </div>
       <div class="col-md-20">
-        <div class="image"><img class="w-100" src="<?php echo $this->assetBaseurl; ?>Tuv-Nord-(sample-iso).jpg" alt=""></div>
+        <a data-fancybox="gallery" href="<?php echo $this->assetBaseurl; ?>certif-big-image.jpg">
+        <div class="image"><img class="w-100" src="<?php echo $this->assetBaseurl; ?>certif-small-image.jpg" alt=""></div>
         <div class="download">
-          <a href="<?php echo $this->assetBaseurl; ?>Certificate HACCP - Kirana Food.pdf" download="filename">
-            <i class="fa fa-download"></i>&nbsp;&nbsp;	
-            Click To Download
-          </a>
+            <i class="fa fa-search"></i>&nbsp;&nbsp;	
+            Click To View
         </div>
+        </a>
       </div>
       <div class="col-md-20">
 
