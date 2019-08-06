@@ -42,7 +42,14 @@
     <div class="row">
       <div class="col-md-27">
         <div class="image">
-          <a href="<?php echo CHtml::normalizeUrl(array('/home/index')); ?>"><img src="<?php echo $this->assetBaseurl; ?>Layer-25.png" alt=""></a>
+          <div class="d-inline align-middle block_logo">
+            <a href="<?php echo CHtml::normalizeUrl(array('/home/index')); ?>">
+              <img src="<?php echo $this->assetBaseurl; ?>logo-kirana.svg" alt="">            
+            </a>
+          </div>
+          <div class="d-inline align-middle">
+              <img src="<?php echo $this->assetBaseurl; ?>Layer-25.png" alt="">            
+          </div>
         </div>
       </div>
       <div class="col-md-29 garis-header">
@@ -97,7 +104,7 @@
       <div class="col-md-10 col-sm-10">
         <div class="lgo_web_headrs_wb">
           <a href="<?php echo CHtml::normalizeUrl(array('/home/index', 'lang'=>Yii::app()->language)); ?>">
-            <img src="<?php echo $this->assetBaseurl; ?>Layer-25-copy.png" alt="" class="img img-fluid">
+            <img src="<?php echo $this->assetBaseurl; ?>logo-kirana.svg" alt="" class="img img-fluid">
           </a>
         </div>
       </div>
@@ -136,7 +143,7 @@
 
 <header class="header-mobile homepage_head">
   <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-  <a class="navbar-brand" href="<?php echo CHtml::normalizeUrl(array('/home/index', 'lang'=>Yii::app()->language)); ?>"><img src="<?php echo $this->assetBaseurl; ?>Layer-25-copy.png" alt="" class="img img-fluid"></a>
+  <a class="navbar-brand" href="<?php echo CHtml::normalizeUrl(array('/home/index', 'lang'=>Yii::app()->language)); ?>"><img src="<?php echo $this->assetBaseurl; ?>logo-kirana.svg" alt="" class="img img-fluid"></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>

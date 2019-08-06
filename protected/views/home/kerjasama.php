@@ -58,6 +58,37 @@
         </div>
       </div>
     </div>
+  
+    <div class="text-center d-block mx-auto blocks_partners">
+      <h4 class="mb-0">OUR PARTNERS</h4>
+      <div class="py-2"></div>
+
+      <?php 
+      $arrs_client = array(
+                    'lgo-kerjasam_03.jpg',
+                    'lgo-kerjasam_04.jpg',
+                    'lgo-kerjasam_05.jpg',
+                    'lgo-kerjasam_06.jpg',
+                    'lgo-kerjasam_07.jpg',
+                    'lgo-kerjasam_08.jpg',
+                    'lgo-kerjasam_09.jpg',
+                    'lgo-kerjasam_12.jpg',
+                    'lgo-kerjasam_13.jpg',
+                    'lgo-kerjasam_14.jpg',
+                    'lgo-kerjasam_15.jpg',
+                    );
+      ?>
+      <ul class="list-inline text-center">
+        <?php foreach ($arrs_client as $key => $value): ?>
+        <li class="list-inline-item">
+          <img src="<?php echo Yii::app()->baseUrl.'/asset/images/kerjasama/'. $value ?>" alt="" class="img img-fluid">
+        </li>
+        <?php endforeach ?>
+      </ul>
+      <div class="clear"></div>
+    </div>
+    <div class="py-4"></div>
+    <div class="my-2"></div>
   </div>
 </section>
 

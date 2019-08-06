@@ -26,7 +26,7 @@
           <div class="isi">
             <p>Sama pentingnya dengan keberhasilan kami untuk dipercaya dalam menyediakan berbagai produk di pasar retail konsumen maupun pasar komersial seperti restaurant, cafe dan hotel, kami telah memiliki reputasi di industri ini sebagai perusahaan dengan etika kerja yang tak tergoyahkan dan fokus yang kuat pada inovasi serta variasi produk makanan. Yang membedakan PT. Kirana Food dari yang lain adalah hasrat kami untuk kesempurnaan dan komitmen kami untuk menolak menjadi apapun selain yang terbaik dalam mempersembahkan makanan berkualitas.</p>
             <p>PT. Kirana Food berkembang dari pengalaman perusahaan dalam mempersembahkan aneka produk import kentang goreng (french fries) berkualitas dan dengan perlahan namun pasti, bertransformasi untuk menjadi penyedia berbagai makanan beku (frozen) lainnya, dengan dedikasi untuk mempersembahkan produk terbaik untuk pasar masyarakat lokal maupun internasional. Untuk mencapai reputasi yang kami miliki saat ini semenjak didirikan pada tahun 2000, PT. Kirana Food tidak pernah menempuh jalan pintas. Adalah kualitas, konsistensi dan inovasi yang membuat kami dipercaya oleh masyarakat. Sedangkan dari sisi rekan prinsipal bahan baku, PT. Kirana Food membangun reputasi sebagai perusahaan yang memiliki kredibilitas tinggi, jaringan distribusi yang luas, serta penanganan logistik yang terbaik.</p>
-            <p>PT. Kirana Food dalam sepak terjangnya, telah bertahun-tahun menjadi sole distributor dari produk SIMPLOT Potatoes Amerika (ke 3 terbesar di Amerika). Hingga saat ini, hubungan baik dan kepercayaan rekan selalu kami jaga dengan baik. Atas pembuktian nyata kredibilitas PT. Kirana Food, berbagai kepercayaan berdatangan dan terus mengalir dari aneka pabrik dan penghasil makanan berkualitas dari seluruh dunia.</p>          
+            <p>PT. Kirana Food dalam sepak terjangnya, telah bertahun-tahun dipercaya menjadi sole distributor dari berbagai merk produk Internasional. Hingga saat ini, hubungan baik dan kepercayaan rekan selalu kami jaga dengan baik. Atas pembuktian nyata kredibilitas PT. Kirana Food, berbagai kepercayaan berdatangan dan terus mengalir dari aneka pabrik dan penghasil makanan berkualitas dari seluruh dunia.</p>          
           </div>
         </div>
       </div>
@@ -95,46 +95,49 @@
 
 <section class="about-sec-4">
   <div class="spacer about_sec4"></div>
-  <div class="prelative container">
-    <div class="row">
-      <div class="col-md-60">
-        <div class="heading">
-          <div class="title">
-            <p>SINERGI TRILOGI</p>
-          </div>
-          <div class="subtitle">
-            <p>Kami percaya bahwa usaha dan keberlangsungan dari PT. Kirana Food hingga saat ini adalah wujud sukses dari sinergi Trilogi aspek berikut. </p>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-20">
-        <div class="content">
-          <div class="image"><img src="<?php echo $this->assetBaseurl; ?>ourpeople.png" alt=""></div>
-          <p class="title">TENAGA KERJA KAMI</p>
-          <div class="isi">
-            <p>Kami percaya bahwa karyawan kami adalah sumber daya terbesar kami, oleh karena itu kami selalu berusaha membantu mereka tumbuh dengan potensi penuh mereka. Semua orang berinteraksi seperti satu keluarga besar dengan pertemuan reguler untuk bertukar ide segar untuk memperbaiki dan meningkatkan nilai lebih kami. Kami berusaha menjadi perusahaan yang menyediakan lingkungan aman dan merangsang kreatifitas untuk memberi kontribusi pada masyarakat.</p>
+  <div class="blocksc_top">
+    <div class="prelative container">
+      <div class="row">
+        <div class="col-md-60">
+          <div class="heading">
+            <div class="title">
+              <p>SINERGI TRILOGI</p>
+            </div>
+            <div class="subtitle">
+              <p>Kami percaya bahwa usaha dan keberlangsungan dari PT. Kirana Food hingga saat ini adalah wujud sukses dari sinergi Trilogi aspek berikut. </p>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="col-md-20">
-        <div class="content">
-        <div class="image"><img src="<?php echo $this->assetBaseurl; ?>ourcustomer.png" alt=""></div>
-          <p class="title">PELANGGAN KAMI</p>
-          <div class="isi">
-            <p>Kami bertindak sebagai mitra untuk setiap pelanggan kami. Kami selalu bekerja lebih keras karena kami percaya bahwa kesuksesan Anda adalah kesuksesan kami juga. Kami membuka komunikasi sebesa-besarnya agar Anda dapat membantu kami dan memberitahu kami bagaimana cara melayani Anda dengan lebih baik.</p>
+        <div class="col-md-20">
+          <div class="content">
+            <div class="image"><img src="<?php echo $this->assetBaseurl; ?>ourpeople.png" alt=""></div>
+            <p class="title">TENAGA KERJA KAMI</p>
+            <div class="isi">
+              <p>Kami percaya bahwa karyawan kami adalah sumber daya terbesar kami, oleh karena itu kami selalu berusaha membantu mereka tumbuh dengan potensi penuh mereka. Semua orang berinteraksi seperti satu keluarga besar dengan pertemuan reguler untuk bertukar ide segar untuk memperbaiki dan meningkatkan nilai lebih kami. Kami berusaha menjadi perusahaan yang menyediakan lingkungan aman dan merangsang kreatifitas untuk memberi kontribusi pada masyarakat.</p>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="col-md-20">
-        <div class="content">
-        <div class="image"><img src="<?php echo $this->assetBaseurl; ?>ourprincipals.png" alt=""></div>
-          <p class="title">PEMASOK KAMI</p>
-          <div class="isi">
-            <p>PT. Kirana Food hanya memilih pemasok terbaik dan terkemuka dengan kualitas makanan nomor satu. Tiap pemasok adalah perusahaan bersertifikat seperti HACCP, ISO 9001, ISO 14001 dan sertifikat makanan Halal. Kami telah berpengalaman dalam menangani banyak.</p>
+        <div class="col-md-20">
+          <div class="content">
+          <div class="image"><img src="<?php echo $this->assetBaseurl; ?>ourcustomer.png" alt=""></div>
+            <p class="title">PELANGGAN KAMI</p>
+            <div class="isi">
+              <p>Kami bertindak sebagai mitra untuk setiap pelanggan kami. Kami selalu bekerja lebih keras karena kami percaya bahwa kesuksesan Anda adalah kesuksesan kami juga. Kami membuka komunikasi sebesa-besarnya agar Anda dapat membantu kami dan memberitahu kami bagaimana cara melayani Anda dengan lebih baik.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-20">
+          <div class="content">
+          <div class="image"><img src="<?php echo $this->assetBaseurl; ?>ourprincipals.png" alt=""></div>
+            <p class="title">PEMASOK KAMI</p>
+            <div class="isi">
+              <p>PT. Kirana Food hanya memilih pemasok terbaik dan terkemuka dengan kualitas makanan nomor satu. Tiap pemasok adalah perusahaan bersertifikat seperti HACCP, ISO 9001, ISO 14001 dan sertifikat makanan Halal. Kami telah berpengalaman dalam menangani banyak.</p>
+            </div>
           </div>
         </div>
       </div>
     </div>
+    <div class="clear"></div>
   </div>
 </section>
 

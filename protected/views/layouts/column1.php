@@ -18,9 +18,10 @@
 ?>
 <div class="fcs-wrapper outers_fcs_wrapper prelatife wrapper-slide">
     <div class="container cont-fcs">
-        <div id="myCarousel_home" class="carousel slide" data-ride="carousel" data-interval="4500">
+        <div id="myCarousel_home" class="carousel carousel-fade" data-ride="carousel" data-interval="4500">
             <div class="carousel-inner" style="overflow: visible;">
-                <div class="carousel-item active home-slider-new">
+                <?php for ($i=1; $i <= 5; $i++) { ?>
+                <div class="carousel-item <?php if ($i == 1): ?>active<?php endif ?> home-slider-new">
                     <div class="row no-gutters">
                         <div class="col-md-18 order-2 order-sm-1">
                             <div class="slider-container">
@@ -36,11 +37,12 @@
                             </div>
                         </div>
                         <div class="col-md-42 order-1 order-sm-2">
-                            <img class="w-100 d-none d-sm-block featureds_image" src="<?php echo $this->assetBaseurl; ?>sec1.jpg" alt="" style="background-repeat: no-repeat; background-size: cover;">
+                            <img class="w-100 d-none d-sm-block featureds_image" src="<?php echo $this->assetBaseurl; ?>slides/slides<?php echo $i ?>.jpg" alt="" style="background-repeat: no-repeat; background-size: cover;">
                         </div>
-                        <!-- <div class="image-bawah-slide"><img src="<?php echo $this->assetBaseurl; ?>Layer-30.png" alt=""></div> -->
                     </div>
                 </div>
+                <?php } ?>
+                <!-- <div class="image-bawah-slide"><img src="<?php echo $this->assetBaseurl; ?>Layer-30.png" alt=""></div> -->
             </div>
             <!-- <div class="carousel-caption caption-slider-home">
                 <div class="prelative container sliderrrr">
