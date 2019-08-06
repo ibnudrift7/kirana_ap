@@ -44,27 +44,19 @@
                 <?php } ?>
                 <!-- <div class="image-bawah-slide"><img src="<?php echo $this->assetBaseurl; ?>Layer-30.png" alt=""></div> -->
             </div>
-            <!-- <div class="carousel-caption caption-slider-home">
-                <div class="prelative container sliderrrr">
-                    <div class="bxsl_tx_fcs">
-                        <div class="row no-gutters">
-                            <div class="col-md-60">
-                                <h1>PT. angkasaraya steel</h1>
-                                <h5>Perusahaan Manufaktur Pipa Besi Dengan Keunggulan</h5>
-                                <h5>Konsistensi dan Material Terbaik di Indonesia.</h5>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div> -->
-            <div class="carousel-button-native">
+            <ol class="carousel-indicators">
+                <?php for ($i=0; $i <= 4; $i++) { ?>
+                <li data-target="#myCarousel_home" data-slide-to="<?php echo $i ?>" <?php if ($i == 0): ?>class="active"<?php endif ?>></li>
+                <?php } ?>
+            </ol>
+            <!-- <div class="carousel-button-native">
                 <div class="prelative container">
                     <ol class="carousel-indicators">
                         <li data-target="#myCarousel_home" class="active" data-slide-to="0"></li>
                         <li data-target="#myCarousel_home" data-slide-to="1"></li>
                     </ol>
                 </div>
-            </div>
+            </div> -->
         </div>
 
     </div>
