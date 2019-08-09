@@ -1,13 +1,20 @@
 <section class="blog-sec-1">
-
     <div class="prelative container">
         <div class="row tops_blog_cat text-center">
             <div class="col-md-60">
                 <div class="title">
-                    <p>Blog & Artikel</p>
+                    <?php if (Yii::app()->language == 'en'): ?>
+                        <p>Blogs & Articles</p>
+                    <?php else: ?>
+                        <p>Blog & Artikel</p>
+                    <?php endif ?>
                 </div>
                 <div class="subtitle d-block mx-auto">
-                    <p>Silahkan simak aneka tips, resep dan artikel seputar makanan dan kesehatan</p>
+                    <?php if (Yii::app()->language == 'en'): ?>
+                        <p>Please refer to various tips, recipes and articles about food and health</p>
+                    <?php else: ?>
+                        <p>Silahkan simak aneka tips, resep dan artikel seputar makanan dan kesehatan</p>
+                    <?php endif ?>
                 </div>
             </div>
         </div>

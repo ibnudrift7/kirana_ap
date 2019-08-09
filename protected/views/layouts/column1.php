@@ -27,10 +27,19 @@
                             <div class="slider-container">
                                 <div class="slider-kiri px-2">
                                     <div class="content">
-                                        <h4>Mempersembahkan Produk Kentang Goreng dan Aneka Makanan Frozen Berkualitas Favorit Masyarakat Indonesia Sejak tahun 2000</h4>
-                                        <p>Kirana Food telah hadir dan menjadi kegemaran rakyat dengan berbagai produk kentang goreng (french fries) seperti shoe string fries, potato wedges, waffle fries, hasbrown, crinkle cut fries, serta berbagai produk frozen siap santap lainnya. </p>
+                                        <?php if (Yii::app()->language == 'en'): ?>
+                                            <h4>Present Fried Potato Products and Various Favorite Quality Frozen Foods of the Indonesian People Since 2000</h4>
+                                            <p>Kirana Food has been present and has become a favorite of the people with various french fries such as shoe string fries, potato wedges, waffle fries, hasbrown, crinkle cut fries, and various other frozen ready- to-eat products.</p>
+                                        <?php else: ?>
+                                            <h4>Mempersembahkan Produk Kentang Goreng dan Aneka Makanan Frozen Berkualitas Favorit Masyarakat Indonesia Sejak tahun 2000</h4>
+                                            <p>Kirana Food telah hadir dan menjadi kegemaran rakyat dengan berbagai produk kentang goreng (french fries) seperti shoe string fries, potato wedges, waffle fries, hasbrown, crinkle cut fries, serta berbagai produk frozen siap santap lainnya. </p>
+                                        <?php endif ?>
                                         <div class="lihat">
-                                            <a href="<?php echo CHtml::normalizeUrl(array('/home/produk', 'lang'=>Yii::app()->language)); ?>">Lihat Produk</a>
+                                            <?php if (Yii::app()->language == 'en'): ?>
+                                                <a href="<?php echo CHtml::normalizeUrl(array('/home/produk', 'lang'=>Yii::app()->language)); ?>">See Products</a>
+                                            <?php else: ?>
+                                                <a href="<?php echo CHtml::normalizeUrl(array('/home/produk', 'lang'=>Yii::app()->language)); ?>">Lihat Produk</a>
+                                            <?php endif ?>
                                         </div>
                                     </div>
                                 </div>

@@ -29,15 +29,28 @@ $n_cat_prd = [
         <div class="row">
             <div class="col-md-60 pb-5">
                 <div class="pt-5 mx-auto d-block text-center">
-                    <h4 class="title1">Produk</h4>
+                    <?php if (Yii::app()->language == 'en'): ?>
+                        <h4 class="title1">PRODUCTS</h4>
+                    <?php else: ?>
+                        <h4 class="title1">PRODUK</h4>
+                    <?php endif ?>
                 </div>
                 <div class="pt-3 mx-auto d-block text-center">
-                    <h3 class="subtitle">Temukan produk makanan beku / frozen food<br>
+                    <?php if (Yii::app()->language == 'en'): ?>
+                    <h3 class="subtitle">Find frozen food products<br>delicious, guaranteed and hygienic</h3>
+                    <?php else: ?>
+                    <h3 class="subtitle">Temukan produk makanan beku<br>
                         yang lezat, terjamin dan higienis</h3>
+                    <?php endif ?>
                 </div>
                 <div class="pt-5 mx-auto d-block text-center">
+                    <?php if (Yii::app()->language == 'en'): ?>
+                    <p class="text">At present, we are in an era where food creation and technology in the food world is developing very rapidly. Various variants / types of food are continuously being developed and PT. Kirana Food is near you to ensure that when you buy our choice of products, you not only feel delicious and delicious, but you can be sure you consume halal, healthy, hygienic and well-processed products.
+                    </p>
+                    <?php else: ?>
                     <p class="text">Saat ini, kita berada di sebuah era di mana kreasi makanan dan teknologi di dunia makanan berkembang dengan sangat pesat. Berbagai varian / jenis makanan terus menerus dikembangkan dan PT. Kirana Food ada di dekat anda untuk memastikan bahwa ketika anda membeli produk pilihan kami, anda tidak hanya merasa nikmat dan lezat, namun dapat dipastikan anda mengkonsumsi produk yang halal, sehat, higinis dan diproses dengan baik.
                     </p>
+                    <?php endif ?>
                 </div>
                 <div class="pt-5 mx-auto d-block text-center">
                     <img src="<?php echo $this->assetBaseurl; ?>Layer-26.png" alt="">

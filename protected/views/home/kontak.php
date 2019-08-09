@@ -3,11 +3,18 @@
         <div class="row">
             <div class="col-md-60 p-0">
                 <div class="title">
-                    <p>HUBUNGI KAMI</p>
+                    <?php if (Yii::app()->language == 'en'): ?>
+                        <p>CONTACT US</p>
+                    <?php else: ?>
+                        <p>HUBUNGI KAMI</p>
+                    <?php endif ?>
                 </div>
                 <div class="subtitle">
-                    <h2>Tim layanan pelanggan kami akan senantiasa
-                        siap untuk melayani segala pertanyaan anda</h2>
+                    <?php if (Yii::app()->language == 'en'): ?>
+                        <h2>Our customer service team will always be ready to serve all your questions</h2>
+                    <?php else: ?>
+                        <h2>Tim layanan pelanggan kami akan senantiasa siap untuk melayani segala pertanyaan anda</h2>
+                    <?php endif ?>
                 </div>
                 <div class="img1">
                     <img class="w-100" src="<?php echo $this->assetBaseurl; ?>Kontak.jpg" alt="">
