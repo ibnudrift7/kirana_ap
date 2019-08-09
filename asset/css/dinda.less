@@ -207,7 +207,7 @@ section.about-sec-4 {
 
     .heading {
         // padding-top: 150px;
-        padding-bottom: 120px;
+        padding-bottom: 60px;
         text-align: center;
 
         .title {
@@ -1064,15 +1064,15 @@ section.prod-det-1 {
             width: 100%;
         }
 
-        li {
+        li,li.init {
             background-color: #f2f1ef;
             min-height: 42px;
             margin-top: 5px;
             margin-bottom: 5px;
-
         }
 
-        li a {
+        li a,
+        li p {
             font-size: 15px;
             font-weight: 700;
             display: block;
@@ -1093,6 +1093,14 @@ section.prod-det-1 {
             min-height: 42px;
             background-color: #e67817;
             color: white;
+        }
+
+        
+        ul.lefts_choose_kat li { padding: 5px 10px; z-index: 2; }
+        ul.lefts_choose_kat li:not(.init) { float: initial; width: auto; display: none; background: #ddd; }
+        ul.lefts_choose_kat li:not(.init):hover, ul li.selected:not(.init) { background: #09f; }
+        ul.lefts_choose_kat{
+            li.init { cursor: pointer; }
         }
 
         .box-content {

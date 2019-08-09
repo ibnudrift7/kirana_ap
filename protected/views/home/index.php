@@ -1,3 +1,10 @@
+<?php if (Yii::app()->language == 'en'): ?>
+
+<?php else: ?>
+
+
+<?php endif ?>
+
 <section class="home-sec-1">
 	<div class="prelative container">
 		<div class="row">
@@ -15,7 +22,12 @@
 						<img src="<?php echo $this->assetBaseurl; ?>png1.png" alt="">
 					</div>
 					<div class="content">
-						<p>Produk Unggulan Dari Bahan Baku Pilihan</p>
+					<?php if (Yii::app()->language == 'en'): ?>
+					<p>tes</p>
+					<?php else: ?>
+					<p>Produk Unggulan Dari Bahan Baku Pilihan</p>
+					<?php endif ?>
+						
 					</div>
 				</div>
 			</div>

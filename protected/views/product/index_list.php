@@ -9,6 +9,8 @@ $criteria->order = 'sort ASC';
 $oneChild = PrdCategory::model()->find($criteria);
 
 ?>
+
+
 <section class="prod-det-1">
   <div class="prelative container">
     <div class="atas row">
@@ -33,9 +35,10 @@ $oneChild = PrdCategory::model()->find($criteria);
         </div>
       </div>
       <div class="col-md-15">
-        <ul>
+        <ul class="lefts_choose_kat">
+          <li class="init"><p>PILIH KATEGORI</p></li>
           <?php foreach ($allCategory as $key => $value): ?>
-          <li <?php if ($value->id == $_GET['category']): ?>class="active"<?php endif ?>><a href="<?php echo CHtml::normalizeUrl(array('/product/index', 'category'=> $value->id, 'lang'=>Yii::app()->language)); ?>"><?php echo $value->description->name ?></a></li>
+          <li data-value="<?php if ($value->id == $_GET['category']): ?><?php endif ?>"><a href="<?php echo CHtml::normalizeUrl(array('/product/index', 'category'=> $value->id, 'lang'=>Yii::app()->language)); ?>"><?php echo $value->description->name ?></a></li>
           <?php endforeach ?>
         </ul>
       </div>
@@ -75,3 +78,17 @@ $oneChild = PrdCategory::model()->find($criteria);
     </div>
   </div>
 </section>
+
+<script>
+  $("ul").on("click", ".init", function() {
+    $(this).closest("ul").children('li:not(.init)').toggle();
+  });
+
+  var allOptions = $("ul").children('li:not(.init)');
+  $("ul").on("click", "li:not(.init)", function() {
+      allOptions.removeClass('selected');
+      $(this).addClass('selected');
+      $("ul").children('.init').html($(this).html());
+      allOptions.toggle();
+  });
+</script>

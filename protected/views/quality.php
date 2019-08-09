@@ -40,7 +40,7 @@
               <img src="<?php echo $this->assetBaseurl; ?>atas.png" alt="">
             </div>
             <div class="col-md-60">
-              <img src="<?php echo $this->assetBaseurl; ?>piramida.png" alt="">
+              <img class="img img-fluid" src="<?php echo $this->assetBaseurl; ?>piramida.png" alt="">
             </div>
           </div>
         </div>

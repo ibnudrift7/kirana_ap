@@ -37,7 +37,7 @@
                             </div>
                         </div>
                         <div class="col-md-42 order-1 order-sm-2">
-                            <img class="w-100 d-none d-sm-block featureds_image" src="<?php echo $this->assetBaseurl; ?>slides/slides<?php echo $i ?>.jpg" alt="" style="background-repeat: no-repeat; background-size: cover;">
+                            <img class="w-100 featureds_image" src="<?php echo $this->assetBaseurl; ?>slides/slides<?php echo $i ?>.jpg" alt="" style="background-repeat: no-repeat; background-size: cover;">
                         </div>
                     </div>
                 </div>

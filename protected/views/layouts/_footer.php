@@ -24,7 +24,7 @@
                     <div class="image"><img src="<?php echo $this->assetBaseurl; ?>Layer-25-copy.png" alt=""></div>
                 </div>
                 <div class="content">
-                    <p>Copyright © 2019 PT. Kirana Food - Indonesia <br> Frozen Food Product specialist, <br> Established since 2000. All rights reserved.</p>
+                    <p>Copyright © 2019 PT. Kirana Food - Indonesia <br> Frozen Food Product specialist. <br> Established since 2000. All rights reserved.</p>
                 </div>
                 <div class="by">
                     <p>Website design by <a href="https://markdesign.net">Mark Design</a></p>
